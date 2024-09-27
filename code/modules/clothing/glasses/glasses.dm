@@ -535,6 +535,17 @@
 
 	attached_item.update_icon()
 
+/obj/item/clothing/glasses/mgoggles/black/upp
+	name = "upp ballistic goggles"
+	desc = "The Union's solution to preventing dust and debris from irritating the eyes of its soldiers. Features built in sun tinting lenses to help preserve the eyesight of soldiers, on top of the one way polarization."
+	icon_state = "uppgoggles"
+	active_icon_state = "uppgoggles_down"
+	inactive_icon_state = "uppgoggles"
+
+
+/obj/item/clothing/glasses/mgoggles/black/upp/prescription
+	prescription = TRUE
+
 //welding goggles
 
 /obj/item/clothing/glasses/welding
