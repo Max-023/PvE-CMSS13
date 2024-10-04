@@ -557,7 +557,7 @@
 /datum/equipment_preset/upp/synth
 	name = "UPP Support Synthetic"
 	flags = EQUIPMENT_PRESET_EXTRA
-	languages = list(ALL_SYNTH_LANGUAGES_UPP)
+	languages = ALL_SYNTH_LANGUAGES_UPP
 	skills = /datum/skills/synthetic
 	assignment = "Support Synthetic"
 	rank = JOB_UPP_SUPPORT_SYNTH
@@ -1224,7 +1224,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/nerve_gas, WEAR_IN_BACK)
 	//face
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress, WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/upp, WEAR_FACE)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/military/upp, WEAR_FACE)
 	//head
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap/peaked/police, WEAR_HEAD)
 	//uniform
