@@ -30,8 +30,8 @@
 	. = ..()
 	if(has_cryo_gear)
 		new /obj/item/clothing/under/marine(src)
-		new /obj/item/clothing/shoes/marine/knife(src)
-		new headset_path(src)
+		new /obj/item/clothing/shoes/marine/jungle/knife(src)
+		new /obj/item/device/radio/headset/almayer/marine/solardevils(src)
 
 /obj/structure/closet/secure_closet/marine_personal/uscm_ground
 	density = FALSE

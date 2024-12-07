@@ -20,7 +20,7 @@
 	message_admins("[key_name_admin(usr)] modified [key_name(M)]'s ckey to [new_ckey]", 1)
 
 	M.ckey = new_ckey
-	M.client?.change_view(world_view_size)
+	M.client?.change_view(GLOB.world_view_size)
 
 /client/proc/cmd_admin_changekey(mob/O in GLOB.mob_list)
 	set name = "Change CKey"
@@ -68,13 +68,13 @@
 	var/datum/mob_hud/H
 	switch(hud_choice)
 		if("Medical HUD")
-			H = huds[MOB_HUD_MEDICAL_ADVANCED]
+			H = GLOB.huds[MOB_HUD_MEDICAL_ADVANCED]
 		if("Security HUD")
-			H = huds[MOB_HUD_SECURITY_ADVANCED]
+			H = GLOB.huds[MOB_HUD_SECURITY_ADVANCED]
 		if("Squad HUD")
-			H = huds[MOB_HUD_FACTION_OBSERVER]
+			H = GLOB.huds[MOB_HUD_FACTION_OBSERVER]
 		if("Xeno Status HUD")
-			H = huds[MOB_HUD_XENO_STATUS]
+			H = GLOB.huds[MOB_HUD_XENO_STATUS]
 		else return
 
 	H.add_hud_to(M, HUD_SOURCE_ADMIN)
@@ -199,7 +199,7 @@
 		else
 			return
 
-/client/proc/cmd_admin_atom_narrate(atom/selected)
+/client/proc/cmd_admin_atom_narrate(atom/selected in view(src))
 	set name = "Atom Narrate"
 	set category = null
 
@@ -220,7 +220,7 @@
 
 	selected.AddComponent(/datum/component/atom_narrate, message, narration_type, delayed, key_name(src))
 
-/client/proc/cmd_admin_direct_narrate(mob/M)
+/client/proc/cmd_admin_direct_narrate(mob/M in GLOB.mob_list)
 	set name = "Narrate"
 	set category = null
 
@@ -316,7 +316,7 @@
 
 	message_admins("[key_name_admin(usr)] made [key_name_admin(M)] drop everything!")
 
-/client/proc/cmd_admin_change_their_hivenumber(mob/living/carbon/H)
+/client/proc/cmd_admin_change_their_hivenumber(mob/living/carbon/H in GLOB.living_mob_list)
 	set name = "Change Hivenumber"
 	set category = null
 
@@ -356,7 +356,7 @@
 	message_admins("[key_name(src)] changed hivenumber of [H] to [H.hivenumber].")
 
 
-/client/proc/cmd_admin_change_their_name(mob/living/carbon/target)
+/client/proc/cmd_admin_change_their_name(mob/living/carbon/carbon in GLOB.living_mob_list)
 	set name = "Change Name"
 	set category = null
 
@@ -364,12 +364,20 @@
 	if(!new_name)
 		return
 
-	if(!target || QDELETED(target))
+	if(!carbon)
 		to_chat(usr, "This mob no longer exists")
 		return
 
-	message_admins("[key_name_admin(usr)] set [key_name_admin(target)]'s name to [new_name]")
-	target.modify_name_and_record(new_name)
+	var/old_name = carbon.name
+	carbon.change_real_name(carbon, newname)
+	if(ishuman(carbon))
+		var/mob/living/carbon/human/human = carbon
+		var/obj/item/card/id/card = human.get_idcard()
+		if(card)
+			card.name = "[human.real_name]'s ID Card"
+			card.registered_name = "[human.real_name]"
+			if(card.assignment)
+				card.name += " ([card.assignment])"
 
 /datum/admins/proc/togglesleep(mob/living/M as mob in GLOB.mob_list)
 	set name = "Toggle Sleeping"

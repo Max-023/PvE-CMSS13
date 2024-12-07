@@ -121,6 +121,12 @@
 		else
 			relay.add_filter("hidden_roof_mask", 1, alpha_mask_filter(render_source = RENDER_TARGET_ROOF_HIDDEN, flags = MASK_INVERSE))
 
+/atom/movable/screen/plane_master/game_world_above
+	name = "above game world plane master"
+	plane = ABOVE_GAME_PLANE
+	appearance_flags = PLANE_MASTER //should use client color
+	blend_mode = BLEND_OVERLAY
+
 /atom/movable/screen/plane_master/ghost
 	name = "ghost plane master"
 	plane = GHOST_PLANE
@@ -210,6 +216,14 @@
 	. = ..()
 	remove_filter("AO")
 	add_filter("AO", 1, drop_shadow_filter(x = 0, y = -2, size = 4, color = "#04080FAA"))
+
+/atom/movable/screen/plane_master/nvg_plane
+	name = "NVG plane"
+	plane = NVG_PLANE
+	render_relay_plane = RENDER_PLANE_GAME
+	blend_mode_override = BLEND_MULTIPLY
+	//icon = 'icons/mob/hud/screen1.dmi'
+	//icon_state = "noise"
 
 /atom/movable/screen/plane_master/fullscreen
 	name = "fullscreen alert plane"

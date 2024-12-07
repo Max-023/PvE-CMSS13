@@ -8,8 +8,8 @@
 	var/sub_leader
 
 /datum/squad_type/marine_squad
-	name = "Platoon"
-	lead_name = "Platoon Sergeant"
+	name = "Section"
+	lead_name = "Section Sergeant"
 	lead_icon = "leader"
 	sub_squad = "Squad"
 	sub_leader = "Squad Sergeant"
@@ -31,13 +31,13 @@
 	/// If uses the overlay
 	var/use_stripe_overlay = TRUE
 	/// Color for the squad marines gear overlays
-	var/equipment_color = "#FFFFFF"
+	var/equipment_color = COLOR_WHITE
 	/// The alpha for the armor overlay used by equipment color
 	var/armor_alpha = 125
 	/// OW console platoon buttons do not recognize hex, so you have to associate them with a predefined color. See colors.scss for what is available.
 	var/overwatch_color = "red"
 	/// Color for the squad marines langchat
-	var/chat_color = "#FFFFFF"
+	var/chat_color = COLOR_WHITE
 	/// Which special access do we grant them
 	var/list/access = list()
 	/// Can use any squad vendor regardless of squad connection
@@ -323,6 +323,18 @@
 	roundstart = FALSE
 	locked = TRUE
 
+/datum/squad/marine/solardevils
+	name = SQUAD_SOLAR
+	equipment_color = "#5a2c2c"
+	chat_color = "#5a2c2c"
+	radio_freq = SOF_FREQ
+	minimap_color = "#5a2c2c"
+
+	active = FALSE
+	roundstart = FALSE
+	locked = TRUE
+
+
 //############################### UPP Squads
 /datum/squad/upp
 	name = "Root"
@@ -424,8 +436,8 @@
 		if(!istype(marine.wear_id, /obj/item/card/id))
 			continue
 
-		var/obj/item/card/id/marine_card = marine.wear_id
-		var/datum/weakref/marine_card_registered = marine.wear_id.registered_ref
+		var/obj/item/card/id/marine_card = marine.get_idcard()
+		var/datum/weakref/marine_card_registered = marine_card.registered_ref
 
 		if(!istype(marine_card_registered))
 			continue
@@ -529,17 +541,17 @@
 
 /// Displays a message to squad members directly on the game map
 /datum/squad/proc/send_maptext(text = "", title_text = "", only_leader = 0)
-	var/message_colour = chat_color
+	var/message_color = chat_color
 	if(only_leader)
 		if(squad_leader)
 			if(!squad_leader.stat && squad_leader.client)
 				playsound_client(squad_leader.client, 'sound/effects/radiostatic.ogg', squad_leader.loc, 25, FALSE)
-				squad_leader.play_screen_text("<span class='langchat' style=font-size:16pt;text-align:center valign='top'><u>[title_text]</u></span><br>" + text, /atom/movable/screen/text/screen_text/command_order, message_colour)
+				squad_leader.play_screen_text("<span class='langchat' style=font-size:16pt;text-align:center valign='top'><u>[title_text]</u></span><br>" + text, /atom/movable/screen/text/screen_text/command_order, message_color)
 	else
 		for(var/mob/living/carbon/human/marine in marines_list)
 			if(!marine.stat && marine.client) //Only living and connected people in our squad
 				playsound_client(marine.client, 'sound/effects/radiostatic.ogg', marine.loc, 25, FALSE)
-				marine.play_screen_text("<span class='langchat' style=font-size:16pt;text-align:center valign='top'><u>[title_text]</u></span><br>" + text, /atom/movable/screen/text/screen_text/command_order, message_colour)
+				marine.play_screen_text("<span class='langchat' style=font-size:16pt;text-align:center valign='top'><u>[title_text]</u></span><br>" + text, /atom/movable/screen/text/screen_text/command_order, message_color)
 
 /// Displays a message to the squad members in chat
 /datum/squad/proc/send_message(text = "", plus_name = 0, only_leader = 0)
@@ -581,7 +593,7 @@
 
 	var/obj/item/card/id/C = ID
 	if(!C)
-		C = M.wear_id
+		C = M.get_idcard()
 	if(!C)
 		C = M.get_active_hand()
 	if(!istype(C))
@@ -598,7 +610,7 @@
 		if(JOB_SQUAD_MARINE)
 			assignment = JOB_SQUAD_MARINE
 			num_riflemen++
-			var/squad_number = (Ceiling(num_riflemen / 2) > 2) ? pick(1, 2) : Ceiling(num_riflemen / 2)
+			var/squad_number = (ceil(num_riflemen / 2) > 2) ? pick(1, 2) : ceil(num_riflemen / 2)
 			assign_fireteam("SQ[squad_number]", M)
 		if(JOB_SQUAD_ENGI)
 			assignment = JOB_SQUAD_ENGI
@@ -696,7 +708,7 @@
 		return //not assigned to the correct squad
 	var/obj/item/card/id/C = ID
 	if(!istype(C))
-		C = M.wear_id
+		C = M.get_idcard()
 	if(!istype(C))
 		return FALSE //Abort, no ID found
 
@@ -787,22 +799,41 @@
 	SStracking.stop_tracking("marine_sl", old_lead)
 
 	squad_leader = null
+	switch(GET_DEFAULT_ROLE(old_lead.job))
+		if(JOB_SQUAD_SPECIALIST)
+			old_lead.comm_title = "Spc"
+		if(JOB_SQUAD_ENGI)
+			old_lead.comm_title = "ComTech"
+		if(JOB_SQUAD_MEDIC)
+			old_lead.comm_title = "HM"
+		if(JOB_SQUAD_TEAM_LEADER)
+			old_lead.comm_title = "SqSgt"
+		if(JOB_SQUAD_SMARTGUN)
+			old_lead.comm_title = "SG"
+		if(JOB_SQUAD_LEADER)
+			if(!leader_killed)
+				old_lead.comm_title = "SctSgt"
+		if(JOB_SQUAD_RTO)
+			old_lead.comm_title = "RTO"
+		if(JOB_MARINE_RAIDER)
+			old_lead.comm_title = "Op."
+		if(JOB_MARINE_RAIDER_SL)
+			old_lead.comm_title = "TL."
+		if(JOB_MARINE_RAIDER_CMD)
+			old_lead.comm_title = "CMD."
+		else
+			old_lead.comm_title = "RFN"
 
-	old_lead.comm_title = set_new_radio_title(old_lead)
-
-	if(GET_SQUAD_ROLE_MAP(old_lead.job) != JOB_SQUAD_LEADER || !leader_killed)
-		var/obj/item/device/radio/headset/sl_headset = old_lead.get_type_in_ears(headset_path)
-		if(sl_headset)
-			for(var/i in sl_headset.keys)
-				if(istype(i, encryption_key_path))
-					sl_headset.keys -= i
-					qdel(i)
-			sl_headset.recalculateChannels()
-
-		if(platoon_leader_access) //May not have one. Not strictly needed for removing null from the list, but might as well.
-			var/obj/item/card/id/ID = old_lead.wear_id
-			if(istype(ID)) ID.access -= platoon_leader_access
-
+	if(GET_DEFAULT_ROLE(old_lead.job) != JOB_SQUAD_LEADER || !leader_killed)
+		var/obj/item/device/radio/headset/almayer/marine/R = old_lead.get_type_in_ears(/obj/item/device/radio/headset/almayer/marine)
+		if(R)
+			for(var/obj/item/device/encryptionkey/squadlead/acting/key in R.keys)
+				R.keys -= key
+				qdel(key)
+			R.recalculateChannels()
+		var/obj/item/card/id/card = old_lead.get_idcard()
+		if(card)
+			card.access -= ACCESS_MARINE_LEADER
 	REMOVE_TRAITS_IN(old_lead, TRAIT_SOURCE_SQUAD_LEADER)
 	old_lead.hud_set_squad()
 	old_lead.update_inv_head() //updating marine helmet leader overlays
@@ -821,10 +852,10 @@
 //Not a safe proc. Returns null if squads or jobs aren't set up.
 //Mostly used in the marine squad console in marine_consoles.dm.
 /proc/get_squad_by_name(text)
-	if(!RoleAuthority || RoleAuthority.squads.len == 0)
+	if(!GLOB.RoleAuthority || length(GLOB.RoleAuthority.squads) == 0)
 		return null
 	var/datum/squad/S
-	for(S in RoleAuthority.squads)
+	for(S in GLOB.RoleAuthority.squads)
 		if(S.name == text)
 			return S
 	return null
@@ -883,12 +914,12 @@
 	H.hud_set_squad()
 
 	// I'm not fixing how cursed these strings are, god save us all if someone (or me (https://i.imgur.com/nSy81Bn.png)) has to change these again
-	if(H.wear_id)
-		//Wait, can you be in BOTH fireteams? What.
+	var/obj/item/card/id/id = H.get_idcard()
+	if(id)
 		if(fireteam == "SQ1")
-			H.wear_id.access += squad_one_access
+			id.access += squad_one_access
 		if(fireteam == "SQ2")
-			H.wear_id.access += squad_two_access
+			id.access += squad_two_access
 
 	for(var/obj/item/device/radio/headset/cycled_headset in H)
 		if(!("Squad Sergeant" in cycled_headset.tracking_options))
@@ -910,14 +941,15 @@
 		to_chat(H, FONT_SIZE_HUGE(SPAN_BLUE("You were unassigned from [ft].")))
 	H.hud_set_squad()
 
-	if(H.wear_id)
-		H.wear_id.access.Remove(squad_one_access, squad_two_access)
+	var/obj/item/card/id/id = H.get_idcard()
+	if(id)
+		id.access.Remove(squad_one_access, squad_two_access)
 
 	for(var/obj/item/device/radio/headset/cycled_headset in H)
-		if(!("Platoon Sergeant" in cycled_headset.tracking_options))
+		if(!("Section Sergeant" in cycled_headset.tracking_options))
 			continue
 
-		cycled_headset.locate_setting = cycled_headset.tracking_options["Platoon Sergeant"]
+		cycled_headset.locate_setting = cycled_headset.tracking_options["Section Sergeant"]
 
 /datum/squad/proc/assign_ft_leader(fireteam, mob/living/carbon/human/H, upd_ui = TRUE)
 	if(fireteam_leaders[fireteam])
@@ -931,10 +963,10 @@
 		to_chat(H, FONT_SIZE_HUGE(SPAN_BLUE("You were assigned as [fireteam] Team Leader.")))
 
 	for(var/obj/item/device/radio/headset/cycled_headset in H)
-		if(!("Platoon Sergeant" in cycled_headset.tracking_options))
+		if(!("Section Sergeant" in cycled_headset.tracking_options))
 			continue
 
-		cycled_headset.locate_setting = cycled_headset.tracking_options["Platoon Sergeant"]
+		cycled_headset.locate_setting = cycled_headset.tracking_options["Section Sergeant"]
 
 /datum/squad/proc/unassign_ft_leader(fireteam, clear_group_id, upd_ui = TRUE)
 	if(!fireteam_leaders[fireteam])

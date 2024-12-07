@@ -61,8 +61,12 @@
 		if(length(unknown_access)) t1 += SPAN_RED("Uknown access codes detected.<br>") //Got some unknowns.
 		t1 += "<a href='?src=\ref[src];command=clear_memory;engineering_skill=[engineering_skill]'>Clear Memory</a><hr>" //Can always clear the memory, but it takes a moment.
 
-	for (var/acc in accesses)
-		aname = get_access_desc(acc)
+			if (!LAZYLEN(conf_access) || !(acc in conf_access))
+				t1 += "<a href='?src=\ref[src];access=[acc]'>[aname]</a><br>"
+			else if(one_access)
+				t1 += "<a style='color: green' href='?src=\ref[src];access=[acc]'>[aname]</a><br>"
+			else
+				t1 += "<a style='color: red' href='?src=\ref[src];access=[acc]'>[aname]</a><br>"
 
 		if (!(acc in conf_access))
 			t1 += "<a href='?src=\ref[src];command=toggle_access;access=[acc]'>[aname]</a><br>"
@@ -71,7 +75,7 @@
 	t1 += text("<p><a href='?src=\ref[];command=close'>Close</a></p>\n", src)
 
 	show_browser(user, t1, "Access Control", "airlock_electronics")
-	onclose(user, "airlock")
+	onclose(user, "airlock_electronics")
 
 /obj/item/circuitboard/airlock/Topic(href, href_list)
 	..()
@@ -103,5 +107,9 @@
 		to_chat(user, SPAN_WARNING("You were interrupted!"))
 		return FALSE
 
-	conf_access = list() //We'll make a new list.
-	return TRUE
+		if (!(req in conf_access))
+			conf_access += req
+		else
+			conf_access -= req
+			if (!length(conf_access))
+				conf_access = null

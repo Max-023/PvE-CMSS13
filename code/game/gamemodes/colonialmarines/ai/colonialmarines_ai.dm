@@ -13,6 +13,31 @@
 	requires_comms = FALSE
 	toggleable_flags = MODE_NO_JOIN_AS_XENO|MODE_HARDCORE_PERMA
 
+/datum/game_mode/colonialmarines/ai/can_start()
+	return ..()
+
+/datum/game_mode/colonialmarines/ai/pre_setup()
+	RegisterSignal(SSdcs, COMSIG_GLOB_XENO_SPAWN, PROC_REF(handle_xeno_spawn))
+	squad_limit.Cut()
+	squad_limit += MAIN_SHIP_PLATOON
+	for(var/i in squad_limit)
+		role_mappings = GLOB.platoon_to_jobs[i]
+	GLOB.RoleAuthority.reset_roles()
+	for(var/datum/squad/sq in GLOB.RoleAuthority.squads)
+		if(sq.type in squad_limit)
+			GLOB.main_platoon_name = sq.name
+			GLOB.main_platoon_initial_name = sq.name
+
+
+	for(var/datum/squad/squad in GLOB.RoleAuthority.squads)
+		if(squad.type in squad_limit)
+			continue
+		GLOB.RoleAuthority.squads -= squad
+		GLOB.RoleAuthority.squads_by_type -= squad.type
+
+
+	. = ..()
+
 /datum/game_mode/colonialmarines/ai/post_setup()
 	set_lz_resin_allowed(TRUE)
 	return ..()

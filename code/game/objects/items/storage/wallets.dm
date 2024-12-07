@@ -3,6 +3,7 @@
 	desc = "It can hold a few small and personal things."
 	storage_slots = 10
 	icon_state = "wallet"
+	icon = 'icons/obj/items/storage/bags.dmi'
 	w_class = SIZE_TINY
 
 	var/obj/item/card/id/front_id = null

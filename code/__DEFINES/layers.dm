@@ -239,21 +239,10 @@
 /// Game Plane, where most of the game objects reside
 #define RENDER_TARGET_GAME_WORLD "*TARGET_GAME_WORLD"
 #define GAME_PLANE -6
-/// This one is the roof plane where visible roofs are drawn; we need this so ghosts can see through roofs, otherwise it would be layered in GAME_PLANE.
-#define RENDER_TARGET_ROOF_VISIBLE "*TARGET_ROOF_VISIBLE_MASK"
-#define ROOF_VISIBLE_PLANE -5
-/// Above the game plane, so it can mask it properly.
-#define RENDER_TARGET_BUILDING_MASK "*TARGET_BUILDING_MASK"
-#define BUILDING_MASK_PLANE - 4
-/// The other roof plane, disappears when entering buildings through relay use, outputted to individual players so usually hidden.
-#define RENDER_TARGET_ROOF_HIDDEN "*TARGET_ROOF_HIDDEN_MASK"
-#define ROOF_HIDDEN_PLANE -3
-/// Weather effects are on this plane, above visible roofs and their effects. They are rendered alongside roofs for better appearance.
-#define RENDER_TARGET_WEATHER "*TARGET_WEATHER_PLANE"
-#define WEATHER_PLANE - 2
-/// Renders the above planes onto this plane to apply a shadow filter, then tranfers them to RENDER_PLANE_GAME to keep proper layering.
-#define RENDER_PLANE_FOREGROUND -1
-///==========================================================
+/// Above Game Plane. For things which are above game objects, but below screen effects.
+#define ABOVE_GAME_PLANE -5
+/// Roof plane, disappearing when entering buildings
+#define ROOF_PLANE -4
 
 /// To keep from conflicts with SEE_BLACKNESS internals
 #define BLACKNESS_PLANE 0
@@ -263,6 +252,7 @@
 ///--------------- FULLSCREEN RUNECHAT BUBBLES ------------
 #define LIGHTING_PLANE 100
 #define EXTERIOR_LIGHTING_PLANE 101
+#define NVG_PLANE 110
 
 ///Popup Chat Messages
 #define RUNECHAT_PLANE 501

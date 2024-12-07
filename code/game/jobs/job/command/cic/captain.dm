@@ -31,16 +31,16 @@ Godspeed, Captain and Commander!"}
 
 	return ..()
 
-/datum/job/command/commander/get_whitelist_status(list/roles_whitelist, client/player)
+/datum/job/command/commander/get_whitelist_status(client/player)
 	. = ..()
 	if(!.)
 		return
 
-	if(roles_whitelist[player.ckey] & WHITELIST_COMMANDER_LEADER)
+	if(player.check_whitelist_status(WHITELIST_COMMANDER_LEADER|WHITELIST_COMMANDER_COLONEL))
 		return get_desired_status(player.prefs.commander_status, WHITELIST_LEADER)
-	else if(roles_whitelist[player.ckey] & (WHITELIST_COMMANDER_COUNCIL|WHITELIST_COMMANDER_COUNCIL_LEGACY))
+	if(player.check_whitelist_status(WHITELIST_COMMANDER_COUNCIL|WHITELIST_COMMANDER_COUNCIL_LEGACY))
 		return get_desired_status(player.prefs.commander_status, WHITELIST_COUNCIL)
-	else if(roles_whitelist[player.ckey] & WHITELIST_COMMANDER)
+	if(player.check_whitelist_status(WHITELIST_COMMANDER))
 		return get_desired_status(player.prefs.commander_status, WHITELIST_NORMAL)
 
 /datum/job/command/commander/announce_entry_message(mob/living/carbon/human/H)
