@@ -836,3 +836,13 @@
 /obj/item/clothing/head/beret/royal_marine/team_leader
 	icon_state = "rmc_beret_tl"
 	item_state = "rmc_beret_tl"
+
+/obj/item/clothing/head/cmcap/nam
+	name = "patrol cap"
+	desc = "A casual cap issued as part of the non-combat uniform. While it only protects from the sun, it's much more comfortable than a helmet."
+	icon_state = "nam_cap"
+
+/obj/item/clothing/head/cmcap/boonie/nam
+	name = "\improper USMC boonie hat"
+	desc = "A floppy bush hat. Protects only from the sun and rain, but very comfortable."
+	icon_state = "nambooniehat"

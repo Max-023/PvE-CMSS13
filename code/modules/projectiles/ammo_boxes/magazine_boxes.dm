@@ -282,6 +282,17 @@
 /obj/item/ammo_box/magazine/M16/ap/empty
 	empty = TRUE
 
+/obj/item/ammo_box/magazine/M16/nam
+	name = "magazine box (M16 x 12)"
+	icon_state = "base_nam"
+	overlay_ammo_type = "_nam"
+	overlay_gun_type = "_nam"
+	num_of_magazines = 12
+	magazine_type = /obj/item/ammo_magazine/rifle/m16
+
+/obj/item/ammo_box/magazine/M16/nam/empty
+	empty = TRUE
+
 //-----------------------M4A3 Pistol Mag Box-----------------------
 
 /obj/item/ammo_box/magazine/m4a3
@@ -542,6 +553,20 @@
 	magazine_type = /obj/item/ammo_magazine/rifle/lmg/heap
 
 /obj/item/ammo_box/magazine/m41ae2/heap/empty
+	empty = TRUE
+
+//-----------------------M60 Ammo Box-----------------------
+
+/obj/item/ammo_box/magazine/m60
+	name = "magazine (M60 GPMG x 6)"
+	icon_state = "base_nam"
+	overlay_ammo_type = "_namheavy"
+	overlay_gun_type = "_m60"
+	overlay_content = "_60"
+	magazine_type = /obj/item/ammo_magazine/m60/nam
+	num_of_magazines = 6
+
+/obj/item/ammo_box/magazine/m41ae2/empty
 	empty = TRUE
 
 //-----------------------Flamer Fuel Tank Box-----------------------

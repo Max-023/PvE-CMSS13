@@ -458,6 +458,10 @@
 	. = ..()
 	UnregisterSignal(user, COMSIG_HUMAN_POST_MOVE_DELAY)
 
+/obj/item/storage/backpack/marine/ammo_rack/nam
+	name = "\improper Ammo rack"
+	desc = "A bare rack frame with buckles designed to hold multiple ammo cans, but can fit any cumbersome box thanks to Marine ingenuity. Helps you lug around extra rounds or supplies."
+
 /obj/item/storage/backpack/marine/medic
 	name = "\improper USCM corpsman backpack"
 	desc = "A standard-issue backpack worn by USCM medics."
@@ -1071,6 +1075,11 @@ GLOBAL_LIST_EMPTY_TYPED(radio_packs, /obj/item/storage/backpack/marine/satchel/r
 	unacidable = TRUE
 	var/internal_mag = new /obj/item/ammo_magazine/internal/souto
 	worn_accessible = TRUE
+
+/obj/item/storage/backpack/lightpack/upp/nam
+	name = "\improper M1967 USMC combat field pack"
+	desc = "A USMC standard-issue Combat Pack model 1967."
+	icon_state = "satchel_nam"
 
 
 //----------UPP SECTION----------

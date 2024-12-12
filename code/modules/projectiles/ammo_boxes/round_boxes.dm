@@ -195,3 +195,24 @@
 
 /obj/item/ammo_box/rounds/pistol/incen/empty
 	empty = TRUE
+
+//----------------Vietnam Boxes------------------
+
+/obj/item/ammo_box/rounds/nam
+	name = "\improper rifle ammunition box (5.56x45mm)"
+	desc = "A 5.56x45mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back."
+	caliber = "5.56x45mm"
+	icon_state = "base_nam"
+	overlay_content = "_nam"
+	default_ammo = /datum/ammo/bullet/rifle
+
+/obj/item/ammo_box/rounds/nam/empty
+	empty = TRUE
+
+/obj/item/ammo_box/rounds/nam/heavy
+	name = "\improper rifle ammunition box (7.62x51mm)"
+	desc = "A 7.62x51mm ammunition box. Used to refill M60 belts. It comes with a leather strap allowing to wear it on the back."
+	caliber = "7.62x51mm"
+	icon_state = "base_nam"
+	overlay_content = "_namheavy"
+	default_ammo = /datum/ammo/bullet/m60

@@ -110,6 +110,12 @@
 		WEAR_JACKET = 'icons/mob/humans/onmob/suit_1.dmi'
 	)
 
+/obj/item/clothing/suit/armor/vest/pilot/nam
+	name = "\improper M69 flak jacket"
+	desc = "A flak jacket worn by combat personnel in the USMC. Layered twelve times with flexible laminated nylon, it is pretty stuffy but a worthy sacrifice for who miss their mothers."
+	icon_state = "nam_armor"
+	blood_overlay_type = "armor"
+
 /obj/item/clothing/suit/armor/vest/dutch
 	name = "armored jacket"
 	desc = "It's hot in the jungle. Sometimes it's hot and heavy, and sometimes it's hell on earth."

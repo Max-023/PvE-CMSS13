@@ -627,6 +627,12 @@
 	else
 		return ..()
 
+/obj/item/storage/belt/marine/standard/nam
+	name = "\improper M1961 pattern webbing"
+	desc = "The M1961 is the standard load-bearing equipment of the USMC. It consists of a modular belt with various clips. This is the standard variant, designed for bulk ammunition-carrying operations."
+	icon_state = "marinebelt_d"
+	item_state = "nambelt"
+
 /obj/item/storage/belt/marine/dutch
 	name = "ammo load rig"
 	desc = "Good for carrying around extra ammo in the heat of the jungle. Made of special rot-resistant fabric."
@@ -900,6 +906,26 @@
 	for(var/i in 1 to max_storage_space * 0.5)
 		new /obj/item/ammo_magazine/handful/shotgun/twobore(src)
 
+/obj/item/storage/belt/shotgun/van_bandolier/nam
+	name = "draped 7.62 belt"
+	desc = "A draped extended belt of 7.62x51mm NATO made ready for use for machine gunners of the USMC."
+	icon_state = "nambandolier_3"
+	flags_equip_slot = SLOT_WAIST|SLOT_BACK
+	storage_slots = null
+	max_storage_space = 6
+	can_hold = list(/obj/item/ammo_magazine/handful/shotgun/twobore)
+	has_gamemode_skin = FALSE
+	item_state_slots = list(
+		WEAR_J_STORE = "nambandolier_6",
+		WEAR_BACK = "nambandolier_6",
+		WEAR_WAIST = "nambandolier_6"
+		)
+
+/obj/item/storage/belt/shotgun/van_bandolier/nam/update_icon()
+	icon_state = "nambandolier_[round(length(contents) * 1, 1)]"
+	var/new_state = "nambandolier_[length(contents)]"
+	for(var/I in item_state_slots)
+		LAZYSET(item_state_slots, I, new_state)
 
 /obj/item/storage/belt/shotgun/lever_action
 	name = "\improper M276 pattern 45-70 loading rig"

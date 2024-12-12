@@ -583,6 +583,16 @@
 	flags_cold_protection = ICE_PLANET_MIN_COLD_PROT
 	has_sensor = UNIFORM_NO_SENSORS
 
+/obj/item/clothing/under/marine/veteran/nam
+	name = "\improper USMC uniform"
+	desc = "Standard-issue Marine uniform, with a fatigue top and set of trousers made from ripstop for durability and breathability."
+	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_LEGS
+	flags_cold_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_LEGS
+	flags_heat_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_LEGS
+	icon_state = "nammarine_jumpsuit"
+	worn_state = "nammarine_jumpsuit"
+	has_sensor = UNIFORM_NO_SENSORS
+
 //=========================//OWLF\\================================\\
 
 /obj/item/clothing/under/marine/veteran/owlf

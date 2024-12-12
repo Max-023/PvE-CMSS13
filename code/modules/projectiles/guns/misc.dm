@@ -162,6 +162,7 @@
 obj/item/weapon/gun/m60/nam
 	name = "\improper M60 General Purpose Machine Gun"
 	desc = "A heavy sonofabitch and cousin to the infamous buzzsaw across the pond. Your muscles ache just staring at the thing.  \n<b>Alt-click to open the feed tray cover for handling reloads.</b>"
+	current_mag = /obj/item/ammo_magazine/m60/nam
 
 /obj/item/weapon/gun/pkp
 	name = "\improper QYJ-72 General Purpose Machine Gun"

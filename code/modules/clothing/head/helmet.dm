@@ -287,6 +287,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	// PREFERENCES GEAR
 	/obj/item/prop/helmetgarb/gunoil = "gunoil",
 	/obj/item/prop/helmetgarb/netting = "netting",
+	/obj/item/prop/helmetgarb/netting/nam = "namnetting",
 	/obj/item/prop/helmetgarb/spent_buckshot = "spent_buckshot",
 	/obj/item/prop/helmetgarb/spent_slug = "spent_slug",
 	/obj/item/prop/helmetgarb/spent_flech = "spent_flech",
@@ -294,6 +295,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/prop/helmetgarb/prescription_bottle = "prescription_bottle",
 	/obj/item/prop/helmetgarb/raincover = "raincover",
 	/obj/item/prop/helmetgarb/camocover = "camocover",
+	/obj/item/prop/helmetgarb/namcamocover = "namcamocover",
 	/obj/item/prop/helmetgarb/rabbitsfoot = "rabbitsfoot",
 	/obj/item/prop/helmetgarb/rosary = "helmet_rosary", // This one was already in the game for some reason, but never had an object
 	/obj/item/prop/helmetgarb/lucky_feather = "lucky_feather",
@@ -1110,6 +1112,15 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	desc = "Standard issued helmet for the workers of Kutjevo. Contains a small webbing to hold small items like pens, oil or even a photo of a loved one."
 	icon_state = "kutjevo_helmet"
 	item_state = "kutjevo_helmet"
+
+//USMC HELMET
+
+/obj/item/clothing/head/helmet/marine/nam
+	name = "\improper M1 pattern steel helmet"
+	desc = "Standard issue steel combat helmet. Resistant to glancing hits from small arms and shrapnel."
+	icon = 'icons/obj/items/clothing/cm_hats.dmi'
+	icon_state = "namhelmet"
+	item_state = "namhelmet"
 
 //==========================//DISTRESS\\=================================\\
 //=======================================================================\\

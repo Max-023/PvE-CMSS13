@@ -21,6 +21,10 @@
 	desc = "Probably combat netting for a helmet. Probably just an extra hairnet that got ordered for the phantom Almayer cooking staff. Probably useless."
 	icon_state = "netting"
 
+/obj/item/prop/helmetgarb/netting/nam
+	desc = "Combat netting for a helmet to help break up the glare and shape."
+	icon_state = "namnetting"
+
 /obj/item/prop/helmetgarb/spent_buckshot
 	name = "spent buckshot"
 	desc = "Three spent rounds of good ol' buckshot. You know they used to paint these green? Strange times."
@@ -60,6 +64,11 @@
 /obj/item/prop/helmetgarb/camocover/Initialize(mapload, ...)
 	. = ..()
 	select_gamemode_skin(/obj/item/prop/helmetgarb/camocover)
+
+/obj/item/prop/helmetgarb/namcamocover
+	name = "camocover"
+	desc = "A cover that goes over the top of an M1 pattern helmet to camoflauge it without needing the use of paints."
+	icon_state = "namcamocover"
 
 /obj/item/prop/helmetgarb/rabbitsfoot
 	name = "Rabbit's Foot"
