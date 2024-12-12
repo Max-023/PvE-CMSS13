@@ -438,6 +438,18 @@
 	default_ammo = /datum/ammo/bullet/rifle/holo_target/hunting
 	ammo_band_color = AMMO_BAND_COLOR_HOLOTARGETING
 
+//M14
+/obj/item/ammo_magazine/rifle/m14
+	name = "\improper M14 magazine (7.62x51mm)"
+	desc = "A 7.62x51mm magazine for the M14 service rifle."
+	caliber = "7.62x51mm"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony.dmi'
+	icon_state = "m14"
+	default_ammo = /datum/ammo/bullet/rifle
+	max_rounds = 20
+	gun_type = /obj/item/weapon/gun/rifle/m14
+	w_class = SIZE_MEDIUM
+
 //M20A
 
 /obj/item/ammo_magazine/rifle/m20a

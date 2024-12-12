@@ -1039,7 +1039,7 @@
 	name = "\improper M16 grenadier rifle"
 	desc = "The little worn and faded sticker on the lower receiver claims that this is a Mustang Special, Little Friend Edition. Point is, it's an M16 repro with an irremovable M203 underslung. 40mm, careful where you point it."
 	icon_state = "m16g"
-	item_state = "m16"
+	item_state = "m16g"
 	fire_sound = 'sound/weapons/gun_m16.ogg'
 	reload_sound = 'sound/weapons/handling/gun_m16_reload.ogg'
 	unload_sound = 'sound/weapons/handling/gun_m16_unload.ogg'
@@ -1907,6 +1907,30 @@
 	)
 	random_under_chance = 50
 	random_spawn_under = list(/obj/item/attachable/flashlight/grip)
+
+/obj/item/weapon/gun/rifle/l42a/abr40/tactical/nam
+	name = "\improper M14 service rifle"
+	desc = "A Springfield Armory shitstick and stain on the M1 Garand's legacy. You can see a select fire option for automatic, but you don't feel like killing your shoulder and flicking it on."
+	desc_lore = "The M14 was a forced to service rifle created by Springfield Armory and pushed through the Department of Ordnance, of which they had control of. Dashing the hopes of an in service FN FAL or H&K G3 for the US Armed Forces, its folly at least allowed a certain designer at ArmaLite to get their foot in the door with their newest design...."
+	icon_state = "m14"
+	item_state = "m14"
+	current_mag = /obj/item/ammo_magazine/rifle/m14
+	attachable_allowed = list(
+		//Barrel,
+		/obj/item/attachable/suppressor,
+		/obj/item/attachable/bayonet,
+		//Rail,
+		/obj/item/attachable/scope/mini/hunting,
+		//Stock,
+		/obj/item/attachable/stock/carbine/wood/tactical/m14,
+	)
+
+/obj/item/weapon/gun/rifle/m14/handle_starting_attachment()
+	..()
+	var/obj/item/attachable/stock/carbine/wood/tactical/m14/STOCK = new(src)
+	STOCK.flags_attach_features &= ~ATTACH_REMOVABLE
+	STOCK.Attach(src)
+	update_attachable(STOCK.slot)
 
 //=ROYAL MARINES=\\
 

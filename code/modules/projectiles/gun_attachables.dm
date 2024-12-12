@@ -2310,6 +2310,12 @@ Defined in conflicts.dm of the #defines folder.
 	icon_state = "abr40stock_tac"
 	attach_icon = "abr40stock_tac_a"
 
+/obj/item/attachable/stock/carbine/wood/tactical/m14
+	name = "\improper M14 stock"
+	desc = "An M14 pistol grip and stock combo. Wait, did you just take the stock out of a weapon with no grip...? Great job, genius."
+	icon_state = "m14"
+	attach_icon = "m14_a"
+
 /obj/item/attachable/stock/rifle/marksman
 	name = "\improper M41A marksman stock"
 	icon_state = "m4markstock"

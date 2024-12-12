@@ -159,6 +159,9 @@
 			to_chat(user, SPAN_WARNING("You can't fire [src] with the feed cover open! <b>(alt-click to close)</b>"))
 			return FALSE
 
+obj/item/weapon/gun/m60/nam
+	name = "\improper M60 General Purpose Machine Gun"
+	desc = "A heavy sonofabitch and cousin to the infamous buzzsaw across the pond. Your muscles ache just staring at the thing.  \n<b>Alt-click to open the feed tray cover for handling reloads.</b>"
 
 /obj/item/weapon/gun/pkp
 	name = "\improper QYJ-72 General Purpose Machine Gun"

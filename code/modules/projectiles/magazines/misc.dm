@@ -31,6 +31,16 @@
 	reload_delay = 8
 	gun_type = /obj/item/weapon/gun/m60
 
+/obj/item/ammo_magazine/m60/nam
+	name = "M60 belt box (7.62x51mm)"
+	desc = "A 100rnd belt box for the M60 GPMG, chambered in .308."
+
+	matter = list("metal" = 10000)
+	default_ammo = /datum/ammo/bullet/m60
+	max_rounds = 100
+	reload_delay = 8
+	gun_type = /obj/item/weapon/gun/m60
+
 /obj/item/ammo_magazine/pkp
 	name = "QYJ-72 ammo box (10x31mm HEAP)"
 	desc = "A 250 round box of HEAP ammunition for the UPP's standard GPMG, the QYJ-72. Chambered in 10x31mm."
