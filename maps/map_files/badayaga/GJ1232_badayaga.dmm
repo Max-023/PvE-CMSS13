@@ -1236,6 +1236,11 @@
 	pixel_x = -6;
 	pixel_y = 7
 	},
+/obj/structure/sign/safety/commline_connection{
+	name = "communication line semiotic";
+	pixel_y = 27;
+	pixel_x = 4
+	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/command_rooms)
 "cd" = (
@@ -5033,7 +5038,8 @@
 /area/badayaga/inside)
 "iG" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/mess)
@@ -6197,7 +6203,8 @@
 /area/badayaga/inside)
 "kK" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/medical)
@@ -16763,7 +16770,8 @@
 /area/badayaga/inside)
 "CW" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/platoonprep)
@@ -18024,7 +18032,8 @@
 /area/badayaga/inside)
 "Fc" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
@@ -19974,7 +19983,8 @@
 "Iv" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
 	dir = 2;
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/platoonarmory)
@@ -20671,7 +20681,9 @@
 /area/badayaga/inside)
 "JE" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
-	dir = 2
+	dir = 2;
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/offices)
@@ -23180,6 +23192,12 @@
 	pixel_x = -9;
 	pixel_y = 0
 	},
+/obj/structure/machinery/door_control{
+	pixel_y = 10;
+	pixel_x = -9;
+	id = "squadarmory";
+	name = "gear lockers door-control"
+	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/badayaga/inside_underground/command_rooms)
 "NO" = (
@@ -24628,7 +24646,8 @@
 "Qo" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
 	dir = 2;
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/engineering)
@@ -26090,7 +26109,8 @@
 "SJ" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
 	dir = 2;
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/dorms)
@@ -29180,7 +29200,9 @@
 /area/badayaga/outside)
 "XV" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
-	dir = 2
+	dir = 2;
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/offices)
@@ -29525,7 +29547,8 @@
 "YI" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
 	dir = 2;
-	req_access = null
+	req_access = list();
+	req_one_access = list()
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/command_rooms)
