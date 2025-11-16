@@ -910,11 +910,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"bK" = (
-/turf/open/auto_turf/sand_white/layer1{
-	color = "#818181"
-	},
-/area/space)
 "bM" = (
 /obj/structure/flora/tree/dead/tree_3,
 /turf/open/auto_turf/snow/brown_base/layer3,
@@ -10109,9 +10104,6 @@
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
-"tG" = (
-/turf/open/gm/dirt3,
-/area/space)
 "tH" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -13435,9 +13427,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken2,
 /area/badayaga/inside)
-"zR" = (
-/turf/open/gm/dirt2,
-/area/space)
 "zS" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 4
@@ -26715,11 +26704,6 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"Yu" = (
-/turf/open/auto_turf/strata_grass/layer0_mud_alt{
-	color = "#818181"
-	},
-/area/space)
 "Yv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/tool/screwdriver{
@@ -47994,18 +47978,18 @@ JW
 JW
 JW
 JW
-Yu
-Yu
-Yu
-bK
-bK
-bK
-tG
-tG
-tG
-tG
-zR
-zR
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 JW
 JW
 JW
@@ -48196,18 +48180,18 @@ JW
 JW
 JW
 JW
-Yu
-Yu
-Yu
-bK
-bK
-bK
-tG
-tG
-tG
-tG
-zR
-zR
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 JW
 JW
 JW
@@ -48398,18 +48382,18 @@ JW
 JW
 JW
 JW
-Yu
-Yu
-Yu
-bK
-bK
-bK
-tG
-tG
-tG
-tG
-zR
-zR
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 JW
 JW
 JW
@@ -48600,18 +48584,18 @@ JW
 JW
 JW
 JW
-Yu
-Yu
-Yu
-bK
-bK
-bK
-tG
-tG
-tG
-tG
-zR
-zR
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 JW
 JW
 JW
