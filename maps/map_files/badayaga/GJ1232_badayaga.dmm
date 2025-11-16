@@ -38,9 +38,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ae" = (
 /obj/structure/machinery/light/double{
@@ -134,9 +132,7 @@
 	layer = 4.12
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ak" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -170,18 +166,14 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ao" = (
 /obj/structure/barricade/wooden{
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "aq" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -240,9 +232,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "at" = (
 /obj/structure/closet/bodybag{
@@ -252,9 +242,7 @@
 	pixel_y = -15
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "aw" = (
 /obj/structure/flora/tree/pine,
@@ -294,9 +282,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "az" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -317,9 +303,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "aA" = (
 /turf/closed/wall/rock,
@@ -466,9 +450,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "aO" = (
 /obj/structure/surface/rack,
@@ -556,9 +538,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "aY" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -569,9 +549,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "aZ" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -594,9 +572,7 @@
 /obj/structure/bed/roller/hospital_empty/bigrollerempty{
 	pixel_y = 19
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "bc" = (
 /obj/structure/bed{
@@ -765,9 +741,7 @@
 /obj/structure/bed/roller/hospital_empty,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "bn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -779,9 +753,7 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "bo" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -901,16 +873,12 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "bz" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "bA" = (
 /obj/structure/bed,
@@ -969,9 +937,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "bD" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1127,9 +1093,7 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "bT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1148,9 +1112,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "bU" = (
 /obj/structure/bed,
@@ -1322,9 +1284,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "cj" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1378,9 +1338,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cm" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -1450,9 +1408,7 @@
 	},
 /obj/item/clothing/glasses/welding,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ct" = (
 /obj/effect/decal/cleanable/blood,
@@ -1465,9 +1421,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cw" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -1591,9 +1545,7 @@
 	layer = 2.99
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "cH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1621,9 +1573,7 @@
 	pixel_x = -3
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cI" = (
 /obj/structure/bed{
@@ -1690,9 +1640,7 @@
 	pixel_y = 42
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cP" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -1715,9 +1663,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "cQ" = (
 /obj/structure/bed/chair/office/dark{
@@ -1776,9 +1722,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cW" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1792,9 +1736,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cY" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1811,9 +1753,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "da" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -1823,9 +1763,7 @@
 	dir = 4;
 	color = "#999999"
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "db" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1914,15 +1852,11 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "di" = (
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "dj" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1943,9 +1877,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "dk" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2032,9 +1964,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dq" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2050,9 +1980,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ds" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2085,9 +2013,7 @@
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "du" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2119,9 +2045,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dx" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2153,9 +2077,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dz" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -2183,9 +2105,7 @@
 	pixel_y = -3
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -2226,9 +2146,7 @@
 	pixel_y = 10
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dG" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -2242,9 +2160,7 @@
 	dir = 4;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "dH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2360,9 +2276,7 @@
 	layer = 2.99
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "dR" = (
 /obj/structure/machinery/power/apc/almayer/west,
@@ -2403,9 +2317,7 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "dV" = (
 /obj/structure/machinery/photocopier{
@@ -2529,9 +2441,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ef" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2567,9 +2477,7 @@
 	pixel_y = -14
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "eh" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -2604,9 +2512,7 @@
 "em" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "en" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2672,9 +2578,7 @@
 	pixel_y = -6
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "er" = (
 /obj/structure/machinery/light/double{
@@ -2836,9 +2740,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "eC" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2880,9 +2782,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "eF" = (
 /obj/structure/machinery/space_heater,
@@ -2948,9 +2848,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "eM" = (
 /turf/closed/wall/rock,
@@ -3029,9 +2927,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "eS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3083,9 +2979,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "eW" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3117,9 +3011,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fa" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -3152,9 +3044,7 @@
 	},
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fd" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -3231,9 +3121,7 @@
 	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3372,9 +3260,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "fx" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -3482,9 +3368,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fG" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -3495,17 +3379,13 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fH" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fI" = (
 /obj/structure/closet/secure_closet/freezer/meat{
@@ -3608,9 +3488,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "fU" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -3791,9 +3669,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "gd" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -3884,9 +3760,7 @@
 /area/badayaga/outside)
 "gl" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "gm" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -3906,9 +3780,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "gn" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -4011,9 +3883,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "gA" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -4087,9 +3957,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "gF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4158,9 +4026,7 @@
 	dir = 4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "gL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4290,9 +4156,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tent_curtain,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ha" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4311,9 +4175,7 @@
 	pixel_y = -6
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hc" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4325,9 +4187,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hd" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -4341,9 +4201,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "hg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4375,9 +4233,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "hi" = (
 /obj/structure/barricade/sandbags/wired{
@@ -4452,9 +4308,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tent_curtain,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hs" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -4487,9 +4341,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "hv" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4509,9 +4361,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "hx" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -4523,9 +4373,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hy" = (
 /turf/open/space/basic,
@@ -4536,9 +4384,7 @@
 	climb_delay = 1;
 	layer = 3.04
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "hC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4577,9 +4423,7 @@
 	},
 /obj/structure/surface/rack,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4630,9 +4474,7 @@
 /obj/item/stack/sandbags/large_stack,
 /obj/item/stack/sandbags/large_stack,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hL" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -4645,9 +4487,7 @@
 	dir = 8;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "hM" = (
 /obj/structure/machinery/cm_vending/sorted/boozeomat{
@@ -4706,9 +4546,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4842,9 +4680,7 @@
 	pixel_y = -5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ie" = (
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
@@ -4884,9 +4720,7 @@
 /obj/structure/barricade/table/wood/poor,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ig" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5052,9 +4886,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "it" = (
 /obj/structure/bed/chair/wood/normal{
@@ -5150,9 +4982,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "iB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5185,9 +5015,7 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "iF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5281,9 +5109,7 @@
 "iN" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "iP" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -5306,9 +5132,7 @@
 /obj/structure/bed/roller/hospital_empty/bigrollerbloodempty,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "iR" = (
 /obj/structure/prop/rock/brown,
@@ -5335,9 +5159,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "iV" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -5345,9 +5167,7 @@
 	},
 /obj/structure/tent_curtain,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "iW" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -5405,9 +5225,7 @@
 	pixel_x = 5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jc" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -5494,9 +5312,7 @@
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5622,9 +5438,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jw" = (
 /obj/structure/stairs/perspective/kutjevo,
@@ -5645,9 +5459,7 @@
 	layer = 3.04
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jy" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5794,9 +5606,7 @@
 	},
 /obj/structure/stairs/perspective/kutjevo,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5877,9 +5687,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jM" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5890,9 +5698,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jO" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -5940,9 +5746,7 @@
 	pixel_y = 16
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5975,9 +5779,7 @@
 	pixel_y = -7
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "jX" = (
 /obj/effect/decal/strata_decals/grime/grime3,
@@ -5991,9 +5793,7 @@
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ka" = (
 /obj/item/tool/weldingtool/simple{
@@ -6007,9 +5807,7 @@
 	pixel_x = -1;
 	pixel_y = 15
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "kc" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -6114,9 +5912,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kl" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6165,9 +5961,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kp" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6176,9 +5970,7 @@
 	layer = 2.99
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kq" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6203,9 +5995,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6263,16 +6053,12 @@
 	pixel_x = -10
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kA" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kB" = (
 /obj/structure/prop/wooden_cross{
@@ -6395,9 +6181,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "kJ" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -6414,9 +6198,7 @@
 	layer = 2.9
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kK" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
@@ -6485,9 +6267,7 @@
 	layer = 3.04
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6504,9 +6284,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "kU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6567,9 +6345,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kY" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6594,9 +6370,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "kZ" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -6764,9 +6538,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "lp" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6783,9 +6555,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ls" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6871,9 +6641,7 @@
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "lA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6959,9 +6727,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "lF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -7009,9 +6775,7 @@
 	dir = 4;
 	layer = 3.04
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "lJ" = (
 /turf/open/floor/plating,
@@ -7051,9 +6815,7 @@
 	pixel_y = 16;
 	layer = 3.10
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "lN" = (
 /obj/structure/machinery/iv_drip{
@@ -7149,9 +6911,7 @@
 	},
 /obj/structure/machinery/power/apc/almayer/west,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "lV" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -7212,9 +6972,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/girder/reinforced,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "mc" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -7310,9 +7068,7 @@
 	pixel_y = -13
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "mr" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -7399,9 +7155,7 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "mx" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -7454,9 +7208,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "mC" = (
 /obj/structure/prop/almayer/computers/mapping_computer{
@@ -7551,9 +7303,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "mO" = (
 /turf/open/auto_turf/strata_grass/layer0_mud_alt,
@@ -7570,9 +7320,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "mS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -7613,9 +7361,7 @@
 	pixel_y = -12
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "mT" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -7655,9 +7401,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "mX" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -7692,9 +7436,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7813,9 +7555,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "nq" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -7826,9 +7566,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nr" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -7838,9 +7576,7 @@
 	},
 /obj/structure/machinery/floodlight/landing,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ns" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -7848,9 +7584,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nt" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -7919,9 +7653,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "nC" = (
 /obj/structure/machinery/light/double{
@@ -7973,9 +7705,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nF" = (
 /obj/item/explosive/mine/active/no_iff{
@@ -8053,9 +7783,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "nN" = (
 /obj/structure/bed/roller/hospital_empty{
@@ -8078,9 +7806,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nP" = (
 /turf/open/auto_turf/snow/brown_base/layer4,
@@ -8135,9 +7861,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nT" = (
 /obj/structure/machinery/iv_drip{
@@ -8188,9 +7912,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "oa" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8269,9 +7991,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "oh" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -8415,9 +8135,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ow" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -8439,9 +8157,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ox" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -8463,9 +8179,7 @@
 	pixel_x = -17
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "oy" = (
 /obj/structure/machinery/autolathe,
@@ -8683,9 +8397,7 @@
 /obj/structure/barricade/table/wood/poor{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8706,9 +8418,7 @@
 	pixel_x = 6
 	},
 /obj/item/mortar_shell/he,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pe" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -8747,9 +8457,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "pg" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -8906,9 +8614,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ps" = (
 /turf/closed/wall/hangar,
@@ -8933,9 +8639,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pw" = (
 /obj/structure/stairs/perspective/kutjevo,
@@ -9011,9 +8715,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "pB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -9129,9 +8831,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/gibs/core,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pK" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9150,9 +8850,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "pL" = (
 /obj/item/trash/cigbutt{
@@ -9206,9 +8904,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "pQ" = (
 /obj/item/device/flashlight/lamp/tripod/grey,
@@ -9238,9 +8934,7 @@
 	pixel_y = -6
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "pT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9287,9 +8981,7 @@
 	pixel_y = 17;
 	pixel_x = -4
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pX" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -9302,9 +8994,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pY" = (
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
@@ -9339,9 +9029,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "qb" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -9363,9 +9051,7 @@
 /area/badayaga/inside_underground/dorms)
 "qc" = (
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qd" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -9400,9 +9086,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "qg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9435,9 +9119,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "qh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9460,9 +9142,7 @@
 	pixel_y = 5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qi" = (
 /obj/structure/girder/displaced,
@@ -9572,9 +9252,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qs" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -9600,9 +9278,7 @@
 	pixel_y = 4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qv" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -9632,9 +9308,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qx" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -9647,9 +9321,7 @@
 	pixel_y = 2
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qz" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9661,9 +9333,6 @@
 	layer = 3.08;
 	pixel_x = 9;
 	do_not_adjust = 1
-	},
-/obj/structure/stairs/perspective/kutjevo{
-	dir = 1
 	},
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1
@@ -9747,9 +9416,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9787,9 +9454,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qI" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9807,9 +9472,7 @@
 /obj/item/tool/surgery/bonesetter,
 /obj/item/tool/surgery/scalpel/manager,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qK" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9824,9 +9487,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "qL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9836,9 +9497,7 @@
 	},
 /obj/structure/machinery/floodlight/landing,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qM" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -9857,9 +9516,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "qN" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -9894,9 +9551,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/stairs/perspective/kutjevo,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qQ" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -9914,9 +9569,7 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9965,9 +9618,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "qW" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -9988,9 +9639,7 @@
 	layer = 2.99
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qY" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10008,9 +9657,7 @@
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qZ" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -10049,9 +9696,7 @@
 	},
 /obj/structure/bed/chair/wood/normal,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "re" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -10074,9 +9719,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "rf" = (
 /turf/closed/wall/hangar,
@@ -10093,9 +9736,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10139,9 +9780,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10227,9 +9866,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rq" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10286,9 +9923,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ru" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10305,9 +9940,7 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 4
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "rv" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10336,9 +9969,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10376,9 +10007,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "rC" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10494,9 +10123,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rK" = (
 /obj/structure/flora/tree/pine,
@@ -10549,9 +10176,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rS" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -10564,9 +10189,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "rT" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -10632,9 +10255,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "rX" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10770,9 +10391,7 @@
 /obj/item/stack/sheet/metal/med_large_stack{
 	pixel_x = -2
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "so" = (
 /obj/structure/machinery/light/double{
@@ -10800,9 +10419,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ss" = (
 /obj/structure/ladder{
@@ -10866,9 +10483,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "sy" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -10985,9 +10600,7 @@
 	dir = 8;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "sK" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11027,9 +10640,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "sM" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11201,9 +10812,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "tb" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11306,9 +10915,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "tl" = (
 /obj/structure/machinery/prop/yautja/bubbler{
@@ -11340,9 +10947,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "tn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -11370,9 +10975,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "tp" = (
 /obj/structure/bed/chair/wood/normal{
@@ -11388,9 +10991,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "tr" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -11403,9 +11004,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ts" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -11415,9 +11014,7 @@
 	dir = 8;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "tt" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -11517,9 +11114,7 @@
 	dir = 9
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "tA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11599,9 +11194,7 @@
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/badayaga/outside)
 "tG" = (
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/space)
 "tI" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -11635,9 +11228,7 @@
 	},
 /obj/structure/prop/rock/black_ground/dense,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "tM" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11694,9 +11285,7 @@
 	dir = 4;
 	layer = 3.04
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "tS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11767,9 +11356,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "tX" = (
 /obj/structure/barricade/wooden{
@@ -11814,9 +11401,7 @@
 	},
 /obj/structure/window_frame/bunker/reinforced,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ud" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -11826,9 +11411,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ue" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11893,9 +11476,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "uj" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11939,9 +11520,7 @@
 	},
 /obj/structure/machinery/m56d_hmg,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "um" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -11966,9 +11545,7 @@
 	pixel_y = -15
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "un" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -12122,9 +11699,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ux" = (
 /obj/structure/machinery/power/reactor{
@@ -12213,9 +11788,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "uD" = (
 /obj/effect/vehicle_roof/pizza_van,
@@ -12230,9 +11803,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "uF" = (
 /obj/effect/decal/strata_decals/grime/grime3,
@@ -12372,9 +11943,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "uR" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -12391,9 +11960,7 @@
 /obj/item/ammo_magazine/m56d,
 /obj/item/ammo_magazine/m56d,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "uS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -12410,9 +11977,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "uT" = (
 /obj/structure/bed{
@@ -12452,9 +12017,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "uX" = (
 /obj/structure/machinery/light/double{
@@ -12528,9 +12091,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vc" = (
 /obj/structure/largecrate/random/barrel/yellow,
@@ -12549,9 +12110,7 @@
 	layer = 2.99
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ve" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -12588,9 +12147,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vi" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -12601,9 +12158,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vj" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -12743,9 +12298,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vy" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -12929,9 +12482,7 @@
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vQ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -12951,9 +12502,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "vR" = (
 /obj/structure/barricade/razorwire,
@@ -12999,9 +12548,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vY" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -13036,9 +12583,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "wb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13055,9 +12600,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wd" = (
 /turf/open/floor/almayer_hull,
@@ -13103,9 +12646,7 @@
 	icon_state = "cartridge_2_1";
 	layer = 2
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13127,9 +12668,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wi" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13272,9 +12811,7 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wv" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13308,9 +12845,7 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/item/tool/match,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "wz" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13336,9 +12871,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13353,9 +12886,7 @@
 	pixel_y = 15
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "wB" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13385,9 +12916,7 @@
 	pixel_y = -6
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "wC" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13412,9 +12941,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wD" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13506,9 +13033,7 @@
 	layer = 2.99
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wJ" = (
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
@@ -13536,9 +13061,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13622,9 +13145,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "wZ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -13723,9 +13244,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "xk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13759,9 +13278,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "xn" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -13796,9 +13313,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "xq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13881,9 +13396,7 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "xw" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -13922,9 +13435,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "xA" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -13933,9 +13444,7 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "xB" = (
 /obj/structure/ladder{
@@ -13958,9 +13467,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "xE" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14142,9 +13649,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "xS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14171,9 +13676,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "xT" = (
 /obj/structure/prop/rock/brown,
@@ -14206,9 +13709,7 @@
 /obj/structure/girder/displaced{
 	anchored = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "xW" = (
 /obj/structure/machinery/light/double{
@@ -14263,9 +13764,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ya" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14335,9 +13834,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "yg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14356,9 +13853,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14373,9 +13868,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "yi" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -14429,9 +13922,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yn" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -14447,9 +13938,7 @@
 	layer = 2.9
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yp" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14465,9 +13954,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "yr" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14508,9 +13995,7 @@
 	},
 /obj/structure/closet/crate/explosives,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yu" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14554,9 +14039,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yw" = (
 /turf/open/floor/plating/wood,
@@ -14668,9 +14151,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "yG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14704,9 +14185,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yJ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -14755,9 +14234,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yN" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
@@ -14857,9 +14334,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "yS" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -14899,9 +14374,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yV" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -14946,9 +14419,7 @@
 	pixel_x = 0;
 	pixel_y = 12
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "yX" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -15008,9 +14479,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zb" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15053,9 +14522,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zd" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15085,9 +14552,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zg" = (
 /obj/structure/machinery/light/double{
@@ -15158,9 +14623,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zp" = (
 /obj/structure/machinery/power/apc/almayer/north,
@@ -15246,9 +14709,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zv" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -15267,9 +14728,7 @@
 	pixel_y = 0
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -15324,9 +14783,7 @@
 	pixel_y = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -15349,9 +14806,7 @@
 	},
 /obj/structure/largecrate/supply/explosives/mortar_incend,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zF" = (
 /obj/structure/machinery/power/monitor{
@@ -15482,9 +14937,7 @@
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
 "zU" = (
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "zV" = (
 /turf/open/asphalt/cement_sunbleached_darkened,
@@ -15499,9 +14952,7 @@
 	pixel_x = -5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "zX" = (
 /obj/structure/bed{
@@ -15588,9 +15039,7 @@
 	pixel_x = 8;
 	pixel_y = 4
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ad" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -15598,9 +15047,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Af" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -15673,9 +15120,7 @@
 	dir = 4;
 	pixel_x = 5
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Al" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15752,9 +15197,7 @@
 	dir = 8;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "As" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15773,9 +15216,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Av" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -15801,9 +15242,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ax" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15868,9 +15307,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "AB" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15932,9 +15369,7 @@
 /obj/structure/machinery/light/small{
 	dir = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "AG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15975,9 +15410,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "AK" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -16082,9 +15515,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "AU" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -16147,9 +15578,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Bb" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -16176,9 +15605,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Bc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16228,9 +15655,7 @@
 	pixel_x = -6
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Bf" = (
 /obj/item/device/flashlight/lamp/on{
@@ -16410,9 +15835,7 @@
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Br" = (
 /obj/structure/machinery/light/double{
@@ -16624,9 +16047,7 @@
 	layer = 2
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "BL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -16781,9 +16202,7 @@
 /area/badayaga/outside)
 "Cb" = (
 /obj/structure/mortar/fixed,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Cc" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -16979,9 +16398,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Cs" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17040,9 +16457,7 @@
 	dir = 4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Cv" = (
 /turf/open/auto_turf/snow/brown_base/layer3,
@@ -17171,9 +16586,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "CG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17231,9 +16644,7 @@
 	pixel_y = -9
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "CL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17321,9 +16732,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "CU" = (
 /obj/structure/bed/bedroll{
@@ -17340,9 +16749,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "CV" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -17470,15 +16877,11 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Dm" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Dn" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17560,9 +16963,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Dr" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -17580,9 +16981,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Du" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -17612,9 +17011,7 @@
 /obj/item/ammo_magazine/m56d,
 /obj/item/ammo_magazine/m56d,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Dz" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17680,9 +17077,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "DC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -17725,9 +17120,7 @@
 /obj/structure/largecrate/random{
 	pixel_y = 17
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "DF" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -17843,9 +17236,7 @@
 	icon_state = "cartridge_2_1";
 	layer = 2
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "DQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -17877,9 +17268,7 @@
 /obj/structure/barricade/table/wood/poor{
 	dir = 4
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "DT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -17913,18 +17302,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "DV" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "DX" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -18111,9 +17496,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ek" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -18127,9 +17510,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "El" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -18209,9 +17590,7 @@
 	do_not_adjust = 1
 	},
 /obj/item/weapon/gun/smg/nailgun,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Et" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -18241,9 +17620,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Eu" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -18281,9 +17658,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ex" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -18386,9 +17761,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "EG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -18466,9 +17839,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "EO" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -18590,9 +17961,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "EV" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -18654,9 +18023,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Fa" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -18687,9 +18054,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Fe" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -18781,9 +18146,7 @@
 	pixel_x = 0;
 	pixel_y = 12
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Fm" = (
 /obj/structure/flora/tree/dead/tree_5,
@@ -18825,9 +18188,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Fq" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -18887,9 +18248,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Fu" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -18922,17 +18281,6 @@
 	dir = 6
 	},
 /turf/open/auto_turf/snow/brown_base/layer0,
-/area/badayaga/outside)
-"Fx" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/turf/open/floor/plating/wood_broken5,
 /area/badayaga/outside)
 "Fy" = (
 /obj/structure/bed/chair/office{
@@ -19044,9 +18392,7 @@
 	pixel_x = 9
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "FH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -19097,9 +18443,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "FO" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -19285,18 +18629,14 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Gd" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -19327,9 +18667,7 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Gg" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -19340,9 +18678,7 @@
 	pixel_y = -15
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -19379,9 +18715,7 @@
 	pixel_x = 5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gj" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -19397,9 +18731,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gk" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -19421,9 +18753,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gl" = (
 /obj/structure/surface/table/almayer,
@@ -19470,9 +18800,7 @@
 	pixel_y = 18
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gr" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -19544,9 +18872,7 @@
 	layer = 3.04
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "GA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -19565,9 +18891,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "GB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -19605,9 +18929,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "GE" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -19669,9 +18991,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "GH" = (
 /obj/structure/barricade/wooden{
@@ -19792,9 +19112,7 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "GV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -19808,9 +19126,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "GW" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -19889,9 +19205,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ha" = (
 /turf/open/floor/plating,
@@ -19932,9 +19246,7 @@
 	color = "#999999"
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Hg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -19988,17 +19300,13 @@
 	},
 /obj/structure/bed/chair/wood/normal,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Hl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Hm" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20072,9 +19380,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Hq" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -20148,9 +19454,7 @@
 	pixel_x = 3
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Hz" = (
 /obj/effect/landmark/observer_start,
@@ -20238,9 +19542,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "HI" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20256,16 +19558,12 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "HJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "HL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20279,9 +19577,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "HM" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -20301,9 +19597,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "HN" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -20378,9 +19672,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "HV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -20399,9 +19691,7 @@
 "HX" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "HY" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -20448,9 +19738,7 @@
 	},
 /obj/structure/largecrate/random/mini/wooden,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ic" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20556,9 +19844,7 @@
 /obj/structure/barricade/table/wood/poor{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Il" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -20567,9 +19853,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Im" = (
 /obj/structure/largecrate/random/secure{
@@ -20626,9 +19910,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Iq" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -20638,9 +19920,7 @@
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ir" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20667,9 +19947,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Is" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20685,9 +19963,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "It" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -20751,9 +20027,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Iy" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -20818,9 +20092,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "IE" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -20902,9 +20174,7 @@
 	pixel_y = -20;
 	pixel_x = -5
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "IJ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20950,9 +20220,7 @@
 	pixel_x = 0;
 	pixel_y = 12
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "IN" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -21011,9 +20279,7 @@
 /obj/item/ammo_magazine/m56d,
 /obj/item/ammo_magazine/m56d,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "IR" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -21068,9 +20334,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "IV" = (
 /obj/structure/flora/tree/pine,
@@ -21176,9 +20440,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ji" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -21194,9 +20456,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Jj" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -21204,9 +20464,7 @@
 	},
 /obj/structure/tent_curtain,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Jk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -21221,9 +20479,7 @@
 	layer = 2.99
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Jl" = (
 /obj/structure/machinery/light/double{
@@ -21372,9 +20628,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "JA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -21413,9 +20667,7 @@
 	pixel_y = 4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "JC" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -21467,9 +20719,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "JH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -21658,9 +20908,7 @@
 	pixel_y = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "JY" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -21672,9 +20920,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "JZ" = (
 /obj/structure/barricade/sandbags/wired{
@@ -21747,9 +20993,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ki" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -21859,9 +21103,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Kr" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -21873,9 +21115,7 @@
 	dir = 4;
 	layer = 3.04
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Kt" = (
 /obj/structure/barricade/wooden{
@@ -21981,9 +21221,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "KB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -22044,9 +21282,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "KE" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -22096,9 +21332,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "KK" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -22152,9 +21386,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "KN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -22171,9 +21403,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "KO" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -22266,9 +21496,7 @@
 	pixel_x = 0;
 	pixel_y = 12
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "KV" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -22356,9 +21584,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Lf" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -22374,9 +21600,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Lg" = (
 /obj/structure/bed/chair/wood/normal{
@@ -22498,9 +21722,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Lx" = (
 /obj/structure/curtain/medical,
@@ -22551,9 +21773,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "LC" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -22596,9 +21816,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "LE" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -22687,9 +21905,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "LI" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -22726,9 +21942,7 @@
 	pixel_y = -4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "LK" = (
 /turf/open/asphalt/cement_darkened,
@@ -22785,9 +21999,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "LO" = (
 /obj/structure/machinery/vending/dinnerware{
@@ -22830,9 +22042,7 @@
 	pixel_x = 0;
 	pixel_y = 12
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "LQ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -22897,9 +22107,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "LW" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -22930,9 +22138,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ma" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -22946,9 +22152,7 @@
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Mc" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -22984,9 +22188,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Mi" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23093,9 +22295,7 @@
 	},
 /obj/structure/barricade/table/wood/poor,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Mo" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -23117,9 +22317,7 @@
 	pixel_x = 11;
 	pixel_y = -11
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Mp" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23135,9 +22333,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Mq" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -23215,9 +22411,7 @@
 	icon_state = "cartridge_2_1";
 	layer = 2
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Mw" = (
 /turf/open/floor/plating/bare_catwalk,
@@ -23322,9 +22516,7 @@
 	pixel_y = 23
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ME" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23393,9 +22585,7 @@
 	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "MJ" = (
 /obj/structure/barricade/wooden{
@@ -23426,9 +22616,7 @@
 	pixel_y = 2
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "MM" = (
 /obj/structure/barricade/sandbags/wired{
@@ -23471,9 +22659,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "MP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23482,9 +22668,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "MQ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23505,9 +22689,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "MR" = (
 /obj/item/explosive/mine/active/no_iff{
@@ -23580,9 +22762,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Nc" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23659,9 +22839,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Nh" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -23680,9 +22858,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ni" = (
 /obj/structure/surface/table/almayer,
@@ -23743,9 +22919,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Nm" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23803,9 +22977,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ns" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23818,9 +22990,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Nt" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23855,9 +23025,7 @@
 	},
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Nx" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23874,9 +23042,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ny" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -23916,9 +23082,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "NA" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -23928,9 +23092,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "NB" = (
 /obj/structure/barricade/wooden{
@@ -23990,9 +23152,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "NL" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -24015,9 +23175,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "NN" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -24041,9 +23199,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "NP" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24068,9 +23224,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "NS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24213,9 +23367,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Of" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24280,9 +23432,7 @@
 	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ok" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24400,9 +23550,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Oy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -24416,9 +23564,7 @@
 	dir = 1
 	},
 /obj/structure/platform_decoration/kutjevo/smooth,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "OA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24551,9 +23697,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "OL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24635,9 +23779,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "OR" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -24719,9 +23861,7 @@
 	layer = 3.02
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Pa" = (
 /obj/effect/decal/cleanable/dirt,
@@ -24772,9 +23912,7 @@
 	pixel_x = -12
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Pd" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24813,9 +23951,7 @@
 	},
 /obj/structure/prop/rock/black_ground/dense,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Pg" = (
 /obj/structure/barricade/wooden{
@@ -24877,9 +24013,7 @@
 	pixel_x = 2
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Pl" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -24969,9 +24103,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ps" = (
 /obj/structure/prop/brazier/campfire,
@@ -24986,9 +24118,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Pu" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -25028,9 +24158,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "PA" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25092,9 +24220,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "PE" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25122,9 +24248,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "PH" = (
 /obj/structure/machinery/light/double{
@@ -25227,9 +24351,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "PQ" = (
 /obj/structure/machinery/power/port_gen/pacman,
@@ -25363,9 +24485,7 @@
 	pixel_y = -5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "PZ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25382,9 +24502,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Qa" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -25540,9 +24658,7 @@
 	dir = 4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Qs" = (
 /obj/structure/barricade/wooden{
@@ -25762,9 +24878,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "QI" = (
 /obj/structure/machinery/floodlight/landing,
@@ -25835,9 +24949,7 @@
 	},
 /obj/structure/stairs/perspective/kutjevo,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "QO" = (
 /obj/structure/bed/chair/wood/normal{
@@ -25901,9 +25013,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "QS" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25938,9 +25048,7 @@
 	dir = 4;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "QV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25949,9 +25057,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "QX" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -25967,9 +25073,7 @@
 	pixel_y = 11
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "QY" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25989,9 +25093,7 @@
 	pixel_y = 6
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "QZ" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -26099,9 +25201,7 @@
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/table/wood/poor,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Rq" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -26116,16 +25216,12 @@
 	pixel_y = 0
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Rr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Rs" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -26138,9 +25234,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Rt" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26171,9 +25265,7 @@
 	pixel_x = 6;
 	pixel_y = -17
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ru" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26193,9 +25285,7 @@
 "Rw" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Rx" = (
 /obj/structure/flora/tree/dead/tree_5,
@@ -26235,9 +25325,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -26266,9 +25354,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "RD" = (
 /turf/closed/wall/rock,
@@ -26286,9 +25372,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "RF" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26314,9 +25398,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26332,9 +25414,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26353,9 +25433,7 @@
 	pixel_y = 22
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RI" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -26371,9 +25449,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RJ" = (
 /obj/structure/bed,
@@ -26419,9 +25495,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RM" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26444,9 +25518,7 @@
 	pixel_x = 5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26492,9 +25564,7 @@
 	},
 /obj/item/device/flashlight/lamp/tripod/grey,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RQ" = (
 /obj/structure/platform/kutjevo/rock{
@@ -26527,9 +25597,7 @@
 	do_not_adjust = 1
 	},
 /obj/structure/largecrate/random/mini/wooden,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "RT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26558,9 +25626,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26581,9 +25647,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RW" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26619,9 +25683,7 @@
 	pixel_y = -10
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RX" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26675,9 +25737,7 @@
 	layer = 2.99
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sa" = (
 /obj/effect/decal/cleanable/dirt,
@@ -26703,9 +25763,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sd" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
@@ -26743,9 +25801,7 @@
 	pixel_x = -1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26819,9 +25875,7 @@
 	color = "#818181"
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sm" = (
 /obj/structure/machinery/iv_drip,
@@ -26835,9 +25889,7 @@
 	pixel_y = 2
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sp" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -26852,9 +25904,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sq" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -26956,9 +26006,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Sz" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -26982,9 +26030,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "SA" = (
 /turf/open/asphalt/cement_darkened,
@@ -27042,9 +26088,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "SH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27064,9 +26108,7 @@
 "SK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/kutjevo/smooth,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "SM" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
@@ -27113,9 +26155,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "SQ" = (
 /obj/structure/barricade/wooden{
@@ -27137,9 +26177,7 @@
 /obj/item/hardpoint/locomotion/apc_wheels/zsl_wheels{
 	pixel_y = 11
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "SU" = (
 /obj/structure/stairs/perspective/kutjevo{
@@ -27154,9 +26192,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "SV" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -27347,9 +26383,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Th" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27373,9 +26407,7 @@
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ti" = (
 /obj/structure/barricade/wooden{
@@ -27505,9 +26537,7 @@
 	},
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Tr" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -27553,9 +26583,7 @@
 	layer = 2.99
 	},
 /obj/structure/platform/kutjevo/smooth,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Tw" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27583,9 +26611,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ty" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27665,9 +26691,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "TE" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -27713,9 +26737,7 @@
 	pixel_y = 5
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "TH" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27778,9 +26800,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "TK" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -27823,9 +26843,7 @@
 	dir = 5;
 	icon_state = "cartridge_10"
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "TO" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27841,9 +26859,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "TP" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27860,9 +26876,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "TQ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27882,9 +26896,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "TR" = (
 /obj/structure/bed/chair/office{
@@ -27964,9 +26976,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "TZ" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28030,9 +27040,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Ud" = (
 /obj/structure/bed{
@@ -28232,9 +27240,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Uw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28442,9 +27448,7 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "US" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28510,9 +27514,7 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "UV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28526,9 +27528,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "UW" = (
 /obj/item/explosive/mine/active/no_iff{
@@ -28590,9 +27590,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Va" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28606,9 +27604,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Vb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28640,9 +27636,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Vg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28652,9 +27646,7 @@
 	},
 /obj/structure/prop/wooden_cross,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Vh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28728,9 +27720,7 @@
 /obj/item/explosive/grenade/high_explosive/m15,
 /obj/item/explosive/grenade/high_explosive/m15,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Vl" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28787,9 +27777,7 @@
 "Vr" = (
 /obj/structure/stairs/perspective/kutjevo,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Vt" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -28846,9 +27834,7 @@
 	},
 /obj/item/tool/shovel/etool/upp,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Vy" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -28881,9 +27867,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "VB" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -28975,9 +27959,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "VK" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29038,18 +28020,14 @@
 	anchored = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "VR" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "VT" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29076,9 +28054,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "VV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29183,9 +28159,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "We" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29202,9 +28176,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Wg" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29226,9 +28198,7 @@
 	pixel_y = 2
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Wh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29246,9 +28216,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Wi" = (
 /obj/structure/machinery/light/double{
@@ -29330,9 +28298,7 @@
 	layer = 4
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Wo" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29344,9 +28310,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Wp" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29397,9 +28361,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Wr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29435,9 +28397,7 @@
 	pixel_y = 11
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ww" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29585,9 +28545,7 @@
 	dir = 8;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "WM" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -29671,9 +28629,7 @@
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "WV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29708,9 +28664,7 @@
 	},
 /obj/structure/bed/chair/wood/normal,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Xa" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29797,9 +28751,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Xh" = (
 /obj/structure/bed{
@@ -29838,9 +28790,7 @@
 	},
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Xm" = (
 /obj/structure/flora/tree/dead/tree_3,
@@ -29876,9 +28826,7 @@
 	},
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Xr" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -29936,9 +28884,7 @@
 	pixel_x = -7;
 	pixel_y = 0
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Xv" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29952,17 +28898,13 @@
 	},
 /obj/structure/largecrate/random/case/small,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Xw" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Xx" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -30145,9 +29087,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "XN" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -30247,9 +29187,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "XV" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
@@ -30323,9 +29261,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tent_curtain,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Yd" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -30367,9 +29303,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Yg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30390,9 +29324,7 @@
 /obj/structure/girder/displaced{
 	anchored = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Yi" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -30401,9 +29333,7 @@
 	pixel_y = 16
 	},
 /obj/item/prop/helmetgarb/helmet_nvg/cosmetic/larp,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Yj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30677,9 +29607,7 @@
 	dir = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "YQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30869,9 +29797,7 @@
 	pixel_x = -18
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Zg" = (
 /turf/closed/wall/rock,
@@ -30914,9 +29840,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Zj" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -30930,9 +29854,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Zk" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -30950,9 +29872,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Zl" = (
 /obj/structure/bed{
@@ -31067,9 +29987,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Zx" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -31116,9 +30034,7 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 4
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ZD" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -31215,9 +30131,7 @@
 	pixel_x = -7
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ZN" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -31232,9 +30146,7 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "ZP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -31306,9 +30218,7 @@
 	layer = 3.04
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ZU" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -31328,9 +30238,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ZW" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -31357,9 +30265,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2{
-	color = "#818181"
-	},
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 
 (1,1,1) = {"
@@ -47984,7 +46890,7 @@ bd
 le
 ej
 Sg
-Fx
+Tu
 ut
 lu
 ut
