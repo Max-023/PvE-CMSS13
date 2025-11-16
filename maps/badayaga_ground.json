@@ -1,0 +1,12 @@
+{
+	"map_name": "GJ1232 - Badayaga",
+    "short_name": "Badayaga",
+	"map_path": "map_files/badayaga_groundmap",
+	"map_file": "GJ1232_badayaga_ground.dmm",
+    "webmap_url": "LV552",
+    "map_item_type": "/obj/item/map/lv522_map",
+    "weather_holder": "/datum/weather_ss_map_holder/shivas_snowball",
+
+    "camouflage": "snow"
+}
+
