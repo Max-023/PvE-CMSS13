@@ -44,7 +44,7 @@
 	icon_state = "security_station"
 
 /area/badayaga/inside_underground/dorms
-	name = "GJ1232 - Badayaga - Underground Armory"
+	name = "GJ1232 - Badayaga - Underground Dorms"
 	icon_state = "dorms_0"
 
 /area/badayaga/inside_underground/platoonprep
