@@ -70,3 +70,36 @@
 /area/badayaga/inside_underground/command_rooms
 	name = "GJ1232 - Badayaga - Underground Command Office"
 	icon_state = "outpost_gen_0"
+
+//Groundside map areas
+
+/area/badayaga/outside/groundside
+	name = "GJ1232 - Badayaga - Groundside Open"
+
+/area/badayaga/inside/groundside
+	name = "GJ1232 - Badayaga - Groundside Under Roof"
+
+/area/badayaga/inside_underground/platoonarmory/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Armory"
+
+/area/badayaga/inside_underground/dorms/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Dorms"
+
+/area/badayaga/inside_underground/platoonprep/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Ready Room"
+
+/area/badayaga/inside_underground/offices/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Shared Office"
+
+/area/badayaga/inside_underground/medical/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Medical"
+
+/area/badayaga/inside_underground/mess/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Mess Hall"
+
+/area/badayaga/inside_underground/engineering/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Engineering"
+
+/area/badayaga/inside_underground/command_rooms/groundside
+	name = "GJ1232 - Badayaga - Groundside Underground Command Office"
+
