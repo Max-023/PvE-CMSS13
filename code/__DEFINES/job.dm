@@ -453,6 +453,9 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_UACG_LEAD "Colonial Militiaman Unit Leader"
 #define JOB_UACG_SENLEAD "Colonial Militiaman Senior Leader"
 #define JOB_UACG_OFFICER "Colonial Militiaman Officer"
+#define JOB_UACG_MORTAR "Colonial Militia Mortarman"
+#define JOB_UACG_MESS "Colonial Militiaman Mess Officer"
+#define JOB_UACG_CHAPLAIN "Colonial Militiaman Chaplain"
 #define JOB_UACG_ARMORY "Colonial Militiaman Armorer"
 #define JOB_UACG_DOCTOR "Colonial Militiaman Doctor"
 
