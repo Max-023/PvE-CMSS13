@@ -44,3 +44,6 @@ endmap
 
 map badayaga_ship
 endmap
+
+map badayaga_ship_uacg
+endmap

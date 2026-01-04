@@ -160,8 +160,8 @@
 
 /datum/job/marine/standard/ai/uacg
 	title = JOB_UACG_RIFLE
-	total_positions = 12
-	spawn_positions = 12
+	total_positions = 24
+	spawn_positions = 24
 	gear_preset = /datum/equipment_preset/uacg/rifle
 	job_options = null
 	supervisors = "the section leader and troop commander"

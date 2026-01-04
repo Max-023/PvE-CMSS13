@@ -139,8 +139,8 @@
 	job = /datum/job/marine/tl/ai/rmc2ic
 
 /datum/job/marine/tl/ai/uacg
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 8
+	spawn_positions = 8
 	title = JOB_UACG_LEAD
 	gear_preset = /datum/equipment_preset/uacg/leader
 	job_options = null

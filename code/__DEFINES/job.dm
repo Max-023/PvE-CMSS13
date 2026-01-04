@@ -24,7 +24,8 @@
 #define SQUAD_LRRP "Snake Eaters"
 #define SQUAD_LRRP_2 "Ocelot Grapplers"
 #define SQUAD_MILITIA "Prairie Dogs"
-#define SQUAD_MILITIA_2 "Warchief"
+#define SQUAD_MILITIA_2 "Jayhawkers"
+#define SQUAD_MILITIA_3 "Hailstorm"
 
 
 // Job name defines

@@ -167,14 +167,14 @@
 
 /datum/job/marine/smartgunner/ai/uacg
 	title = JOB_UACG_GNR
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 4
+	spawn_positions = 4
 	gear_preset = /datum/equipment_preset/uacg/gunner
 	job_options = null
 	supervisors = "the team leader and troop commander"
 	entry_message_body = "You are a specialized machine gunner of the United Americas Colonial Guard. You are trained in the more dated mounted machine guns still in use of the CG, and pray that one day a smartgun system is integrated to spare your back.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your specialist equipment can be located in the armoury.</b>"
 
-/obj/effect/landmark/start/marine/smartgunner/rmc
+/obj/effect/landmark/start/marine/smartgunner/ai/uacg
 	name = JOB_UACG_GNR
 	job = JOB_UACG_GNR
 	squad = SQUAD_MILITIA

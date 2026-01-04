@@ -459,16 +459,28 @@
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
 
-/datum/squad/marine/uacg/command
+/datum/squad/marine/uacg_bravo
 	name = SQUAD_MILITIA_2
-	equipment_color = "#4148c8"
-	chat_color = "#4148c8"
+	equipment_color = "#c2c450"
+	chat_color = "#c2c450"
 	minimap_color = MINIMAP_SQUAD_MILITIA
 	use_stripe_overlay = FALSE
-	radio_freq = COMM_FREQ
-	usable = TRUE
-	squad_one_access = ACCESS_UACG_CMD
-	squad_two_access = ACCESS_UACG_CMD
+	radio_freq = GRD_2_FREQ
+	usable = FALSE
+	squad_one_access = ACCESS_UACG
+	squad_two_access = ACCESS_UACG
+	faction = FACTION_UACG
+
+/datum/squad/marine/uacg_charlie
+	name = SQUAD_MILITIA_3
+	equipment_color = "#2a752e"
+	chat_color = "#2a752e"
+	minimap_color = MINIMAP_SQUAD_MILITIA
+	use_stripe_overlay = FALSE
+	radio_freq = JTAC_FREQ
+	usable = FALSE
+	squad_one_access = ACCESS_UACG
+	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
 
 //###############################

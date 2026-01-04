@@ -127,7 +127,6 @@ OverrideTimelock(/datum/job/command/bridge, list(
 
 /obj/effect/landmark/start/bridge/uacg
 	name = JOB_UACG_OFFICER
-	squad = SQUAD_MILITIA_2
 	job = /datum/job/command/bridge/ai/uacg
 
 /datum/job/command/bridge/ai/uacg/doctor
@@ -135,6 +134,20 @@ OverrideTimelock(/datum/job/command/bridge, list(
 	gear_preset = /datum/equipment_preset/uacg/officer/doctor
 	supervisors = "the unit commander"
 	entry_message_body = "Your job is to oversee any medical emergencies onsite as well as provide mental care to the Guard as well as any civilians present. Your rank holds no weight as you exist outside the chain of command, just being there for paygrade..<b>You remember that you've stored your personal gear and uniform in your office.</b>"
+
+/obj/effect/landmark/start/bridge/uacg/doctor
+	name = JOB_UACG_DOCTOR
+	job = /datum/job/command/bridge/ai/uacg/doctor
+
+/datum/job/command/bridge/ai/uacg/messofficer
+	title = JOB_UACG_MESS
+	gear_preset = /datum/equipment_preset/uacg/officer/doctor
+	supervisors = "the unit commander"
+	entry_message_body = "They needed a cook and you signed up. As a Colonial Guard Mess Officer, your authority only extends to what the menu is and what procurement is needed to get you the ingredients you need.<b>You remember that you've stored your personal gear and uniform in your office.</b>"
+
+/obj/effect/landmark/start/bridge/uacg/messofficer
+	name = JOB_UACG_MESS
+	job = /datum/job/command/bridge/ai/uacg/messofficer
 
 #undef FIRST_LT_VARIANT
 #undef SR_LT_VARIANT

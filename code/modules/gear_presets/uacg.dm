@@ -116,11 +116,26 @@
 	access = list(ACCESS_CIVILIAN_PUBLIC, ACCESS_UACG, ACCESS_CIVILIAN_BRIG, ACCESS_CIVILIAN_COMMAND, ACCESS_MARINE_PREP)
 	idtype = /obj/item/card/id/dogtag
 
-/datum/equipment_preset/uacg/pfc/greater_rank
+/datum/equipment_preset/uacg/tech/greater_rank
 	name = parent_type::name + " (E4 Rank)"
 	paygrades = list(PAY_SHORT_AE4 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uacg/tech/lower_rank
+	name = parent_type::name + " (E2 Rank)"
+	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/uacg/tech/mortar
+	name = "US Colonial Guard Mortarman"
+	assignment = "Colonial Militiaman Mortarman"
+	skills = /datum/skills/combat_engineer
+	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
+	idtype = /obj/item/card/id/dogtag
+
+/datum/equipment_preset/uacg/tech/mortar/greater_rank
+	name = parent_type::name + " (E4 Rank)"
+	paygrades = list(PAY_SHORT_AE4 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/uacg/tech/mortar/lower_rank
 	name = parent_type::name + " (E2 Rank)"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 
@@ -192,6 +207,16 @@
 	name = parent_type::name + " (E6 Rank)"
 	paygrades = list(PAY_SHORT_AE6 = JOB_PLAYTIME_TIER_0)
 
+/datum/equipment_preset/uacg/senleader/chaplain
+	name = "US Colonial Guard Chaplain"
+	assignment = "Colonial Militiaman Chaplain"
+	paygrades = list(PAY_SHORT_AE7 = JOB_PLAYTIME_TIER_0)
+	idtype = /obj/item/card/id/dogtag
+
+/datum/equipment_preset/uacg/senleader/chaplain/lesser_rank
+	name = parent_type::name + " (E6 Rank)"
+	paygrades = list(PAY_SHORT_AE6 = JOB_PLAYTIME_TIER_0)
+
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/officer
@@ -215,4 +240,11 @@
 	assignment = "Colonial Militiaman Doctor"
 	paygrades = list(PAY_SHORT_AO1 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/doctor
+	idtype = /obj/item/card/id/dogtag
+
+/datum/equipment_preset/uacg/officer/messofficer
+	name = "US Colonial Guard Mess Officer"
+	assignment = "Colonial Militiaman Mess Officer"
+	paygrades = list(PAY_SHORT_AO1 = JOB_PLAYTIME_TIER_0)
+	skills = /datum/skills/lt
 	idtype = /obj/item/card/id/dogtag

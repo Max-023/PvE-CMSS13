@@ -118,5 +118,15 @@
 	squad = SQUAD_MILITIA
 	job = /datum/job/marine/engineer/ai/uacg
 
+/datum/job/marine/engineer/ai/uacg/mortar
+	title = JOB_UACG_MORTAR
+	supervisors = "the unit leader and officer"
+	entry_message_body = "You are a Mortarman of the Colonial Guard, an irregular role not usually called up to be filled. Your job is to man one of the mortar tubes and standby for firemissions, acting as the lightweight firesupport element to your fellow man.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your specialist equipment can be located in the armoury.</b>"
+
+/obj/effect/landmark/start/marine/engineer/uacg/mortar
+	name = JOB_UACG_MORTAR
+	squad = SQUAD_MILITIA_3
+	job = /datum/job/marine/engineer/ai/uacg/mortar
+
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

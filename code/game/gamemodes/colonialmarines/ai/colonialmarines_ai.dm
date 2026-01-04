@@ -133,12 +133,15 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/specialist/ai/rmc = JOB_TWE_RMC_MARKSMAN,\
 		/datum/job/marine/standard/ai/rmc = JOB_TWE_RMC_RIFLEMAN,\
 		/datum/squad/marine/uacg = list(/datum/job/command/bridge/ai/uacg = JOB_UACG_OFFICER,\
+		/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_DOCTOR,\
 		/datum/job/marine/leader/ai/uacg = JOB_UACG_SENLEAD,\
 		/datum/job/marine/leader/ai/uacg/armorer = JOB_UACG_ARMORY,\
-		/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_DOCTOR,\
+		/datum/job/marine/leader/ai/uacg/mess = JOB_UACG_MESS,\
+			/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_CHAPLAIN,\
 		/datum/job/marine/tl/ai/uacg = JOB_UACG_LEAD,\
 		/datum/job/marine/medic/ai/uacg = JOB_UACG_MEDIC,\
 		/datum/job/marine/engineer/ai/uacg = JOB_UACG_TECH,\
+			/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_MORTAR,\
 		/datum/job/marine/specialist/ai/uacg = JOB_UACG_DM,\
 		/datum/job/marine/smartgunner/ai/uacg = JOB_UACG_GNR,\
 		/datum/job/marine/standard/ai/uacg = JOB_UACG_RIFLE))))
