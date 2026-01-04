@@ -139,15 +139,15 @@ OverrideTimelock(/datum/job/command/bridge, list(
 	name = JOB_UACG_DOCTOR
 	job = /datum/job/command/bridge/ai/uacg/doctor
 
-/datum/job/command/bridge/ai/uacg/messofficer
+/datum/job/command/bridge/ai/uacg/mess
 	title = JOB_UACG_MESS
-	gear_preset = /datum/equipment_preset/uacg/officer/doctor
+	gear_preset = /datum/equipment_preset/uacg/officer/messofficer
 	supervisors = "the unit commander"
 	entry_message_body = "They needed a cook and you signed up. As a Colonial Guard Mess Officer, your authority only extends to what the menu is and what procurement is needed to get you the ingredients you need.<b>You remember that you've stored your personal gear and uniform in your office.</b>"
 
-/obj/effect/landmark/start/bridge/uacg/messofficer
+/obj/effect/landmark/start/bridge/uacg/mess
 	name = JOB_UACG_MESS
-	job = /datum/job/command/bridge/ai/uacg/messofficer
+	job = /datum/job/command/bridge/ai/uacg/mess
 
 #undef FIRST_LT_VARIANT
 #undef SR_LT_VARIANT

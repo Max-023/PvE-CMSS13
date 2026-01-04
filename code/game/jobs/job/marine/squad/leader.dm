@@ -153,7 +153,7 @@ OverrideTimelock(/datum/job/marine/leader, list(
 
 /datum/job/marine/leader/ai/uacg/chaplain
 	title = JOB_UACG_CHAPLAIN
-	gear_preset = /datum/equipment_preset/uacg/chaplain
+	gear_preset = /datum/equipment_preset/uacg/senleader/chaplain
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1
