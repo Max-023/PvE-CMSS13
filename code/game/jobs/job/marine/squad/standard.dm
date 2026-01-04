@@ -158,6 +158,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/standard/ai/rmc
 
+/datum/job/marine/standard/ai/uacg
+	title = JOB_UACG_RIFLE
+	total_positions = 12
+	spawn_positions = 12
+	gear_preset = /datum/equipment_preset/uacg/rifle
+	job_options = null
+	supervisors = "the section leader and troop commander"
+	entry_message_body = "You are a member of the United Americas Colonial Guard, mobilized and deployed by UA Command from the reserves as a rifleman. Whether a veteran cycling out of service or a volunteer weekend warrior, you make up the bulk of the UACG.<br><b>You remember that you've stored your personal gear and uniform components in your locker.</b>"
+
+/obj/effect/landmark/start/marine/uacg
+	name = JOB_UACG_RIFLE
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/standard/ai/uacg
+
 #undef CPL_VARIANT
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

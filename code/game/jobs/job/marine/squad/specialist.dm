@@ -79,3 +79,18 @@
 	name = JOB_TWE_RMC_MARKSMAN
 	squad = SQUAD_RMC
 	job = /datum/job/marine/specialist/ai/rmc
+
+/datum/job/marine/specialist/ai/uacg
+	total_positions = 2
+	spawn_positions = 2
+	title = JOB_UACG_DM
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADD_TO_SQUAD
+	gear_preset = /datum/equipment_preset/uacg/marksman
+	job_options = null
+	supervisors = "the unit leader and unit officer"
+	entry_message_body = "You are a handpicked member of the United Americas Colonial Guard as a designated marksman. While that typically comes with a bunch of fancy gear, you've found it means your rifle is just a bit more expensive.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your specialist equipment can be located in the armoury.</b>"
+
+/obj/effect/landmark/start/marine/specialist/uacg
+	name = JOB_UACG_DM
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/specialist/ai/uacg

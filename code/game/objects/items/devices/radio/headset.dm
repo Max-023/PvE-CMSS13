@@ -769,6 +769,24 @@
 	frequency = CIA_FREQ
 	initial_keys = list(/obj/item/device/encryptionkey/cia, /obj/item/device/encryptionkey/soc, /obj/item/device/encryptionkey/listening_bug/freq_a)
 
+/obj/item/device/radio/headset/solardevils/uacg
+	name = "radio headset"
+	desc = "A standard guard radio headset utilized by the colonial guard, being a similar model to those used by the US Army and US Colonial Marines."
+	frequency = GRD_FREQ
+	inbuilt_tracking_options = list(
+		"Senior Leader" = TRACKER_ASL,
+		"Unit Leader" = TRACKER_FTL,
+	)
+
+/obj/item/device/radio/headset/almayer/marine/solardevils/uacg/senlead
+	initial_keys = list(/obj/item/device/encryptionkey/guard/command)
+
+/obj/item/device/radio/headset/almayer/marine/solardevils/uacg/officer
+	frequency = COMM_FREQ
+
+/obj/item/device/radio/headset/almayer/marine/solardevils/uacg/officer/doctor
+	initial_keys = list(/obj/item/device/encryptionkey/guard/command)
+
 
 //############################## ALPHA ###############################
 /obj/item/device/radio/headset/almayer/marine/alpha

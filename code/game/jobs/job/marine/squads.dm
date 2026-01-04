@@ -52,6 +52,13 @@
 	sub_squad = "Section"
 	sub_leader = "Section Leader"
 
+/datum/squad_type/uacg_unit
+	name = "Squad"
+	lead_name = "Senior Leader"
+	lead_icon = "rmctl"
+	sub_squad = "Unit"
+	sub_leader = "Unit Leader"
+
 /datum/squad
 	/// Name of the squad
 	var/name
@@ -438,6 +445,31 @@
 	. = ..()
 
 	UnregisterSignal(SSdcs, COMSIG_GLOB_PLATOON_NAME_CHANGE, PROC_REF(rename_platoon))
+
+//###############################
+/datum/squad/marine/uacg
+	name = SQUAD_MILITIA
+	equipment_color = "#c47a50"
+	chat_color = "#c47a50"
+	minimap_color = MINIMAP_SQUAD_MILITIA
+	use_stripe_overlay = FALSE
+	radio_freq = GRD_FREQ
+	usable = TRUE
+	squad_one_access = ACCESS_UACG
+	squad_two_access = ACCESS_UACG
+	faction = FACTION_UACG
+
+/datum/squad/marine/uacg/command
+	name = SQUAD_MILITIA_2
+	equipment_color = "#4148c8"
+	chat_color = "#4148c8"
+	minimap_color = MINIMAP_SQUAD_MILITIA
+	use_stripe_overlay = FALSE
+	radio_freq = COMM_FREQ
+	usable = TRUE
+	squad_one_access = ACCESS_UACG_CMD
+	squad_two_access = ACCESS_UACG_CMD
+	faction = FACTION_UACG
 
 //###############################
 /datum/squad/clf

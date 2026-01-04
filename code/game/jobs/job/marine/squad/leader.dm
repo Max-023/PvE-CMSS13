@@ -125,6 +125,34 @@ OverrideTimelock(/datum/job/marine/leader, list(
 	squad = SQUAD_RMC
 	job = /datum/job/marine/leader/ai/rmc
 
+/datum/job/marine/leader/ai/uacg
+	title = JOB_UACG_SENLEAD
+	gear_preset = /datum/equipment_preset/uacg/senleader
+	job_options = null
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the unit officer"
+	entry_message_body = "You are the senior leadership of your Guard squad under the United Americas Colonial Guard. You report directly to the officer in charge of your formation and you fully take responsibility for the actions of those under you. You are the backbone of the Guard.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your equipment can be located in the armoury.</b>"
+
+/obj/effect/landmark/start/marine/leader/uacg
+	name = JOB_UACG_SENLEAD
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/leader/ai/uacg
+
+/datum/job/marine/leader/ai/uacg/armorer
+	title = JOB_UACG_ARMORY
+	gear_preset = /datum/equipment_preset/uacg/senleader
+	job_options = null
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the unit officer"
+	entry_message_body = "You are the quartermaster for a Colonial Guard unit and are in charge of ensuring all equipment are accounted for and maintained. You understand the ends and outs of every weapon system in your arsenal, and just how woefully underprepared it is for a war with a near peer adversary..<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your equipment can be located in the armoury.</b>"
+
+/obj/effect/landmark/start/marine/leader/uacg/armorer
+	name = JOB_UACG_ARMORY
+	squad = SQUAD_MILITIA_2
+	job = /datum/job/marine/leader/ai/uacg/armorer
+
 #undef MSSGT_VARIANT
 #undef GYSGT_VARIANT
 #undef SGTMJR_VARIANT

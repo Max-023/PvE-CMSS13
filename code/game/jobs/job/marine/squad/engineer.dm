@@ -103,5 +103,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/engineer/ai/rmcmortar
 
+/datum/job/marine/engineer/ai/uacg
+	total_positions = 2
+	spawn_positions = 2
+	title = JOB_UACG_TECH
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADD_TO_SQUAD
+	gear_preset = /datum/equipment_preset/uacg/tech
+	job_options = null
+	supervisors = "the unit leader and senior leader"
+	entry_message_body = "You are a Technician of the Colonial Guard, expected to maintain the defenses and machinery utilized by your unit. You are also trained in demolitions and other combat engineering skills, giving you a flexible array of skills for building up and knocking down.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your specialist equipment can be located in the armoury.</b>"
+
+/obj/effect/landmark/start/marine/engineer/uacg
+	name = JOB_UACG_TECH
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/engineer/ai/uacg
+
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

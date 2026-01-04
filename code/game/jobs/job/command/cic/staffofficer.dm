@@ -117,6 +117,25 @@ OverrideTimelock(/datum/job/command/bridge, list(
 	squad = SQUAD_RMC
 	job = /datum/job/command/bridge/ai/rmc
 
+/datum/job/command/bridge/ai/uacg
+	title = JOB_UACG_OFFICER
+	flags_startup_parameters = ROLE_ADD_TO_DEFAULT|ROLE_ADD_TO_SQUAD
+	gear_preset = /datum/equipment_preset/uacg/officer
+	job_options = null
+	supervisors = "the company commander and UACG high command"
+	entry_message_body = "Your job is to conduct the briefing for the platoon, lead the operation, and listen to your superior officers.</a> You are in charge of the troop for the current operation and are supported by your Squadron Command.<br>They will give your orders VIA the telephone in your quarters once they are ready.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your equipment can be located in the Officers Quarters.</b><br>Your job involves heavy roleplay, requires you to behave like an officer and to stay in character at all times."
+
+/obj/effect/landmark/start/bridge/uacg
+	name = JOB_UACG_OFFICER
+	squad = SQUAD_MILITIA_2
+	job = /datum/job/command/bridge/ai/uacg
+
+/datum/job/command/bridge/ai/uacg/doctor
+	title = JOB_UACG_DOCTOR
+	gear_preset = /datum/equipment_preset/uacg/officer/doctor
+	supervisors = "the unit commander"
+	entry_message_body = "Your job is to oversee any medical emergencies onsite as well as provide mental care to the Guard as well as any civilians present. Your rank holds no weight as you exist outside the chain of command, just being there for paygrade..<b>You remember that you've stored your personal gear and uniform in your office.</b>"
+
 #undef FIRST_LT_VARIANT
 #undef SR_LT_VARIANT
 #undef SECOND_LT_VARIANT

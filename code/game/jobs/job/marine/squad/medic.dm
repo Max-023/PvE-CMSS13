@@ -165,6 +165,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/medic/ai/rmc
 
+/datum/job/marine/medic/ai/uacg
+	title = JOB_UACG_MEDIC
+	gear_preset = /datum/equipment_preset/uacg/medic
+	job_options = null
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "the section leader and troop commander"
+	entry_message_body = "You are a reservist mobilized by the United Americas Colonial Guard for your background with providing medical treatment. While you are tasked to keep your members alive, you mainly are expected to stabilize wounds and assist with triage.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your equipment can be located in the Sick Bay.</b>"
+
+/obj/effect/landmark/start/marine/medic/uacg
+	name = JOB_UACG_MEDIC
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/medic/ai/uacg
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT

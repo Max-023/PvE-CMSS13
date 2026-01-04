@@ -138,6 +138,20 @@
 	squad = SQUAD_RMC
 	job = /datum/job/marine/tl/ai/rmc2ic
 
+/datum/job/marine/tl/ai/uacg
+	total_positions = 4
+	spawn_positions = 4
+	title = JOB_UACG_LEAD
+	gear_preset = /datum/equipment_preset/uacg/leader
+	job_options = null
+	supervisors = "the unit commander and senior leader"
+	entry_message_body = "You are a unit leader of the United Americas Colonial Guard and are the equivocal to a squad leader in the active forces. You are expected to coordinate the maneuver and weapons elements of your unit, even if most deployments never involve having an OpFor and are just disaster recovery.<br><b>You remember that you've stored your personal gear and uniform in the locker rooms, and that your equipment can be located in the armoury.</b>"
+
+/obj/effect/landmark/start/marine/tl/uacg
+	name = JOB_UACG_LEAD
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/tl/ai/uacg
+
 #undef SSGT_VARIANT
 #undef SGT_VARIANT
 #undef CPL_VARIANT
