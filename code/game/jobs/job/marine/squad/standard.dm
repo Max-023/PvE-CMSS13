@@ -183,7 +183,7 @@
 
 /obj/effect/landmark/start/marine/uacg/armory
 	name = JOB_UACG_ARMORY_LACKEY
-	squad = SQUAD_MILITIA
+	squad = SQUAD_MILITIA_5
 	job = /datum/job/marine/standard/ai/uacg
 
 #undef CPL_VARIANT
