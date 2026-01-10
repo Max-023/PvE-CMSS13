@@ -150,7 +150,7 @@ OverrideTimelock(/datum/job/marine/leader, list(
 
 /obj/effect/landmark/start/marine/leader/uacg/armorer
 	name = JOB_UACG_ARMORY
-	squad = SQUAD_MILITIA_2
+	squad = SQUAD_MILITIA_5
 	job = /datum/job/marine/leader/ai/uacg/armorer
 
 /datum/job/marine/leader/ai/uacg/chaplain

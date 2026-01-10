@@ -490,6 +490,11 @@
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
+	max_positions = 7
+
+	max_medics = 0
+	max_specialists = 0
+	max_leaders = 0
 
 /datum/squad/marine/uacg_delta
 	name = SQUAD_MILITIA_4
@@ -502,6 +507,10 @@
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
+	max_positions = 4
+
+	max_engineers = 0
+	max_tl = 0
 
 /datum/squad/marine/uacg_echo
 	name = SQUAD_MILITIA_5
@@ -514,6 +523,14 @@
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
+	max_positions = 6
+
+	max_engineers = 0
+	max_medics = 0
+	max_specialists = 0
+	max_tl = 0
+	max_smartgun = 0
+	max_leaders = 0
 
 /datum/squad/marine/uacg_foxtrot
 	name = SQUAD_MILITIA_6
@@ -522,10 +539,11 @@
 	minimap_color = MINIMAP_SQUAD_MILITIA
 	use_stripe_overlay = TRUE
 	radio_freq = GRD_FREQ
-	usable = FALSE
+	usable = TRUE
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
+	max_positions = 27
 
 //###############################
 /datum/squad/clf
