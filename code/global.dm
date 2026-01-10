@@ -9,6 +9,11 @@
 #define FORECON_AUXILIARY_PLATOON new /datum/squad/marine/sof/forecon
 #define UPP_AUXILIARY_PLATOON new /datum/squad/marine/upp/secondary
 #define PMC_AUXILIARY_PLATOON new /datum/squad/marine/pmc/secondary
+#define UACG_ARMORY_SQUAD new /datum/squad/marine/uacg_bravo
+#define UACG_MEDICAL_SQUAD new /datum/squad/marine/uacg_charlie
+#define UACG_MORTAR_SQUAD new /datum/squad/marine/uacg_delta
+#define UACG_COMMAND_SQUAD new /datum/squad/marine/uacg_echo
+#define UACG_SECOND_SQUAD new /datum/squad/marine/uacg_foxtrot
 
 //=================================================
 //Please don't edit these values without speaking to Errorage first ~Carn

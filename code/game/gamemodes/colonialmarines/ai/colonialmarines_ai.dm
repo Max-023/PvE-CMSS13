@@ -7,9 +7,7 @@
 	flags_round_type = MODE_INFESTATION|MODE_NEW_SPAWN|MODE_NO_XENO_EVOLVE
 
 	var/list/squad_limit = list(
-		/datum/squad/marine/uacg,
-		/datum/squad/marine/uacg_bravo,
-		/datum/squad/marine/uacg_charlie
+		/datum/squad/marine/alpha
 	)
 
 	var/list/objectives = list()
@@ -49,6 +47,11 @@
 	squad_limit += FORECON_AUXILIARY_PLATOON
 	squad_limit += UPP_AUXILIARY_PLATOON
 	squad_limit += PMC_AUXILIARY_PLATOON
+	squad_limit += UACG_ARMORY_SQUAD
+	squad_limit += UACG_MEDICAL_SQUAD
+	squad_limit += UACG_MORTAR_SQUAD
+	squad_limit += UACG_COMMAND_SQUAD
+	squad_limit += UACG_SECOND_SQUAD
 
 	for(var/datum/squad/squad in GLOB.RoleAuthority.squads)
 		if(squad.type in squad_limit)
@@ -60,10 +63,20 @@
 	GLOB.RoleAuthority.squads += FORECON_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads += UPP_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads += PMC_AUXILIARY_PLATOON
+	GLOB.RoleAuthority.squads += UACG_ARMORY_SQUAD
+	GLOB.RoleAuthority.squads += UACG_MEDICAL_SQUAD
+	GLOB.RoleAuthority.squads += UACG_MORTAR_SQUAD
+	GLOB.RoleAuthority.squads += UACG_COMMAND_SQUAD
+	GLOB.RoleAuthority.squads += UACG_SECOND_SQUAD
 	GLOB.RoleAuthority.squads_by_type += USCM_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads_by_type += FORECON_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads_by_type += UPP_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads_by_type += PMC_AUXILIARY_PLATOON
+	GLOB.RoleAuthority.squads_by_type += UACG_ARMORY_SQUAD
+	GLOB.RoleAuthority.squads_by_type += UACG_MEDICAL_SQUAD
+	GLOB.RoleAuthority.squads_by_type += UACG_MORTAR_SQUAD
+	GLOB.RoleAuthority.squads_by_type += UACG_COMMAND_SQUAD
+	GLOB.RoleAuthority.squads_by_type += UACG_SECOND_SQUAD
 
 	. = ..()
 
