@@ -133,7 +133,7 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/engineer/ai/rmc = JOB_TWE_RMC_ENGI,\
 		/datum/job/marine/engineer/ai/rmcmortar = JOB_TWE_RMC_BREACHER,\
 		/datum/job/marine/specialist/ai/rmc = JOB_TWE_RMC_MARKSMAN,\
-		/datum/job/marine/standard/ai/rmc = JOB_TWE_RMC_RIFLEMAN,\
+		/datum/job/marine/standard/ai/rmc = JOB_TWE_RMC_RIFLEMAN),\
 		/datum/squad/marine/uacg = list(/datum/job/command/bridge/ai/uacg = JOB_UACG_OFFICER,\
 		/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_DOCTOR,\
 		/datum/job/marine/leader/ai/uacg = JOB_UACG_SENLEAD,\
@@ -150,7 +150,7 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/engineer/ai/uacg = JOB_UACG_TECH,\
 		/datum/job/marine/specialist/ai/uacg = JOB_UACG_DM,\
 		/datum/job/marine/smartgunner/ai/uacg = JOB_UACG_GNR,\
-		/datum/job/marine/standard/ai/uacg = JOB_UACG_RIFLE))))
+		/datum/job/marine/standard/ai/uacg = JOB_UACG_RIFLE)))
 
 GLOBAL_LIST_INIT(platoon_to_role_list, list(/datum/squad/marine/alpha = ROLES_AI,\
 												/datum/squad/marine/upp = ROLES_AI_UPP,\

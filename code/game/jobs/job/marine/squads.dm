@@ -810,6 +810,46 @@
 				assignment = "Officer"
 
 //This is a mess
+		if(JOB_UACG_SENLEAD)
+			assignment = JOB_UACG_SENLEAD
+			M.important_radio_channels += radio_freq
+			num_leaders++
+			squad_leader = M
+			SStracking.set_leader(tracking_id, M)
+			SStracking.start_tracking("marine_sl", M)
+		if(JOB_UACG_RIFLE)
+			assignment = JOB_UACG_RIFLE
+			num_riflemen++
+		if(JOB_UACG_TECH)
+			assignment = JOB_UACG_TECH
+			num_engineers++
+			C.claimedgear = FALSE
+			var/squad_number = (num_engineers > 2) ? pick(1, 3) : num_engineers
+			assign_fireteam("SQ[squad_number]", M)
+		if(JOB_UACG_MEDIC)
+			assignment = JOB_UACG_MEDIC
+			num_medics++
+			C.claimedgear = FALSE
+			var/squad_number = (num_medics > 2) ? pick(1, 3) : num_medics
+			assign_fireteam("SQ[squad_number]", M)
+		if(JOB_UACG_LEAD)
+			assignment = JOB_UACG_LEAD
+			num_tl++
+			M.important_radio_channels += radio_freq
+			assign_fireteam("SQ2", M)
+			assign_ft_leader("SQ2", M)
+		if(JOB_UACG_GNR)
+			assignment = JOB_UACG_GNR
+			num_smartgun++
+			var/squad_number = (num_smartgun > 2) ? pick(2, 4) : num_smartgun
+			assign_fireteam("SQ[squad_number]", M)
+		if(JOB_UACG_DM)
+			assignment = JOB_UACG_DM
+			num_specialists++
+			var/squad_number = (num_smartgun > 2) ? pick(2, 4) : num_specialists
+			assign_fireteam("SQ[squad_number]", M)
+
+//I am in pain
 		if(JOB_TWE_RMC_SECTIONLEADER)
 			assignment = JOB_TWE_RMC_SECTIONLEADER
 			num_tl++
