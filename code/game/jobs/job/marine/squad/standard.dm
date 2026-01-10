@@ -160,8 +160,8 @@
 
 /datum/job/marine/standard/ai/uacg
 	title = JOB_UACG_RIFLE
-	total_positions = 24
-	spawn_positions = 24
+	total_positions = 18
+	spawn_positions = 18
 	gear_preset = /datum/equipment_preset/uacg/rifle
 	job_options = null
 	supervisors = "the section leader and troop commander"
@@ -169,6 +169,20 @@
 
 /obj/effect/landmark/start/marine/uacg
 	name = JOB_UACG_RIFLE
+	squad = SQUAD_MILITIA
+	job = /datum/job/marine/standard/ai/uacg
+
+/datum/job/marine/standard/ai/uacg/armory
+	title = JOB_UACG_ARMORY_LACKEY
+	total_positions = 1
+	spawn_positions = 1
+	gear_preset = /datum/equipment_preset/uacg/rifle
+	job_options = null
+	supervisors = "the armorer and troop commander"
+	entry_message_body = "You are a member of the United Americas Colonial Guard, mobilized and deployed by UA Command from the reserves as a weapons technician to assist the armorer with arms maintenance and repairs.<br><b>You remember that you've stored your personal gear and uniform components in your locker.</b>"
+
+/obj/effect/landmark/start/marine/uacg/armory
+	name = JOB_UACG_ARMORY_LACKEY
 	squad = SQUAD_MILITIA
 	job = /datum/job/marine/standard/ai/uacg
 

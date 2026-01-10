@@ -179,6 +179,16 @@
 	squad = SQUAD_MILITIA
 	job = /datum/job/marine/medic/ai/uacg
 
+/datum/job/marine/medic/ai/uacg/triage
+	title = JOB_UACG_MEDIC_TRIAGE
+	total_positions = 2
+	supervisors = "the unit leader and doctor"
+
+/obj/effect/landmark/start/marine/medic/uacg/triage
+	name = JOB_UACG_MEDIC
+	squad = SQUAD_MILITIA_4
+	job = /datum/job/marine/medic/ai/uacg/triage
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT

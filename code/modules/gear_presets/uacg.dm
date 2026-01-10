@@ -4,7 +4,7 @@
 	faction_group = FACTION_LIST_UA
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_SPANISH)
 	///Gives the soldiers their radios
-	var/headset_type = /obj/item/device/radio/headset/solardevils/uacg
+	var/headset_type = /obj/item/device/radio/headset/almayer/marine/solardevils/uacg
 	idtype = /obj/item/card/id/dogtag
 
 /datum/equipment_preset/uacg/load_name(mob/living/carbon/human/new_human, randomise)
@@ -36,14 +36,41 @@
 /datum/equipment_preset/uacg/load_status(mob/living/carbon/human/new_human)
 	new_human.nutrition = NUTRITION_VERYLOW
 
+/datum/equipment_preset/uacg/load_gear(mob/living/carbon/human/new_human)
+
+	new_human.undershirt = "undershirt"
+	//head
+	var/maybecap = rand(1,4)
+	switch(maybecap)
+		if(1)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap/khaki, WEAR_HEAD)
+		if(2)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap/khaki/snow, WEAR_HEAD)
+		if(3)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/beanie/royal_marine/uacg, WEAR_HEAD)
+		if(4)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/beret/marine/uacg, WEAR_HEAD)
+	//uniform
+	var/maybearmor = rand(1,2)
+	switch(maybearmor)
+		if(1)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/under/colonist/boilersuit/khaki, WEAR_BODY)
+		if(2)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/under/colonist/boilersuit/white, WEAR_BODY)
+
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/ua, WEAR_ACCESSORY)
+	//limbs
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/civilian/knife, WEAR_FEET)
+	add_worker_gloves(new_human)
+
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/rifle
-	name = "US Colonial Guard"
+	name = "US Colonial Guardsman"
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman"
+	assignment = "Colonial Guardsman"
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/trooper
@@ -61,11 +88,11 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/marksman
-	name = "US Colonial Guard (Marksman)"
+	name = "US Colonial Guards (Marksman)"
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman"
+	assignment = "Colonial Guards Marksman"
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/trooper
@@ -83,11 +110,11 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/gunner
-	name = "US Colonial Guard (Machine Gunner)"
+	name = "US Colonial Guardsman (Machine Gunner)"
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militia Marksman"
+	assignment = "Colonial Guard Machine Gunner"
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/trooper
@@ -105,11 +132,11 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/tech
-	name = "US Colonial Guard Technician"
+	name = "US Colonial Guardsman Technician"
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman Technician"
+	assignment = "Colonial Guardsman Technician"
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/mainttech
@@ -125,8 +152,8 @@
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uacg/tech/mortar
-	name = "US Colonial Guard Mortarman"
-	assignment = "Colonial Militiaman Mortarman"
+	name = "US Colonial Guardsman Mortarman"
+	assignment = "Colonial Guard Mortarman"
 	skills = /datum/skills/combat_engineer
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
@@ -142,11 +169,11 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/medic
-	name = "US Colonial Guard Medic"
+	name = "US Colonial Guardsman Medic"
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman Medic"
+	assignment = "Colonial Guardsman Medic"
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/medic
@@ -168,8 +195,8 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman Unit Leader"
-	role_comm_title = "UACG"
+	assignment = "Colonial Guardsman Unit Leader"
+	role_comm_title = "UACG-L"
 	paygrades = list(PAY_SHORT_AE5 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/nco
 	access = list(ACCESS_CIVILIAN_PUBLIC, ACCESS_UACG, ACCESS_CIVILIAN_BRIG, ACCESS_CIVILIAN_COMMAND, ACCESS_MARINE_PREP)
@@ -186,8 +213,8 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman Senior Leader"
-	role_comm_title = "UACG"
+	assignment = "Colonial Guardsman Senior Leader"
+	role_comm_title = "UACG-SL"
 	paygrades = list(PAY_SHORT_AE7 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/snco
 	access = list(ACCESS_CIVILIAN_PUBLIC, ACCESS_UACG, ACCESS_CIVILIAN_BRIG, ACCESS_CIVILIAN_COMMAND, ACCESS_MARINE_PREP)
@@ -199,7 +226,7 @@
 
 /datum/equipment_preset/uacg/senleader/armorer
 	name = "US Colonial Guard Armorer"
-	assignment = "Colonial Militiaman Armorer"
+	assignment = "Colonial Guardsman Armorer"
 	paygrades = list(PAY_SHORT_AE7 = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
 
@@ -209,7 +236,7 @@
 
 /datum/equipment_preset/uacg/senleader/chaplain
 	name = "US Colonial Guard Chaplain"
-	assignment = "Colonial Militiaman Chaplain"
+	assignment = "Colonial Guardsman Chaplain"
 	paygrades = list(PAY_SHORT_AE7 = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
 
@@ -224,7 +251,7 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
-	assignment = "Colonial Militiaman Officer"
+	assignment = "Colonial Guardsman Officer"
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AO2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/lt
@@ -237,14 +264,14 @@
 
 /datum/equipment_preset/uacg/officer/doctor
 	name = "US Colonial Guard Doctor"
-	assignment = "Colonial Militiaman Doctor"
+	assignment = "Colonial Guardsman Doctor"
 	paygrades = list(PAY_SHORT_AO1 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/doctor
 	idtype = /obj/item/card/id/dogtag
 
 /datum/equipment_preset/uacg/officer/messofficer
 	name = "US Colonial Guard Mess Officer"
-	assignment = "Colonial Militiaman Mess Officer"
+	assignment = "Colonial Guardsman Mess Officer"
 	paygrades = list(PAY_SHORT_AO1 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/lt
 	idtype = /obj/item/card/id/dogtag

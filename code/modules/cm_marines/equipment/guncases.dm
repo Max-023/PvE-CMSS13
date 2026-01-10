@@ -591,6 +591,24 @@
 	new /obj/item/ammo_magazine/hpr_box/recon(src)
 	new /obj/item/ammo_magazine/hpr_box/recon(src)
 
+/obj/item/storage/box/guncase/heavy/hpr/army/fill_preset_inventory()
+	new /obj/item/weapon/gun/rifle/lmg/army(src)
+	new /obj/item/ammo_magazine/hpr_box/ap(src)
+	new /obj/item/ammo_magazine/hpr_box/ap(src)
+
+/obj/item/storage/box/guncase/heavy/m60
+	name = "\improper HG Mk70 case"
+	desc = "A heavy case for storing an HG Mk70 General Purpose Machine Gun, along with several belts of ammunition for it."
+	icon_state = "m60case"
+	storage_slots = 4
+	can_hold = list(/obj/item/weapon/gun/m60, /obj/item/ammo_magazine/m60)
+
+/obj/item/storage/box/guncase/heavy/m60/fill_preset_inventory()
+	new /obj/item/weapon/gun/m60(src)
+	new /obj/item/ammo_magazine/m60(src)
+	new /obj/item/ammo_magazine/m60(src)
+	new /obj/item/ammo_magazine/m60(src)
+
 /obj/item/storage/box/guncase/heavy/rmcsmg
 	name = "\improper L6A2 SMG CQWS case"
 	desc = "A heavy case for storing an L6A2 Close-Quarters-Weapon-System, along with several magazines of squad-head ammunition for it."

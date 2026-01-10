@@ -127,6 +127,7 @@ OverrideTimelock(/datum/job/command/bridge, list(
 
 /obj/effect/landmark/start/bridge/uacg
 	name = JOB_UACG_OFFICER
+	squad = SQUAD_MILITIA_5
 	job = /datum/job/command/bridge/ai/uacg
 
 /datum/job/command/bridge/ai/uacg/doctor

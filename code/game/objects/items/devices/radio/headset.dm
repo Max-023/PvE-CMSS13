@@ -769,7 +769,7 @@
 	frequency = CIA_FREQ
 	initial_keys = list(/obj/item/device/encryptionkey/cia, /obj/item/device/encryptionkey/soc, /obj/item/device/encryptionkey/listening_bug/freq_a)
 
-/obj/item/device/radio/headset/solardevils/uacg
+/obj/item/device/radio/headset/almayer/marine/solardevils/uacg
 	name = "radio headset"
 	desc = "A standard guard radio headset utilized by the colonial guard, being a similar model to those used by the US Army and US Colonial Marines."
 	frequency = GRD_FREQ

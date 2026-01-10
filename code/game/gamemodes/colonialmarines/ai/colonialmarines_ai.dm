@@ -7,7 +7,9 @@
 	flags_round_type = MODE_INFESTATION|MODE_NEW_SPAWN|MODE_NO_XENO_EVOLVE
 
 	var/list/squad_limit = list(
-		/datum/squad/marine/alpha
+		/datum/squad/marine/uacg,
+		/datum/squad/marine/uacg_bravo,
+		/datum/squad/marine/uacg_charlie
 	)
 
 	var/list/objectives = list()
@@ -136,12 +138,16 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_DOCTOR,\
 		/datum/job/marine/leader/ai/uacg = JOB_UACG_SENLEAD,\
 		/datum/job/marine/leader/ai/uacg/armorer = JOB_UACG_ARMORY,\
+		/datum/job/marine/standard/ai/uacg/armory = JOB_UACG_ARMORY_LACKEY,\
 		/datum/job/command/bridge/ai/uacg/mess = JOB_UACG_MESS,\
-			/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_CHAPLAIN,\
+		/datum/job/marine/leader/ai/uacg/chaplain = JOB_UACG_CHAPLAIN,\
+		/datum/job/marine/tl/ai/uacg/fires = JOB_UACG_LEAD_FIRE,\
+		/datum/job/marine/engineer/ai/uacg/mortar = JOB_UACG_MORTAR,\
+		/datum/job/marine/tl/ai/uacg/triage = JOB_UACG_LEAD_MED,\
+		/datum/job/marine/medic/ai/uacg/triage = JOB_UACG_MEDIC_TRIAGE,\
 		/datum/job/marine/tl/ai/uacg = JOB_UACG_LEAD,\
 		/datum/job/marine/medic/ai/uacg = JOB_UACG_MEDIC,\
 		/datum/job/marine/engineer/ai/uacg = JOB_UACG_TECH,\
-			/datum/job/command/bridge/ai/uacg/doctor = JOB_UACG_MORTAR,\
 		/datum/job/marine/specialist/ai/uacg = JOB_UACG_DM,\
 		/datum/job/marine/smartgunner/ai/uacg = JOB_UACG_GNR,\
 		/datum/job/marine/standard/ai/uacg = JOB_UACG_RIFLE))))

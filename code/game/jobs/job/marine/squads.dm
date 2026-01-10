@@ -55,9 +55,16 @@
 /datum/squad_type/uacg_unit
 	name = "Squad"
 	lead_name = "Senior Leader"
-	lead_icon = "rmctl"
+	lead_icon = "leader"
 	sub_squad = "Unit"
 	sub_leader = "Unit Leader"
+
+/datum/squad_type/uacg_cmd_unit
+	name = "Element"
+	lead_name = "Commanding Officer"
+	lead_icon = "co"
+	sub_squad = "Executive Officer"
+	sub_leader = "xo"
 
 /datum/squad
 	/// Name of the squad
@@ -458,6 +465,7 @@
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
+	max_positions = 27
 
 /datum/squad/marine/uacg_bravo
 	name = SQUAD_MILITIA_2
@@ -466,7 +474,7 @@
 	minimap_color = MINIMAP_SQUAD_MILITIA
 	use_stripe_overlay = FALSE
 	radio_freq = GRD_2_FREQ
-	usable = FALSE
+	usable = TRUE
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
@@ -478,6 +486,42 @@
 	minimap_color = MINIMAP_SQUAD_MILITIA
 	use_stripe_overlay = FALSE
 	radio_freq = JTAC_FREQ
+	usable = TRUE
+	squad_one_access = ACCESS_UACG
+	squad_two_access = ACCESS_UACG
+	faction = FACTION_UACG
+
+/datum/squad/marine/uacg_delta
+	name = SQUAD_MILITIA_4
+	equipment_color = "#752a2a"
+	chat_color = "#752a2a"
+	minimap_color = MINIMAP_SQUAD_MILITIA
+	use_stripe_overlay = FALSE
+	radio_freq = MED_FREQ
+	usable = TRUE
+	squad_one_access = ACCESS_UACG
+	squad_two_access = ACCESS_UACG
+	faction = FACTION_UACG
+
+/datum/squad/marine/uacg_echo
+	name = SQUAD_MILITIA_5
+	equipment_color = "#572a75"
+	chat_color = "#572a75"
+	minimap_color = MINIMAP_SQUAD_MILITIA
+	use_stripe_overlay = FALSE
+	radio_freq = COMM_FREQ
+	usable = TRUE
+	squad_one_access = ACCESS_UACG
+	squad_two_access = ACCESS_UACG
+	faction = FACTION_UACG
+
+/datum/squad/marine/uacg_foxtrot
+	name = SQUAD_MILITIA_6
+	equipment_color = "#2a4875"
+	chat_color = "#2a4875"
+	minimap_color = MINIMAP_SQUAD_MILITIA
+	use_stripe_overlay = TRUE
+	radio_freq = GRD_FREQ
 	usable = FALSE
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG

@@ -1459,6 +1459,9 @@
 	slot = ACCESSORY_SLOT_DECORGROIN
 	flags_atom = NO_SNOW_TYPE
 
+/obj/item/clothing/accessory/pads/groin/uacg/white
+	icon_state = "groinplate_uacg_white"
+	item_state = "groinplate_uacg_white"
 
 //===========================//USASF CUSTOM ARMOR PLATES\\================================\\
 

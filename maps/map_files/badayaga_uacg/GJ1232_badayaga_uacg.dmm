@@ -7,23 +7,14 @@
 	light_range = 5;
 	dir = 1
 	},
-/obj/item/storage/box/guncase/heavy/motiondetectors{
-	pixel_y = 2;
-	pixel_x = -3
+/obj/item/storage/backpack/marine/engineerpack/flamethrower/kit{
+	pixel_y = 7
 	},
+/obj/item/storage/backpack/marine/engineerpack/flamethrower/kit,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "ab" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/marine_personal/platoon_commander{
-	pixel_x = -7;
-	pixel_y = 0
-	},
-/obj/structure/closet/secure_closet/marine_personal/platoon_commander{
-	pixel_x = 8;
-	pixel_y = 0
-	},
-/turf/open/floor/plating/wood,
+/turf/open/floor/wood/ship,
 /area/badayaga/inside_underground/dorms)
 "ac" = (
 /obj/effect/decal/cleanable/dirt,
@@ -181,17 +172,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"ap" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "aq" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -289,31 +269,6 @@
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"ay" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
 "az" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/platform/kutjevo/smooth{
@@ -343,20 +298,13 @@
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/badayaga/outside)
 "aC" = (
-/obj/structure/closet/secure_closet/marine_personal/smartgunner{
-	pixel_x = -7
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/l42a/ap{
+	pixel_y = 10
 	},
-/obj/structure/closet/secure_closet/marine_personal/squad_leader{
-	pixel_x = 8
-	},
-/obj/structure/machinery/light/double{
-	dir = 4;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside_underground/dorms)
+/obj/item/ammo_box/magazine/l42a/ap,
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "aD" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -377,14 +325,12 @@
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/engineering)
 "aF" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double{
 	light_color = "#e7c0a4";
 	light_power = 0.8;
-	light_range = 5;
-	dir = 1
+	light_range = 5
 	},
-/turf/open/floor/plating/bare_catwalk,
+/turf/open/floor/carpet,
 /area/badayaga/inside_underground/dorms)
 "aG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -426,9 +372,9 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "aI" = (
-/obj/structure/flora/grass/tallgrass/ice,
-/turf/open/auto_turf/snow/brown_base/layer3,
-/area/badayaga/outside)
+/obj/structure/surface/table/almayer,
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "aJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -465,19 +411,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_broken6,
 /area/badayaga/inside_underground/offices)
-"aL" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "aM" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -489,10 +422,10 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "aN" = (
@@ -540,18 +473,11 @@
 /area/badayaga/outside)
 "aQ" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_box/magazine/shotgun/buckshot{
-	pixel_x = -7;
-	pixel_y = -5
+/obj/item/ammo_box/rounds/heap{
+	pixel_y = 11
 	},
-/obj/item/ammo_box/magazine/shotgun{
-	pixel_y = 8;
-	pixel_x = -4
-	},
-/obj/item/ammo_box/magazine/mk1{
-	pixel_y = 16;
-	pixel_x = 5;
-	layer = 2.98
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = 1
 	},
 /turf/open/floor/wood/ship,
 /area/badayaga/inside_underground/platoonarmory)
@@ -608,9 +534,12 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "aV" = (
-/obj/structure/gun_rack/flamer/unloaded{
-	pixel_x = -8;
-	pixel_y = 0
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = 7
+	},
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = -4
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/platoonarmory)
@@ -646,22 +575,12 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"aZ" = (
-/obj/structure/flora/grass/tallgrass/ice/corner{
-	dir = 8
-	},
-/turf/open/auto_turf/snow/brown_base/layer3,
-/area/badayaga/outside)
 "ba" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_box/magazine/mk1/large{
-	pixel_y = 13;
-	pixel_x = -3
+/obj/item/ammo_box/rounds/heap{
+	pixel_y = 10
 	},
-/obj/item/ammo_box/magazine/mk1/large{
-	layer = 2.98;
-	pixel_y = 5
-	},
+/obj/item/ammo_box/rounds/heap,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "bb" = (
@@ -728,32 +647,32 @@
 /turf/open/floor/plating,
 /area/badayaga/outside)
 "be" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
-/obj/structure/window_frame/bunker/reinforced,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
+/obj/structure/bed{
+	can_buckle = 0;
+	desc = "A lightweight support lattice.";
+	icon = 'icons/obj/structures/structures.dmi';
+	icon_state = "latticefull";
+	layer = 2.1;
+	name = "lattice"
 	},
-/obj/item/device/binoculars,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
-"bf" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/storage/box/guncase/heavy/fuel{
-	pixel_y = -3;
+/obj/structure/toilet{
+	pixel_y = -1
+	},
+/obj/structure/curtain/open/shower{
+	pixel_y = 0;
 	pixel_x = 0
 	},
-/obj/item/storage/box/guncase/heavy/m49a_pve{
-	pixel_y = 19;
-	pixel_x = -1
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/dorms)
+"bf" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/m39/ext{
+	pixel_y = 10
 	},
+/obj/item/ammo_box/magazine/m39/ext,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "bg" = (
@@ -805,24 +724,10 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
 "bj" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/wood/normal{
-	dir = 4;
-	pixel_x = 6;
-	pixel_y = 12
-	},
-/obj/item/device/flashlight/lamp/tripod/grey{
-	pixel_y = 6
-	},
-/obj/effect/vehicle_roof/pizza_van,
+/obj/structure/gun_rack/m20a/unloaded,
 /turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/area/badayaga/inside_underground/platoonarmory)
 "bk" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -862,20 +767,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"bn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "bo" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -912,20 +803,6 @@
 /obj/structure/device/broken_piano,
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/mess)
-"br" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/tent_curtain,
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "bs" = (
 /turf/open/floor/wood/wood_broken2,
 /area/badayaga/inside_underground/platoonarmory)
@@ -957,7 +834,7 @@
 	pixel_y = -1
 	},
 /turf/open/floor/plating/wood,
-/area/badayaga/outside)
+/area/badayaga/inside)
 "bw" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -1102,25 +979,22 @@
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
 "bG" = (
-/obj/structure/closet/secure_closet/platoon_sergeant{
-	pixel_x = 0;
-	pixel_y = 0
-	},
 /obj/structure/machinery/light/double{
 	dir = 8;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
 	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = 10
+	},
+/obj/item/ammo_box/magazine/m20a,
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/platoonarmory)
 "bH" = (
 /turf/open/floor/carpet,
 /area/badayaga/inside_underground/platoonarmory)
-"bI" = (
-/obj/structure/platform_decoration/kutjevo/smooth,
-/turf/open/floor/plating/wood_broken6,
-/area/badayaga/outside)
 "bJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1148,14 +1022,10 @@
 /area/badayaga/outside)
 "bK" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/turf/open/floor/plating,
-/area/badayaga/inside_underground/platoonarmory)
-"bL" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/attachable/scope/pve{
-	pixel_x = -3;
-	pixel_y = 2
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = 10
 	},
+/obj/item/ammo_box/rounds/heap,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "bM" = (
@@ -1226,22 +1096,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"bS" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/structure/stairs/perspective/kutjevo{
-	dir = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
 "bT" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1275,27 +1129,18 @@
 	pixel_x = 24
 	},
 /obj/effect/landmark/late_join,
-/obj/effect/landmark/start/marine/alpha,
-/obj/effect/landmark/start/marine/alpha,
 /obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/start/marine/uacg,
+/obj/effect/landmark/start/marine/uacg,
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
 "bV" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_box/magazine/m4a3{
-	pixel_y = -7;
-	pixel_x = -5;
-	layer = 3.2
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
 	},
-/obj/item/ammo_box/magazine/nade_box/flare{
-	pixel_x = 6;
-	pixel_y = -1
-	},
-/obj/item/ammo_box/magazine/nade_box/smoke{
-	pixel_y = 15;
-	pixel_x = -6
-	},
-/turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "bW" = (
 /obj/structure/barricade/wooden{
@@ -1329,16 +1174,6 @@
 	},
 /turf/open/floor/plating/wood_broken6,
 /area/badayaga/outside)
-"bY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "bZ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -1370,9 +1205,11 @@
 /area/badayaga/inside_underground/command_rooms)
 "cb" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/effect/landmark/personal_weapon{
-	pixel_x = 0;
-	pixel_y = 0
+/obj/item/ammo_box/magazine/shotgun/buckshot{
+	pixel_y = 11
+	},
+/obj/item/ammo_box/magazine/shotgun{
+	pixel_y = 1
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/badayaga/inside_underground/platoonarmory)
@@ -1397,10 +1234,6 @@
 	},
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/mess)
-"ce" = (
-/obj/structure/gun_rack/m41/unloaded,
-/turf/open/floor/almayer_hull/blackfull,
-/area/badayaga/inside_underground/platoonarmory)
 "cf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bedsheetbin{
@@ -1410,32 +1243,21 @@
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/medical)
 "cg" = (
-/obj/structure/closet/secure_closet/smartgunner{
-	req_access_txt = "14;40";
-	req_one_access = list();
-	name = "squad two smartgunner locker";
-	pixel_x = -8;
-	pixel_y = 0
+/obj/structure/mirror{
+	pixel_y = 35;
+	pixel_x = -1
 	},
-/obj/structure/closet/secure_closet/smartgunner{
-	req_access_txt = "14;39";
-	req_one_access = list();
-	name = "squad one smartgunner locker";
-	pixel_x = 8;
-	pixel_y = 0
+/obj/structure/sink{
+	pixel_y = 24;
+	layer = 3.1
 	},
-/turf/open/floor/almayer_hull/blackfull,
-/area/badayaga/inside_underground/platoonarmory)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet,
+/area/badayaga/inside_underground/dorms)
 "ch" = (
-/obj/structure/machinery/light/double{
-	dir = 4;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5
-	},
-/obj/structure/gun_rack/m41/unloaded,
-/turf/open/floor/plating,
-/area/badayaga/inside_underground/platoonarmory)
+/obj/structure/bed/sofa/pews,
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/dorms)
 "ci" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -1486,19 +1308,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/badayaga/outside)
-"ck" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "cl" = (
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1
@@ -1524,12 +1333,10 @@
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/badayaga/outside)
 "cn" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	dir = 2;
-	name = "\improper Armory Lockdown Blast Door";
-	id = "hangarlockdownsouth"
-	},
-/turf/open/floor/plating/bare_catwalk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer_hull,
 /area/badayaga/inside_underground/platoonarmory)
 "co" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1601,19 +1408,11 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"cu" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	dir = 2;
-	name = "\improper Armory Lockdown Blast Door";
-	id = "hangarlockdownsouth"
-	},
-/turf/open/floor/almayer_hull,
-/area/badayaga/inside_underground/platoonarmory)
 "cv" = (
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cw" = (
@@ -1740,14 +1539,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"cG" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	dir = 2;
-	name = "\improper Armory Lockdown Blast Door";
-	id = "hangarlockdownsouth"
-	},
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
 "cH" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -1919,11 +1710,11 @@
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "cT" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	dir = 2;
-	name = "\improper Armory Lockdown Blast Door";
-	id = "hangarlockdownsouth"
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/m39/ext{
+	pixel_y = 10
 	},
+/obj/item/ammo_box/magazine/m39/ext,
 /turf/open/floor/almayer_hull/blackfull,
 /area/badayaga/inside_underground/platoonarmory)
 "cU" = (
@@ -1960,10 +1751,10 @@
 /obj/structure/barricade/wooden{
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "cX" = (
@@ -2009,28 +1800,27 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "db" = (
+/obj/structure/largecrate/random{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/structure/largecrate/random/case/small{
+	pixel_x = 3;
+	pixel_y = -11
+	},
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
 	climb_delay = 1;
 	layer = 2.99
 	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
 /obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
+	dir = 1;
+	layer = 4.14;
+	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dc" = (
 /turf/open/floor/wood/wood_broken7,
@@ -2144,21 +1934,12 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "dl" = (
-/obj/structure/closet/secure_closet/smartgunner{
-	req_access_txt = "14;40";
-	req_one_access = list();
-	name = "squad two smartgunner locker";
-	pixel_x = -8;
-	pixel_y = 0
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/space_heater{
+	pixel_y = 10
 	},
-/obj/structure/closet/secure_closet/smartgunner{
-	req_access_txt = "14;39";
-	req_one_access = list();
-	name = "squad one smartgunner locker";
-	pixel_x = 8;
-	pixel_y = 0
-	},
-/turf/open/floor/wood/ship,
+/turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/platoonarmory)
 "dm" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -2199,7 +1980,6 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/south{
 	pixel_x = 1;
 	pixel_y = 5
@@ -2208,6 +1988,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "do" = (
@@ -2254,44 +2035,12 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dr" = (
-/obj/structure/machinery/light/double{
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5;
-	dir = 1
+/obj/structure/surface/table/reinforced/prison{
+	pixel_y = -1
 	},
-/obj/structure/gun_rack/mk221{
-	pixel_x = -8;
-	pixel_y = 0
-	},
-/obj/structure/gun_rack/flamer/unloaded{
-	pixel_x = 10;
-	pixel_y = 0
-	},
-/turf/open/floor/wood/wood_broken4,
+/obj/structure/machinery/faxmachine/uscm,
+/turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/platoonarmory)
-"ds" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/largecrate/random/case/small{
-	pixel_y = 11
-	},
-/obj/structure/largecrate/random/case/small,
-/obj/structure/largecrate/random/mini/chest/c{
-	pixel_x = -5;
-	pixel_y = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "dt" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -2368,13 +2117,12 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "dz" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Equipment Locker";
-	id = "squadarmory";
-	dir = 4
+/obj/structure/closet/secure_closet/marine_personal/platoon_commander{
+	pixel_x = -7;
+	pixel_y = 7
 	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside_underground/platoonarmory)
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/mess)
 "dA" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -2388,67 +2136,31 @@
 	do_not_adjust = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 5;
-	pixel_y = -3
-	},
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"dB" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
+"dC" = (
+/obj/item/lightstick/red/spoke/planted,
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/dorms)
+"dD" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
 	},
 /obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/turf/open/gm/dirt2,
+/obj/structure/largecrate/random/case/double{
+	pixel_y = 9;
+	layer = 3.2
+	},
+/turf/open/floor/plating/wood,
 /area/badayaga/outside)
-"dC" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_box/magazine/mk1/large{
-	pixel_y = 14;
-	pixel_x = 6
-	},
-/obj/item/storage/box/guncase/heavy/fuel{
-	pixel_y = -4;
-	pixel_x = 1
-	},
-/obj/item/attachable/scope/pve{
-	pixel_x = -2;
-	pixel_y = 3
-	},
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
-"dD" = (
-/obj/structure/barricade/razorwire,
-/turf/open/auto_turf/snow/brown_base/layer4,
-/area/badayaga/outside)
-"dE" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = -9;
-	pixel_y = 4
-	},
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = 9;
-	pixel_y = 4
-	},
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = -9;
-	pixel_y = -3
-	},
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = 9;
-	pixel_y = -3
-	},
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
 "dF" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8
@@ -2486,30 +2198,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"dH" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/item/ammo_magazine/m56d{
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "dI" = (
 /obj/structure/surface/table/almayer,
 /obj/item/device/flashlight/lamp/on{
@@ -2545,22 +2233,13 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"dK" = (
-/obj/item/device/flashlight/lamp/tripod/grey{
-	pixel_y = 17
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "dL" = (
-/obj/structure/machinery/light/double{
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 5;
-	dir = 1
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/rounds/heap{
+	pixel_y = 11
 	},
-/obj/structure/gun_rack/m41/unloaded,
-/turf/open/asphalt/cement_darkened,
+/obj/item/ammo_box/rounds/heap,
+/turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "dM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2588,9 +2267,14 @@
 /turf/open/floor/almayer_hull,
 /area/badayaga/inside_underground/platoonprep)
 "dO" = (
-/obj/structure/gun_rack/m41/unloaded,
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/tool/candle,
+/obj/item/tool/lighter{
+	pixel_y = 12;
+	pixel_x = 6
+	},
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/dorms)
 "dP" = (
 /obj/structure/bed{
 	buckling_y = 13;
@@ -2602,9 +2286,9 @@
 	layer = 3.4
 	},
 /obj/effect/landmark/late_join,
-/obj/effect/landmark/start/marine/alpha,
-/obj/effect/landmark/start/marine/alpha,
 /obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/start/marine/uacg,
+/obj/effect/landmark/start/marine/uacg,
 /turf/open/floor/almayer_hull,
 /area/badayaga/inside_underground/dorms)
 "dQ" = (
@@ -2760,12 +2444,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"ed" = (
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "ee" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -2824,19 +2502,9 @@
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/badayaga/outside)
 "ei" = (
-/obj/structure/machinery/door_control{
-	id = "hangarlockdownsouth";
-	name = "hangarlockdownsouth";
-	pixel_x = -23;
-	needs_power = 0
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow";
-	color = "#E10600";
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/space)
+/obj/structure/bed/sofa/pews,
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/dorms)
 "ej" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -2982,14 +2650,8 @@
 	},
 /obj/structure/surface/rack,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/item/ammo_magazine/m56d{
-	pixel_x = -5;
-	pixel_y = 0
-	},
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -3037,11 +2699,11 @@
 	},
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/weapon/sword/machete,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "ev" = (
@@ -3074,7 +2736,6 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/south{
 	pixel_x = 1;
 	pixel_y = 5
@@ -3083,6 +2744,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "ex" = (
@@ -3117,7 +2779,6 @@
 /obj/structure/girder/displaced{
 	anchored = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/medical{
 	pixel_x = 14;
 	pixel_y = 5
@@ -3126,6 +2787,7 @@
 	pixel_x = 1;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "eA" = (
@@ -3156,10 +2818,10 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/bed/chair/office{
 	dir = 1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "eC" = (
@@ -3194,7 +2856,6 @@
 	anchored = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/north{
 	pixel_x = 1;
 	pixel_y = 5
@@ -3203,6 +2864,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "eE" = (
@@ -3272,7 +2934,6 @@
 /obj/structure/girder/displaced{
 	anchored = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/north{
 	pixel_x = 1;
 	pixel_y = 5
@@ -3281,6 +2942,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "eJ" = (
@@ -3294,20 +2956,9 @@
 /turf/open/floor/plating/wood_broken3,
 /area/badayaga/inside)
 "eK" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
+/obj/structure/gun_rack/l42/unloaded,
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "eL" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -3362,43 +3013,22 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"eQ" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/space_heater,
-/obj/item/device/flashlight/lamp/tripod/grey{
-	pixel_x = -9;
-	pixel_y = -10
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "eR" = (
 /obj/structure/platform/kutjevo/smooth{
-	dir = 1;
+	dir = 8;
 	climb_delay = 1;
 	layer = 2.99
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/girder/displaced{
+	anchored = 1
+	},
 /obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
-	},
+/obj/effect/vehicle_roof/pizza_van,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -3529,11 +3159,11 @@
 	dir = 8;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "fc" = (
@@ -3697,10 +3327,10 @@
 /turf/closed/wall/hangar,
 /area/badayaga/inside_underground/command_rooms)
 "fq" = (
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/bed/chair/office{
 	dir = 8
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken6,
 /area/badayaga/inside)
 "fr" = (
@@ -3943,26 +3573,10 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "fN" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/nine{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/bible,
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/dorms)
 "fO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3970,20 +3584,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"fP" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "fQ" = (
 /obj/structure/machinery/light/double{
 	light_color = "#e7c0a4";
@@ -4003,12 +3603,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"fS" = (
-/obj/structure/barricade/wooden{
-	do_not_adjust = 1
-	},
-/turf/open/auto_turf/snow/brown_base/layer4,
-/area/badayaga/outside)
 "fT" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/stairs/perspective/kutjevo{
@@ -4080,27 +3674,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"fX" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/two{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "fY" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -4320,26 +3893,12 @@
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
 "gk" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
+/obj/structure/closet/secure_closet/marine_personal/platoon_commander{
+	pixel_x = -7;
+	pixel_y = 7
 	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/seven{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/medical)
 "gl" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /turf/open/gm/dirt3,
@@ -4445,53 +4004,10 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"gu" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/eight{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "gv" = (
 /obj/structure/sign/safety/galley,
 /turf/closed/wall/hangar,
 /area/badayaga/inside_underground)
-"gw" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/four{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "gx" = (
 /obj/structure/sign/safety/high_voltage,
 /obj/structure/sign/safety/maint{
@@ -4643,48 +4159,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken2,
 /area/badayaga/outside)
-"gH" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/six{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "gI" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	dir = 2;
+	req_access = list();
+	req_one_access = list()
 	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/one{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/turf/open/space/basic,
+/area/badayaga/inside_underground/mess)
 "gJ" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -4697,16 +4179,6 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
-/area/badayaga/inside)
-"gK" = (
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 4;
-	buckling_y = 8;
-	pixel_x = 0;
-	pixel_y = 8
-	},
-/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "gL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -4737,14 +4209,12 @@
 /turf/open/auto_turf/snow/brown_base/layer1,
 /area/badayaga/outside)
 "gO" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Weapons Locker";
-	id = "squadarmory";
-	pixel_y = -4
+/obj/structure/bed/chair/office/dark{
+	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/bare_catwalk,
-/area/badayaga/inside_underground/platoonarmory)
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/medical)
 "gP" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -4932,21 +4402,6 @@
 	pixel_y = -13
 	},
 /turf/open/gm/dirt2,
-/area/badayaga/outside)
-"hn" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/wood_broken6,
 /area/badayaga/outside)
 "hp" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5143,18 +4598,10 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "hL" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/belt/medical/full/with_suture_and_graft,
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/medical)
 "hM" = (
 /obj/structure/machinery/cm_vending/sorted/boozeomat{
 	pixel_y = 5;
@@ -5213,24 +4660,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
-/area/badayaga/inside)
-"hS" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "hT" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -5348,21 +4777,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"ie" = (
-/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
-	req_one_access_txt = "8;12;39;40";
-	req_access = list();
-	pixel_x = 0;
-	pixel_y = -16
-	},
-/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
-	req_one_access_txt = "8;12;39;40";
-	req_access = list();
-	pixel_x = 0;
-	pixel_y = 16
-	},
-/turf/closed/wall/hangar,
-/area/badayaga/inside_underground/platoonarmory)
 "if" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -5468,21 +4882,6 @@
 	},
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating/wood,
-/area/badayaga/outside)
-"im" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/girder/reinforced,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
 /area/badayaga/outside)
 "in" = (
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -5590,6 +4989,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/girder/reinforced,
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
 "iw" = (
@@ -5684,24 +5084,22 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "iF" = (
-/obj/structure/platform/kutjevo/smooth{
+/obj/structure/machinery/light/double{
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
 	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+	pixel_y = 1
 	},
-/obj/structure/window_frame/bunker/reinforced,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/guncase/heavy/hpr/army{
+	pixel_y = 16
 	},
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
+/obj/item/storage/box/guncase/heavy/hpr/army{
+	pixel_y = 5
 	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/turf/open/floor/wood/wood_broken4,
+/area/badayaga/inside_underground/platoonarmory)
 "iG" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
 	req_access = list();
@@ -5778,6 +5176,12 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
+"iO" = (
+/obj/structure/closet/secure_closet/marine_personal/platoon_leader{
+	pixel_x = 11
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/dorms)
 "iP" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/structure/barricade/wooden{
@@ -5931,13 +5335,9 @@
 /turf/open/floor/plating/wood_broken2,
 /area/badayaga/outside)
 "jg" = (
-/obj/structure/closet/secure_closet/marine_personal/corpsman{
-	pixel_x = 8
-	},
-/obj/structure/closet/secure_closet/marine_personal/smartgunner{
-	pixel_x = -7
-	},
-/turf/open/asphalt/cement_darkened,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet,
 /area/badayaga/inside_underground/dorms)
 "jh" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -5986,8 +5386,11 @@
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
 "jm" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/wood_broken6,
+/obj/structure/bed,
+/obj/item/bedsheet/brown{
+	layer = 3.4
+	},
+/turf/open/floor/wood/ship,
 /area/badayaga/inside_underground/dorms)
 "jn" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6007,30 +5410,6 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
-/area/badayaga/inside)
-"jo" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "jq" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6068,21 +5447,6 @@
 	pixel_x = 7
 	},
 /turf/open/floor/plating/wood,
-/area/badayaga/inside_underground/platoonarmory)
-"jt" = (
-/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
-	req_one_access_txt = "8;12;39;40";
-	req_access = list();
-	pixel_x = 0;
-	pixel_y = 16
-	},
-/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
-	req_one_access_txt = "8;12;39;40";
-	req_access = list();
-	pixel_x = 0;
-	pixel_y = -16
-	},
-/turf/closed/wall/hangar,
 /area/badayaga/inside_underground/platoonarmory)
 "ju" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -6137,10 +5501,7 @@
 	do_not_adjust = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = -3;
-	pixel_y = 4
-	},
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -6237,22 +5598,10 @@
 /area/badayaga/inside)
 "jF" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = -9;
-	pixel_y = -3
+/obj/item/ammo_box/magazine/mk45{
+	pixel_y = 10
 	},
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = 9;
-	pixel_y = -3
-	},
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = 9;
-	pixel_y = 4
-	},
-/obj/item/ammo_magazine/smartgun{
-	pixel_x = -9;
-	pixel_y = 4
-	},
+/obj/item/ammo_box/magazine/mk45,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "jG" = (
@@ -6494,7 +5843,7 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
-/area/badayaga/outside)
+/area/badayaga/inside)
 "ke" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer_hull,
@@ -6603,7 +5952,7 @@
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/engineering)
-"kn" = (
+"ko" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
 	climb_delay = 1;
@@ -6615,17 +5964,16 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/structure/largecrate/random/barrel/yellow,
+/obj/structure/largecrate/random/barrel/brown{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/structure/largecrate/random/barrel/red{
+	layer = 3.4;
+	pixel_x = -7
+	},
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
-"ko" = (
-/obj/structure/bed/chair/vehicle{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "kp" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -6703,20 +6051,6 @@
 "ky" = (
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/auto_turf/snow/brown_base/layer2,
-/area/badayaga/inside)
-"kz" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/bed/stool{
-	pixel_y = 18;
-	pixel_x = -10
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "kA" = (
 /obj/structure/platform/kutjevo/smooth,
@@ -6819,11 +6153,11 @@
 	pixel_y = -11
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 4;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "kI" = (
@@ -6924,6 +6258,16 @@
 	},
 /turf/open/floor/plating/wood_broken6,
 /area/badayaga/outside)
+"kR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double{
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
+	dir = 1
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/dorms)
 "kS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform/kutjevo/smooth{
@@ -7260,18 +6604,26 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "lv" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.22;
+	do_not_adjust = 1
+	},
 /turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/area/badayaga/outside)
 "lw" = (
 /obj/structure/largecrate/supply/ammo/m41amk1{
 	pixel_y = 10;
@@ -7646,8 +6998,8 @@
 	do_not_adjust = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -7680,15 +7032,6 @@
 	},
 /turf/open/floor/plating/wood_broken4,
 /area/badayaga/outside)
-"mh" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/structure/tent_curtain,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "mk" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 4
@@ -7699,6 +7042,23 @@
 	},
 /turf/open/floor/plating/wood_broken3,
 /area/badayaga/outside)
+"ml" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/loadout/HG45_civilian_loadout{
+	pixel_x = -1;
+	pixel_y = 9
+	},
+/obj/item/storage/box/loadout/HG45_civilian_loadout{
+	pixel_x = -4;
+	pixel_y = 15
+	},
+/obj/item/storage/box/loadout/Spearhead_loadout,
+/obj/item/storage/box/loadout/Spearhead_loadout{
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "mm" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
@@ -7767,6 +7127,11 @@
 	light_power = 0.8;
 	light_range = 5
 	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/spearhead/normalpoint{
+	pixel_y = 13
+	},
+/obj/item/ammo_box/magazine/spearhead/normalpoint,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/platoonarmory)
 "mu" = (
@@ -7806,21 +7171,9 @@
 /turf/open/floor/plating/wood_broken5,
 /area/badayaga/outside)
 "mw" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/explosive/plastic,
-/obj/item/explosive/plastic,
-/obj/item/explosive/plastic,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/obj/structure/gun_rack/m20a/unloaded,
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/platoonarmory)
 "mx" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -7847,15 +7200,10 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_magazine/m2c{
+	pixel_y = 11
+	},
 /obj/structure/machinery/space_heater,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = -6;
-	pixel_y = 10
-	},
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 7;
-	pixel_y = 7
-	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -7887,17 +7235,6 @@
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/command_rooms)
-"mD" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "mE" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -7938,6 +7275,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken4,
 /area/badayaga/inside_underground/mess)
+"mL" = (
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced{
+	req_access = list();
+	req_one_access = list()
+	},
+/turf/open/floor/plating/bare_catwalk,
+/area/badayaga/inside_underground/platoonarmory)
 "mM" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -7951,11 +7295,11 @@
 	do_not_adjust = 1
 	},
 /obj/structure/bed/roller/hospital_empty/bigrollerempty,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "mN" = (
@@ -7990,6 +7334,21 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
+"mQ" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/backpack/marine/satchel/rto/army{
+	pixel_y = 17;
+	pixel_x = -5
+	},
+/obj/item/storage/backpack/marine/satchel/rto/army{
+	pixel_y = 7
+	},
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "mS" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -8032,19 +7391,14 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "mT" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	dir = 2;
+	req_access = list();
+	req_one_access = list()
 	},
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/platoonarmory)
 "mV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8225,17 +7579,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"nq" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/item/device/flashlight/lamp/tripod/grey,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "nr" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -8255,17 +7598,27 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nt" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/wooden{
+/obj/structure/platform/kutjevo/smooth{
 	dir = 8;
-	do_not_adjust = 1
+	climb_delay = 1;
+	layer = 2.99
 	},
 /obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/turf/open/gm/dirt2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/barrel/brown{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/structure/largecrate/random/barrel/red{
+	layer = 3.4;
+	pixel_x = -7
+	},
+/turf/open/floor/plating/wood,
 /area/badayaga/outside)
 "nu" = (
 /obj/structure/prop/holidays/string_lights,
@@ -8376,11 +7729,15 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "nF" = (
-/obj/item/explosive/mine/active/no_iff{
-	dir = 1
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/guncase/heavy/m60{
+	pixel_y = 19
 	},
-/turf/open/auto_turf/snow/brown_base/layer0,
-/area/badayaga/outside)
+/obj/item/storage/box/guncase/heavy/m60{
+	pixel_y = 7
+	},
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/platoonarmory)
 "nH" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -8436,27 +7793,7 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/badayaga/inside_underground/command_rooms)
-"nM" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/stairs/perspective/kutjevo{
-	dir = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
 "nN" = (
-/obj/structure/bed/roller/hospital_empty{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer_hull,
@@ -8587,6 +7924,16 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
+"nZ" = (
+/obj/structure/bed/sofa/pews,
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/dorms)
 "oa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/structure_lattice{
@@ -8615,34 +7962,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken6,
 /area/badayaga/outside)
-"od" = (
-/obj/structure/largecrate/random/case/small{
-	pixel_y = 14;
-	density = 0
-	},
-/obj/item/reagent_container/food/drinks/cans/waterbottle{
-	pixel_y = 21
-	},
-/obj/item/reagent_container/food/drinks/coffeecup{
-	pixel_y = 17;
-	pixel_x = -8
-	},
-/obj/item/storage/box/matches{
-	pixel_x = -2;
-	pixel_y = -17
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "oe" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -15
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/obj/structure/mirror{
+	pixel_x = -30;
+	pixel_y = -2
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/mess)
 "of" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8690,8 +8020,8 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/bed/chair/office,
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "ok" = (
@@ -8832,28 +8162,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"ox" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/prop/structure_lattice{
-	density = 0;
-	desc = "This jukebox only takes quarters and you seem to be out of them at the moment.";
-	icon = 'icons/obj/structures/props/misc.dmi';
-	icon_state = "jukebox";
-	name = "Rockin Robin 2300 Jukebox";
-	pixel_x = -5;
-	pixel_y = 3
-	},
-/obj/item/device/flashlight/lamp/tripod/grey{
-	pixel_x = -17
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "oy" = (
 /obj/structure/machinery/autolathe,
 /turf/open/asphalt/cement_sunbleached_darkened,
@@ -8891,14 +8199,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"oC" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "oE" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -8930,12 +8230,41 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.22;
+	do_not_adjust = 1
+	},
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
 "oI" = (
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/carpet,
 /area/badayaga/inside_underground/mess)
+"oJ" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_magazine/m60{
+	pixel_x = -8;
+	pixel_y = 9
+	},
+/obj/item/ammo_magazine/m60{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/ammo_magazine/m60{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/item/ammo_magazine/m60{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/ammo_box/magazine/m41ae2/heap{
+	pixel_y = 14
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "oK" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -9022,13 +8351,7 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "oV" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = -7
-	},
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = 8
-	},
-/turf/open/floor/plating/bare_catwalk,
+/turf/open/floor/plating/wood_broken5,
 /area/badayaga/inside_underground/dorms)
 "oW" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9073,9 +8396,8 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "pc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/wood,
+/obj/item/lightstick/red/spoke/planted,
+/turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
 "pd" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9092,24 +8414,6 @@
 	},
 /obj/item/mortar_shell/he,
 /turf/open/gm/dirt3,
-/area/badayaga/outside)
-"pe" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
 /area/badayaga/outside)
 "pf" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -9165,18 +8469,9 @@
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/medical)
 "pj" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
+/obj/structure/gun_rack/m79,
 /turf/open/floor/plating/wood,
-/area/badayaga/outside)
+/area/badayaga/inside_underground/platoonarmory)
 "pk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/power/smes/buildable,
@@ -9227,11 +8522,11 @@
 	pixel_y = 35;
 	pixel_x = -1
 	},
+/obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/machinery/light/small{
 	dir = 4;
-	pixel_x = -1
+	pixel_x = 3
 	},
-/obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/command_rooms)
 "pp" = (
@@ -9348,7 +8643,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/window_frame/bunker/reinforced,
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -9434,7 +8729,9 @@
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "pE" = (
-/obj/structure/closet/cabinet,
+/obj/structure/bed/roller/hospital_empty{
+	dir = 8
+	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/medical)
 "pF" = (
@@ -9612,7 +8909,6 @@
 /obj/item/explosive/grenade/high_explosive/m15,
 /obj/item/explosive/grenade/high_explosive/m15,
 /obj/effect/vehicle_roof/pizza_van,
-/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "pU" = (
@@ -9649,28 +8945,34 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"pX" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/table/wood/poor{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
 "pY" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = -7
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/loadout/M9_loadout{
+	pixel_x = -4;
+	pixel_y = 14
 	},
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = 8
+/obj/item/storage/box/loadout/M9_loadout{
+	pixel_y = 5;
+	pixel_x = -5
 	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside_underground/dorms)
+/obj/item/storage/box/loadout/M9_loadout{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/item/storage/box/loadout/M9_loadout{
+	pixel_x = 1;
+	pixel_y = 13
+	},
+/obj/item/storage/box/loadout/M9_loadout{
+	pixel_y = 9;
+	pixel_x = -5
+	},
+/obj/item/storage/box/loadout/M9_loadout{
+	pixel_y = 18
+	},
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "pZ" = (
 /obj/structure/machinery/cm_vending/sorted/medical{
 	pixel_y = 20;
@@ -9699,9 +9001,6 @@
 /area/badayaga/outside)
 "qb" = (
 /obj/structure/surface/table/woodentable/poor,
-/obj/item/clothing/suit/storage/jacket/marine/service{
-	pixel_x = 11
-	},
 /obj/item/prop/magazine/dirty/torn{
 	pixel_x = -6;
 	pixel_y = 6
@@ -9713,6 +9012,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
+/obj/item/clothing/head/cmcap/khaki{
+	pixel_x = 6
+	},
 /turf/open/floor/carpet,
 /area/badayaga/inside_underground/dorms)
 "qc" = (
@@ -9878,19 +9180,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating,
 /area/badayaga/inside)
-"qp" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "qq" = (
 /obj/structure/closet/secure_closet/marine_personal/rifleman{
 	pixel_x = -7
@@ -10081,6 +9370,12 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1
 	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.22;
+	do_not_adjust = 1
+	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -10140,21 +9435,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"qK" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
 "qL" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -10228,11 +9508,27 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "qQ" = (
-/obj/structure/flora/grass/tallgrass/ice/corner{
-	dir = 9
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
 	},
-/turf/open/auto_turf/snow/brown_base/layer3,
-/area/badayaga/outside)
+/obj/structure/barricade/sandbags/wired{
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9;
+	do_not_adjust = 1
+	},
+/obj/structure/largecrate/random/barrel/black{
+	pixel_x = -9
+	},
+/obj/structure/largecrate/random/barrel/brown{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/badayaga/inside)
 "qR" = (
 /obj/structure/bed/chair/office,
 /turf/open/gm/dirt2,
@@ -10649,6 +9945,14 @@
 	},
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/mess)
+"rz" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown{
+	layer = 3.4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/platoonarmory)
 "rA" = (
 /obj/structure/barricade/wooden{
 	dir = 4;
@@ -10744,9 +10048,8 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood,
-/turf/open/gm/dirt2,
+/obj/structure/girder/reinforced,
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "rG" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -10833,22 +10136,6 @@
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
-"rR" = (
-/obj/structure/platform_decoration/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/three{
-	pixel_x = 14;
-	pixel_y = 5
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "rS" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/girder/displaced{
@@ -10942,20 +10229,6 @@
 	color = "#818181"
 	},
 /area/badayaga/outside)
-"sa" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "sc" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -10970,29 +10243,6 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
-"sd" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/map/current_map{
-	pixel_y = 9;
-	pixel_x = -4
-	},
-/obj/item/tool/pen{
-	pixel_x = 5
-	},
-/obj/item/device/binoculars/range/monocular{
-	pixel_x = -7;
-	pixel_y = 4
-	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
@@ -11072,17 +10322,13 @@
 	light_range = 5
 	},
 /obj/structure/surface/rack,
-/obj/item/clothing/shoes/marine{
+/obj/item/clothing/shoes/marine/civilian/brown{
 	pixel_y = 16
 	},
+/obj/item/clothing/under/colonist/boilersuit/grey,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/under/marine/officer/boiler,
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
-"sq" = (
-/obj/structure/flora/tree/dead/tree_3,
-/turf/open/auto_turf/snow/brown_base/layer1,
-/area/badayaga/outside)
 "sr" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -11218,11 +10464,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/engineering)
-"sD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/space_heater,
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
 "sE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double{
@@ -11259,11 +10500,11 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "sI" = (
@@ -11402,12 +10643,12 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 12
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "sT" = (
@@ -11458,11 +10699,6 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "sW" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Weapons Locker";
-	id = "squadarmory";
-	pixel_y = -4
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer_hull,
 /area/badayaga/inside_underground/platoonarmory)
@@ -11524,11 +10760,11 @@
 	layer = 2.99
 	},
 /obj/structure/surface/rack,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "tg" = (
@@ -11598,28 +10834,6 @@
 /obj/item/prop/helmetgarb/rosary,
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/engineering)
-"tm" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "tn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/catclock{
@@ -11805,21 +11019,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"tB" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood_broken5,
-/area/badayaga/outside)
 "tC" = (
 /obj/structure/machinery/medical_pod/bodyscanner{
 	pixel_y = 6
@@ -11858,30 +11057,6 @@
 	do_not_adjust = 1
 	},
 /turf/open/auto_turf/snow/brown_base/layer2,
-/area/badayaga/outside)
-"tI" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/wood_broken2,
-/area/badayaga/outside)
-"tJ" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
 /area/badayaga/outside)
 "tL" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -12130,26 +11305,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"uj" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "uk" = (
 /obj/structure/barricade/wooden{
 	dir = 1;
@@ -12170,7 +11325,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -12212,11 +11367,8 @@
 	do_not_adjust = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = -6;
-	pixel_y = 2
-	},
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
@@ -12325,14 +11477,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"uv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/vehicle{
-	dir = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "uw" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -12377,19 +11521,14 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 12
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken3,
 /area/badayaga/inside)
-"uz" = (
-/obj/structure/gun_rack/m41/unloaded,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/badayaga/inside_underground/platoonarmory)
 "uA" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -12598,22 +11737,15 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "uR" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
+/obj/structure/surface/table/reinforced/prison{
+	pixel_y = -1
 	},
-/obj/structure/bed/bedroll,
-/obj/structure/closet/crate/green{
-	pixel_x = 0;
-	pixel_y = 19
+/obj/structure/machinery/computer/emails{
+	dir = 8;
+	pixel_y = 5
 	},
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/mess)
 "uS" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -12704,18 +11836,10 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "uZ" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
+/obj/structure/bed/chair/office/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/platoonarmory)
 "va" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -12764,21 +11888,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"ve" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "vf" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -12837,24 +11946,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/offices)
-"vo" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "vp" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -12969,7 +12060,6 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/south{
 	pixel_x = 1;
 	pixel_y = 5
@@ -12978,6 +12068,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "vz" = (
@@ -13010,6 +12101,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken2,
 /area/badayaga/outside)
+"vC" = (
+/obj/structure/mirror{
+	pixel_y = 35;
+	pixel_x = -1
+	},
+/obj/structure/sink{
+	pixel_y = 24;
+	layer = 3.1
+	},
+/obj/structure/machinery/light/small{
+	dir = 4;
+	pixel_x = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/bare_catwalk,
+/area/badayaga/inside_underground/platoonarmory)
 "vD" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -13203,11 +12310,11 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "vY" = (
@@ -13474,39 +12581,15 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "wv" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
+/obj/structure/stairs/perspective/kutjevo,
 /obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "wx" = (
 /obj/structure/flora/tree/dead/tree_2,
 /turf/open/auto_turf/snow/brown_base/layer3,
 /area/badayaga/outside)
-"wy" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/colony/canister{
-	pixel_y = 8;
-	pixel_x = -8
-	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/item/tool/match,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "wz" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -13659,9 +12742,9 @@
 	pixel_y = 17;
 	do_not_adjust = 1
 	},
-/obj/structure/surface/rack,
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/weapon/gun/smg/m39/solidstock,
 /obj/effect/vehicle_roof/pizza_van,
-/obj/item/ammo_magazine/m56d,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "wH" = (
@@ -13881,31 +12964,14 @@
 	},
 /turf/open/floor/plating/wood_broken3,
 /area/badayaga/outside)
-"xg" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Equipment Locker";
-	id = "squadarmory";
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/badayaga/inside_underground/platoonarmory)
 "xh" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+/obj/structure/bed,
+/obj/item/bedsheet/brown{
+	layer = 3.4
 	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
+/obj/effect/landmark/start/bridge/uacg/mess,
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/mess)
 "xk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -13974,15 +13040,6 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
-/area/badayaga/inside)
-"xq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
-/turf/open/gm/dirt2,
 /area/badayaga/inside)
 "xr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -14083,6 +13140,14 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
+"xx" = (
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	dir = 2;
+	req_access = list();
+	req_one_access = list()
+	},
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/dorms)
 "xy" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -14128,25 +13193,6 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
-/area/badayaga/inside)
-"xE" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
 /area/badayaga/inside)
 "xF" = (
 /turf/closed/wall/hangar,
@@ -14223,9 +13269,7 @@
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "xL" = (
-/obj/structure/sign/banners/colonial_marines_flag_worn{
-	pixel_y = -2
-	},
+/obj/structure/sign/banners/united_americas_worn,
 /turf/closed/wall/hangar,
 /area/badayaga/inside_underground/command_rooms)
 "xM" = (
@@ -14568,6 +13612,10 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
+"yk" = (
+/obj/structure/gun_rack/m39/unloaded,
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/platoonarmory)
 "ym" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -14790,7 +13838,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -14896,21 +13944,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"yN" = (
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
-	req_one_access_txt = "8;12;39;40";
-	req_one_access = list();
-	pixel_x = 0;
-	pixel_y = 16
-	},
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
-	req_one_access_txt = "8;12;39;40";
-	req_one_access = list();
-	pixel_x = 0;
-	pixel_y = -16
-	},
-/turf/closed/wall/hangar,
-/area/badayaga/inside_underground/platoonarmory)
 "yO" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -15036,30 +14069,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"yV" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/bed/bedroll{
-	pixel_y = 14
-	},
-/obj/structure/bed/bedroll,
-/obj/item/bedsheet/brown{
-	pixel_y = 13
-	},
-/obj/item/bedsheet/brown,
-/obj/item/toy/plush/bee{
-	pixel_x = 8
-	},
-/obj/item/prop/helmetgarb/rosary{
-	layer = 4
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "yW" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -15157,8 +14166,8 @@
 	pixel_x = -13;
 	pixel_y = 6
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/bed/chair/office,
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "zc" = (
@@ -15189,22 +14198,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"zd" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "ze" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -15233,26 +14226,12 @@
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/medical)
-"zh" = (
-/obj/structure/gun_rack/m41/unloaded,
-/turf/open/floor/plating,
-/area/badayaga/inside_underground/platoonarmory)
 "zi" = (
 /obj/structure/flora/tree/dead/tree_4,
 /turf/open/auto_turf/snow/brown_base/layer3,
 /area/badayaga/outside)
 "zj" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood,
+/turf/open/space/basic,
 /area/badayaga/outside)
 "zl" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -15290,6 +14269,43 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
+"zo" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/cmcap/khaki{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/clothing/head/cmcap/khaki{
+	pixel_x = -5
+	},
+/obj/item/clothing/head/cmcap/khaki{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/cmcap/khaki/snow{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/cmcap/khaki/snow{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/item/clothing/head/cmcap/khaki/snow{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "zp" = (
 /obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/wood/ship,
@@ -15376,25 +14392,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"zv" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/rack,
-/obj/item/prop/magazine/dirty/torn{
-	pixel_x = -4
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 8;
-	pixel_y = 0
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "zx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement_darkened,
@@ -15436,20 +14433,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"zA" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/device/flashlight/lantern{
-	pixel_x = -5;
-	pixel_y = 4
-	},
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 7;
-	pixel_y = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "zB" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -15536,15 +14519,6 @@
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"zL" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "zM" = (
 /obj/structure/girder/displaced,
 /obj/effect/decal/cleanable/dirt,
@@ -15554,24 +14528,6 @@
 "zN" = (
 /obj/structure/curtain/medical,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
-"zO" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/wooden{
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -15603,6 +14559,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
+"zT" = (
+/obj/structure/bed/sofa/pews,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/dorms)
 "zU" = (
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
@@ -15645,14 +14606,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/badayaga/outside)
-"zY" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "zZ" = (
 /obj/structure/bed/roller/hospital_empty/bigrollerbloodempty,
 /obj/effect/decal/cleanable/dirt,
@@ -15726,7 +14679,7 @@
 /obj/item/ammo_box/magazine/nade_box{
 	pixel_y = 14;
 	layer = 3.2;
-	pixel_x = 6
+	pixel_x = -9
 	},
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
@@ -15778,6 +14731,13 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
+"Ak" = (
+/obj/structure/machinery/light/small{
+	dir = 4;
+	pixel_x = 3
+	},
+/turf/open/floor/carpet,
+/area/badayaga/inside_underground/dorms)
 "Al" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -15855,25 +14815,33 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"As" = (
-/obj/structure/platform/kutjevo/smooth{
+"Au" = (
+/obj/structure/machinery/light/double{
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
 	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+	pixel_y = 1
 	},
-/obj/structure/window_frame/bunker/reinforced,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/attachable/scope/pve{
+	pixel_x = 5;
+	pixel_y = 7
 	},
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
+/obj/item/attachable/scope/pve{
+	pixel_x = -5;
+	pixel_y = 7
 	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/obj/item/attachable/scope/pve{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/obj/item/attachable/scope/pve{
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "Av" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
@@ -16021,28 +14989,21 @@
 	layer = 2.99
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
+"AF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/gun_rack/m39/unloaded,
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "AG" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood_broken4,
-/area/badayaga/outside)
+/obj/structure/gun_rack/m20a/unloaded,
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "AH" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /turf/open/gm/dirt2,
@@ -16149,29 +15110,6 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
-/area/badayaga/inside)
-"AT" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "AU" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -16440,18 +15378,12 @@
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "Bm" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/m39/ext{
+	pixel_y = 9
 	},
-/obj/item/device/flashlight/lamp/tripod/grey{
-	pixel_x = 13
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "Bn" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -16584,12 +15516,12 @@
 	name = "lattice"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 12
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating,
 /area/badayaga/inside)
 "BC" = (
@@ -16619,6 +15551,33 @@
 	},
 /turf/open/floor/plating/wood_broken5,
 /area/badayaga/inside)
+"BD" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/suit/storage/webbing{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/clothing/suit/storage/webbing{
+	pixel_y = 3;
+	pixel_x = -3
+	},
+/obj/item/clothing/suit/storage/webbing{
+	pixel_x = 4
+	},
+/obj/item/clothing/suit/storage/webbing{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/storage/webbing{
+	pixel_x = -1;
+	pixel_y = 9
+	},
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "BF" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/platform/kutjevo/smooth{
@@ -16755,18 +15714,19 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "BQ" = (
-/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
+	},
 /obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
-/obj/structure/closet/crate/ammo/alt,
-/obj/effect/vehicle_roof/pizza_van,
+/obj/structure/girder/reinforced,
 /turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/area/badayaga/outside)
 "BS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/chair/office/dark{
@@ -16824,10 +15784,10 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "BY" = (
@@ -16879,26 +15839,6 @@
 "Cd" = (
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground)
-"Ce" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/device/flashlight/lamp/tripod/grey{
-	pixel_y = 11;
-	pixel_x = -8
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "Cf" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -17065,7 +16005,6 @@
 /obj/structure/girder/displaced{
 	anchored = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/south{
 	pixel_x = 1;
 	pixel_y = 5
@@ -17074,6 +16013,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "Ct" = (
@@ -17264,16 +16204,13 @@
 /turf/open/floor/plating/wood_broken4,
 /area/badayaga/inside)
 "CH" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
+/obj/structure/bed,
+/obj/item/bedsheet/brown{
+	layer = 3.4
 	},
-/obj/item/device/flashlight/lamp/tripod/grey,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
+/obj/effect/landmark/start/bridge/uacg/doctor,
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/medical)
 "CK" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -17353,6 +16290,13 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
+"CO" = (
+/obj/structure/gun_rack/flamer/unloaded{
+	pixel_x = -6;
+	pixel_y = -13
+	},
+/turf/closed/wall/hangar,
+/area/badayaga/inside_underground/platoonarmory)
 "CP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/cm_vending/sorted/marine_food,
@@ -17436,6 +16380,55 @@
 	},
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/platoonprep)
+"CX" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = -3;
+	pixel_y = -6
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/clothing/mask/gas/military,
+/obj/item/clothing/mask/gas/military{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/gas/military{
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "CY" = (
 /obj/structure/machinery/light/double{
 	dir = 8;
@@ -17543,24 +16536,20 @@
 /area/badayaga/outside)
 "Dn" = (
 /obj/structure/platform/kutjevo/smooth{
-	dir = 1;
+	dir = 8;
 	climb_delay = 1;
 	layer = 2.99
 	},
-/obj/structure/window_frame/bunker/reinforced,
-/obj/item/clothing/mask/cigarette/weed{
-	pixel_x = 7;
-	pixel_y = 3
-	},
 /obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/girder/reinforced,
 /turf/open/floor/plating/wood,
-/area/badayaga/inside)
+/area/badayaga/outside)
 "Do" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -17620,6 +16609,12 @@
 /obj/structure/stairs/perspective/kutjevo{
 	dir = 1
 	},
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.22;
+	do_not_adjust = 1
+	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -17656,21 +16651,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
 /area/badayaga/inside_underground/engineering)
-"Dy" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "Dz" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -17878,24 +16858,21 @@
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/engineering)
 "DP" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+/obj/structure/mirror{
+	pixel_y = 35;
+	pixel_x = -1
 	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
+/obj/structure/sink{
+	pixel_y = 24;
+	layer = 3.1
+	},
+/obj/structure/machinery/light/small{
+	dir = 4;
+	pixel_x = -1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/ammo_casing{
-	icon_state = "cartridge_2_1";
-	layer = 2
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
+/turf/open/floor/plating/bare_catwalk,
+/area/badayaga/inside_underground/medical)
 "DQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform/kutjevo/smooth{
@@ -18099,22 +17076,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"Ef" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "Eg" = (
 /obj/structure/bed/chair/wood/normal{
 	dir = 8;
@@ -18131,7 +17092,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken4,
 /area/badayaga/inside)
@@ -18232,6 +17193,7 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
+/obj/structure/girder/reinforced,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken4,
 /area/badayaga/inside)
@@ -18420,22 +17382,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"EG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
-"EH" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Equipment Locker";
-	id = "squadarmory";
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside_underground/platoonarmory)
 "EI" = (
 /turf/open/floor/plating/wood_broken3,
 /area/badayaga/inside_underground/dorms)
@@ -18498,14 +17444,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"EO" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
-	},
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "EP" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -18597,29 +17535,15 @@
 /turf/open/floor/plating,
 /area/badayaga/inside)
 "EU" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
 	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/item/storage/box/explosive_mines{
-	pixel_x = -18;
-	pixel_y = -15
-	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "EV" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -18634,7 +17558,7 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
-/area/badayaga/outside)
+/area/badayaga/inside)
 "EW" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 1
@@ -18798,12 +17722,12 @@
 	layer = 4.22;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 12
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Fm" = (
@@ -18813,15 +17737,6 @@
 	},
 /turf/open/auto_turf/snow/brown_base/layer2,
 /area/badayaga/outside)
-"Fn" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
-	},
-/obj/structure/tent_curtain,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "Fo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -18940,6 +17855,37 @@
 	},
 /turf/open/auto_turf/snow/brown_base/layer0,
 /area/badayaga/outside)
+"Fx" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot{
+	pixel_x = -5
+	},
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot{
+	pixel_x = -5;
+	pixel_y = -4
+	},
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot{
+	pixel_x = -5;
+	pixel_y = -8
+	},
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot{
+	pixel_x = -5;
+	pixel_y = -12
+	},
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "Fy" = (
 /obj/structure/bed/chair/office{
 	dir = 8;
@@ -18959,21 +17905,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"FA" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/girder/displaced,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "FB" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -19030,29 +17961,6 @@
 /obj/structure/largecrate/random/case/double,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
-/area/badayaga/inside)
-"FG" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/bed/bedroll{
-	pixel_y = 11;
-	pixel_x = 2
-	},
-/obj/item/reagent_container/food/drinks/flask/canteen{
-	pixel_x = -10
-	},
-/obj/item/clothing/glasses/sunglasses/aviator{
-	pixel_y = 11
-	},
-/obj/item/prop/magazine/dropship{
-	pixel_x = 9
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "FH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -19153,8 +18061,8 @@
 	pixel_x = 11;
 	pixel_y = -13
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/bed/chair/office,
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "FR" = (
@@ -19290,12 +18198,12 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Gc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 1
+/obj/structure/machinery/light/small{
+	dir = 4;
+	pixel_x = 3
 	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
+/turf/open/floor/plating/wood_broken5,
+/area/badayaga/inside_underground/dorms)
 "Gd" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -19443,23 +18351,29 @@
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
 "Gp" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
+/obj/item/trash/cigbutt{
+	pixel_y = 15;
+	pixel_x = -4
 	},
-/obj/item/book/manual/detective{
-	pixel_x = 13;
-	pixel_y = 10
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/dorms)
+"Gq" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/backpack/marine/engineerpack/ert{
+	desc = "A small, lightweight pack for expeditions and short-range operations. Features a small fueltank for quick blowtorch refueling."d";
+	pixel_x = -3;
+	pixel_y = 16
 	},
-/obj/item/clothing/mask/cigarette/cigar/classic{
-	pixel_x = 39;
-	pixel_y = 18
+/obj/item/storage/backpack/marine/engineerpack/ert{
+	desc = "A small, lightweight pack for expeditions and short-range operations. Features a small fueltank for quick blowtorch refueling."d";
+	pixel_y = 6
 	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "Gr" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 8
@@ -19467,11 +18381,11 @@
 /obj/structure/platform_decoration/kutjevo/smooth{
 	dir = 4
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "Gs" = (
@@ -19503,20 +18417,15 @@
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground)
 "Gv" = (
-/obj/structure/machinery/door_control{
-	id = "hangarlockdownwest";
-	name = "Spare Gear Shutters";
-	pixel_x = 0;
-	needs_power = 0;
-	pixel_y = 25
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow";
-	color = "#E10600";
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/double{
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
 	dir = 1
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/wood/ship,
+/area/badayaga/inside_underground/dorms)
 "Gx" = (
 /obj/structure/barricade/table/wood/poor{
 	dir = 8
@@ -19589,28 +18498,6 @@
 	},
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"GE" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "GF" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -19685,7 +18572,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken6,
 /area/badayaga/inside)
@@ -20033,11 +18920,12 @@
 	dir = 4;
 	layer = 3.04
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Hq" = (
@@ -20067,20 +18955,14 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
-/turf/open/gm/dirt2,
+/obj/structure/girder/reinforced,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/space/basic,
 /area/badayaga/inside)
-"Hx" = (
-/obj/structure/flora/grass/tallgrass/ice,
-/obj/item/explosive/mine/active/no_iff{
-	dir = 1
-	},
-/turf/open/auto_turf/snow/brown_base/layer2,
-/area/badayaga/outside)
 "Hy" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -20118,24 +19000,6 @@
 /obj/effect/landmark/observer_start,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/dorms)
-"HB" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/machinery/power/port_gen/pacman,
-/obj/item/tool/wrench{
-	pixel_y = 12
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/machinery/light/small{
-	dir = 8;
-	pixel_x = -1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "HC" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -20258,18 +19122,18 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "HN" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden{
+/obj/structure/platform/kutjevo/smooth{
 	dir = 4;
+	layer = 3.04
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/turf/open/floor/plating/wood,
+/obj/structure/girder/reinforced,
+/turf/open/gm/dirt3,
 /area/badayaga/outside)
 "HO" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -20358,7 +19222,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken5,
 /area/badayaga/inside)
@@ -20531,12 +19395,6 @@
 	},
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground)
-"In" = (
-/obj/item/explosive/mine/active/no_iff{
-	dir = 1
-	},
-/turf/open/auto_turf/snow/brown_base/layer2,
-/area/badayaga/outside)
 "Io" = (
 /turf/open/floor/plating/wood_broken2,
 /area/badayaga/inside_underground/mess)
@@ -20623,12 +19481,6 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"It" = (
-/obj/structure/flora/grass/tallgrass/ice/corner{
-	dir = 1
-	},
-/turf/open/auto_turf/snow/brown_base/layer3,
-/area/badayaga/outside)
 "Iu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -20687,13 +19539,6 @@
 	pixel_y = -1
 	},
 /turf/open/gm/dirt3,
-/area/badayaga/inside)
-"Iy" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood_broken4,
 /area/badayaga/inside)
 "Iz" = (
 /obj/structure/machinery/power/smes/buildable,
@@ -20935,8 +19780,8 @@
 	do_not_adjust = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -21048,17 +19893,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/medical)
-"Ja" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "Jc" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/effect/decal/cleanable/dirt,
@@ -21076,6 +19910,16 @@
 	},
 /turf/open/floor/almayer_hull,
 /area/badayaga/inside_underground/engineering)
+"Jg" = (
+/obj/structure/surface/table/reinforced/prison{
+	pixel_y = -1
+	},
+/obj/structure/machinery/computer/emails{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/platoonarmory)
 "Jh" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -21117,14 +19961,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"Jj" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "Jk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -21409,14 +20245,13 @@
 /turf/closed/wall/rock,
 /area/badayaga/inside_underground)
 "JK" = (
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = -7
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
 	},
-/obj/structure/closet/secure_closet/marine_personal/rifleman{
-	pixel_x = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/wood,
+/turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/dorms)
 "JL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -21486,23 +20321,6 @@
 	},
 /turf/open/gm/dirt2,
 /area/badayaga/outside)
-"JS" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/obj/structure/stairs/perspective/kutjevo{
-	dir = 1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "JT" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -21558,19 +20376,6 @@
 	color = "black"
 	},
 /area/space)
-"JX" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/surface/table/woodentable/poor,
-/obj/item/mre_food_packet/clf{
-	pixel_y = 13;
-	pixel_x = -9
-	},
-/obj/item/reagent_container/food/drinks/flask/vacuumflask{
-	pixel_y = 8
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "JY" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -21605,12 +20410,12 @@
 /turf/open/floor/plating/bare_catwalk,
 /area/badayaga/inside_underground/medical)
 "Kb" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Equipment Locker";
-	id = "squadarmory";
-	dir = 4
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced{
+	req_access = list();
+	req_one_access = list()
 	},
-/turf/open/floor/almayer_hull,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/platoonarmory)
 "Kd" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -21848,7 +20653,7 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
@@ -22068,12 +20873,11 @@
 	pixel_x = -7;
 	layer = 2.98
 	},
-/obj/item/ammo_box/magazine/vp70{
-	pixel_y = -2
-	},
-/obj/item/ammo_box/magazine/vp70{
-	pixel_y = 4;
-	pixel_x = 5
+/obj/item/ammo_box/magazine/nade_box/m15,
+/obj/item/ammo_box/magazine/m4a3{
+	pixel_y = 21;
+	pixel_x = -3;
+	layer = 2.98
 	},
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
@@ -22107,16 +20911,25 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken2,
 /area/badayaga/outside)
-"KS" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
+"KR" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/under/colonist/boilersuit/khaki{
+	pixel_x = 9;
+	pixel_y = 6
 	},
-/obj/structure/tent_curtain,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
+/obj/item/clothing/under/colonist/boilersuit/khaki{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/clothing/under/colonist/boilersuit/khaki{
+	pixel_x = 9
+	},
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "KT" = (
 /obj/structure/closet/secure_closet/marine_personal/smartgunner{
 	pixel_x = -7
@@ -22145,12 +20958,12 @@
 	pixel_y = -11;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 12
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "KV" = (
@@ -22173,7 +20986,6 @@
 	pixel_y = 15;
 	pixel_x = 13
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
@@ -22216,14 +21028,6 @@
 /obj/structure/machinery/telecomms/bus/preset_one,
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/command_rooms)
-"Ld" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
-	},
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
 "Le" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -22258,12 +21062,20 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Lg" = (
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 4
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/b92fs{
+	pixel_y = -1
 	},
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
+/obj/item/ammo_box/magazine/b92fs{
+	pixel_y = 8;
+	pixel_x = -1
+	},
+/obj/item/ammo_box/magazine/b92fs{
+	pixel_y = 16;
+	pixel_x = 2
+	},
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/platoonarmory)
 "Lj" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -22340,7 +21152,7 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
-/area/badayaga/outside)
+/area/badayaga/inside)
 "Lu" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -22381,29 +21193,6 @@
 /obj/structure/curtain/medical,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken6,
-/area/badayaga/inside)
-"Ly" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
 /area/badayaga/inside)
 "LA" = (
 /obj/effect/vehicle_roof/pizza_van,
@@ -22560,22 +21349,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"LI" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/window_frame/bunker/reinforced,
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "LJ" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -22589,11 +21362,8 @@
 	do_not_adjust = 1
 	},
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 4;
-	pixel_y = -4
-	},
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -22689,12 +21459,12 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 1;
 	pixel_x = 0;
 	pixel_y = 12
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "LQ" = (
@@ -22939,12 +21709,6 @@
 	dir = 8;
 	climb_delay = 1;
 	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
 	},
 /obj/structure/barricade/table/wood/poor,
 /obj/effect/vehicle_roof/pizza_van,
@@ -23335,12 +22099,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
-"MR" = (
-/obj/item/explosive/mine/active/no_iff{
-	dir = 1
-	},
-/turf/open/auto_turf/snow/brown_base/layer3,
-/area/badayaga/outside)
 "MS" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -23501,7 +22259,6 @@
 	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/sign/safety/south{
 	pixel_x = 1;
 	pixel_y = 5
@@ -23510,6 +22267,7 @@
 	pixel_x = 14;
 	pixel_y = 5
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ni" = (
@@ -23598,9 +22356,12 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
 "Nn" = (
-/obj/structure/gun_rack/mk221{
-	pixel_x = -8;
-	pixel_y = 0
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = 12
+	},
+/obj/item/ammo_box/magazine/m20a{
+	pixel_y = 1
 	},
 /turf/open/floor/wood/ship,
 /area/badayaga/inside_underground/platoonarmory)
@@ -23609,13 +22370,8 @@
 /turf/open/floor/almayer_hull/blackfull,
 /area/badayaga/inside_underground/platoonarmory)
 "Np" = (
-/obj/structure/closet/secure_closet/marine_personal/smartgunner{
-	pixel_x = -7
-	},
-/obj/structure/closet/secure_closet/marine_personal/squad_leader{
-	pixel_x = 8
-	},
-/turf/open/floor/plating/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/ship,
 /area/badayaga/inside_underground/dorms)
 "Nq" = (
 /obj/structure/platform_decoration/kutjevo/smooth,
@@ -23674,23 +22430,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
-"Nx" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/stairs/perspective/kutjevo{
-	dir = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
+"Nw" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ammo_box/magazine/nade_box/fourtymil{
+	pixel_y = 4
+	},
+/obj/item/ammo_box/magazine/nade_box/fourtymil{
+	pixel_y = 12;
+	pixel_x = 3
+	},
+/turf/open/floor/plating,
+/area/badayaga/inside_underground/platoonarmory)
 "Ny" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -23834,12 +22585,6 @@
 	pixel_x = -9;
 	pixel_y = 0
 	},
-/obj/structure/machinery/door_control{
-	pixel_y = 10;
-	pixel_x = -9;
-	id = "squadarmory";
-	name = "gear lockers door-control"
-	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/badayaga/inside_underground/command_rooms)
 "NO" = (
@@ -23963,9 +22708,6 @@
 	pixel_y = 17;
 	pixel_x = 5;
 	layer = 4.12
-	},
-/obj/item/clothing/head/cmcap/boonie/tan{
-	pixel_x = 7
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
@@ -24112,7 +22854,6 @@
 /obj/item/bedsheet/brown{
 	layer = 3.4
 	},
-/obj/effect/landmark/start/bridge,
 /obj/effect/landmark/late_join,
 /obj/structure/bed{
 	buckling_y = 13;
@@ -24122,7 +22863,8 @@
 /obj/item/bedsheet/brown{
 	pixel_y = 13
 	},
-/obj/effect/landmark/start/bridge,
+/obj/effect/landmark/start/bridge/uacg,
+/obj/effect/landmark/start/bridge/uacg,
 /turf/open/floor/almayer_hull,
 /area/badayaga/inside_underground/command_rooms)
 "Oo" = (
@@ -24411,7 +23153,7 @@
 	pixel_x = -26;
 	pixel_y = 9
 	},
-/obj/structure/machinery/m56d_hmg,
+/obj/structure/machinery/m56d_hmg/auto,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -24441,10 +23183,10 @@
 	pixel_y = 7;
 	pixel_x = 5
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "OT" = (
@@ -24678,8 +23420,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
+/obj/item/ammo_magazine/m2c,
+/obj/item/ammo_magazine/m2c,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
@@ -24959,6 +23701,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/badayaga/outside)
+"PL" = (
+/obj/structure/bed/sofa/pews,
+/obj/structure/machinery/light/double{
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/dorms)
 "PM" = (
 /obj/structure/prop/static_tank/fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -25087,9 +23838,9 @@
 	pixel_y = 13
 	},
 /obj/effect/landmark/late_join,
-/obj/effect/landmark/start/marine/alpha,
-/obj/effect/landmark/start/marine/alpha,
 /obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/start/marine/uacg,
+/obj/effect/landmark/start/marine/uacg,
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground/dorms)
 "PV" = (
@@ -25154,13 +23905,17 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Qa" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Weapons Locker";
-	id = "squadarmory";
-	pixel_y = -4
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/med_data/laptop{
+	dir = 4;
+	pixel_y = 3
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	pixel_x = -1
 	},
 /turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
+/area/badayaga/inside_underground/medical)
 "Qb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double{
@@ -25234,18 +23989,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"Qh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/blood,
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "Qi" = (
 /obj/structure/barricade/wooden{
 	do_not_adjust = 1
@@ -25319,11 +24062,11 @@
 	dir = 4;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "Qt" = (
@@ -25392,10 +24135,29 @@
 /area/badayaga/inside)
 "Qx" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_box/magazine/nade_box{
-	pixel_y = 10;
-	layer = 3.2;
-	pixel_x = -4
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_x = 6;
+	pixel_y = 16
+	},
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_x = -7;
+	pixel_y = 19
+	},
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_y = 7;
+	pixel_x = 4
+	},
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/magazine/misc/mre{
+	pixel_x = -2;
+	pixel_y = 16
 	},
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
@@ -25570,29 +24332,10 @@
 /turf/open/floor/plating,
 /area/badayaga/inside)
 "QM" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
+/obj/effect/vehicle_roof/pizza_van,
+/obj/effect/vehicle_roof/pizza_van,
+/turf/closed/wall/wood,
+/area/badayaga/inside)
 "QN" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -25635,6 +24378,7 @@
 	do_not_adjust = 1
 	},
 /obj/effect/vehicle_roof/pizza_van,
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "QQ" = (
@@ -25647,25 +24391,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"QR" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/barricade/wooden{
-	dir = 1;
-	pixel_y = 19;
-	layer = 4.22;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
 "QS" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -25689,17 +24414,19 @@
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "QU" = (
-/obj/structure/platform/kutjevo/smooth,
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
 /obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
+/obj/structure/girder/reinforced,
+/turf/open/gm/dirt2,
 /area/badayaga/outside)
 "QV" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -25707,42 +24434,6 @@
 	layer = 3.04
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
-"QX" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/largecrate/supply/explosives/mortar_he,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/item/ammo_magazine/m56d{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/ammo_magazine/m56d{
-	pixel_x = -7;
-	pixel_y = 11
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
-"QY" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/bed/chair/wood/normal{
-	dir = 4;
-	pixel_x = -10;
-	pixel_y = 6
-	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
@@ -25788,24 +24479,6 @@
 "Rh" = (
 /turf/open/asphalt/cement_darkened,
 /area/badayaga/inside_underground)
-"Ri" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/bed/stool{
-	pixel_y = 6;
-	pixel_x = 8
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/machinery/light/small{
-	dir = 8;
-	pixel_x = -1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside)
 "Rk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood,
@@ -25875,49 +24548,11 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Rs" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
+/obj/structure/bed/chair/office/dark{
+	dir = 4
 	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
-"Rt" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 8;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 8;
-	layer = 3.08;
-	pixel_x = -9;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/largecrate/random/secure,
-/obj/structure/largecrate/random/mini/wooden{
-	pixel_x = 6;
-	pixel_y = -17
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/outside)
+/turf/open/floor/almayer_hull,
+/area/badayaga/inside_underground/mess)
 "Ru" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -25971,11 +24606,11 @@
 	climb_delay = 1;
 	layer = 2.99
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "RA" = (
@@ -26366,10 +25001,10 @@
 	pixel_y = 71;
 	pixel_x = 4
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "RY" = (
@@ -26417,13 +25052,25 @@
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Sd" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	dir = 4;
-	name = "\improper Hangar Lockdown Blast Door";
-	id = "hangarlockdownwest"
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/suit/armor/vest/pilot{
+	pixel_y = 8;
+	pixel_x = -3
 	},
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/dorms)
+/obj/item/clothing/suit/armor/vest/pilot{
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/obj/item/clothing/suit/armor/vest/pilot{
+	pixel_x = 2;
+	pixel_y = 1
+	},
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall";
+	color = "black"
+	},
+/area/badayaga/inside_underground/platoonarmory)
 "Se" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/four{
 	faction = "UPP"
@@ -26533,14 +25180,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
-"Sn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
 "Sp" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -26558,10 +25197,10 @@
 /area/badayaga/inside)
 "Sq" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/storage/box/guncase/heavy/sentry{
-	pixel_y = 13
+/obj/item/storage/box/guncase/heavy/fuel{
+	pixel_y = 11
 	},
-/obj/item/storage/box/guncase/heavy/sentry,
+/obj/item/storage/box/guncase/heavy/fuel,
 /turf/open/floor/plating,
 /area/badayaga/inside_underground/platoonarmory)
 "Sr" = (
@@ -26855,16 +25494,6 @@
 	do_not_adjust = 1
 	},
 /turf/open/gm/dirt2,
-/area/badayaga/outside)
-"SW" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood,
 /area/badayaga/outside)
 "SX" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -27177,14 +25806,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating,
-/area/badayaga/inside)
-"Tq" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 1
-	},
-/obj/structure/platform_decoration/kutjevo/smooth,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Tr" = (
 /obj/structure/platform_decoration/kutjevo/smooth{
@@ -27580,20 +26201,6 @@
 	},
 /turf/open/floor/plating,
 /area/badayaga/outside)
-"TT" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/wooden{
-	dir = 4;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/outside)
 "TU" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -27741,14 +26348,24 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "Uj" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Weapons Locker";
-	id = "squadarmory";
-	pixel_y = -4
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/barricade/sandbags/wired{
+	dir = 1;
+	layer = 4.14;
+	pixel_y = 17;
+	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
+/obj/item/ammo_magazine/m2c{
+	pixel_y = 6
+	},
+/obj/effect/vehicle_roof/pizza_van,
+/turf/open/gm/dirt2,
+/area/badayaga/inside)
 "Uk" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -27941,8 +26558,14 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/m56d_hmg{
-	dir = 1
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/tool/screwdriver{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/prop/helmetgarb/gunoil{
+	pixel_x = -6;
+	pixel_y = 9
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
@@ -28169,21 +26792,18 @@
 	dir = 4;
 	layer = 3.04
 	},
-/obj/structure/barricade/wooden{
-	dir = 1;
-	pixel_y = 19;
-	layer = 4.22;
-	do_not_adjust = 1
-	},
+/obj/structure/girder/reinforced,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "UW" = (
-/obj/item/explosive/mine/active/no_iff{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -15
 	},
-/turf/open/auto_turf/strata_grass/layer0_mud_alt,
-/area/badayaga/outside)
+/turf/open/asphalt/cement_sunbleached_darkened,
+/area/badayaga/inside_underground/mess)
 "UX" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -28194,7 +26814,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood_broken4,
-/area/badayaga/outside)
+/area/badayaga/inside)
 "UY" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -28345,31 +26965,24 @@
 /area/badayaga/inside)
 "Vk" = (
 /obj/structure/platform/kutjevo/smooth{
-	dir = 1;
+	dir = 8;
 	climb_delay = 1;
 	layer = 2.99
 	},
 /obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
+	dir = 8;
+	layer = 3.08;
+	pixel_x = -9;
 	do_not_adjust = 1
 	},
-/obj/structure/closet/crate/explosives{
-	pixel_y = 2
+/obj/structure/barricade/wooden{
+	dir = 1;
+	pixel_y = 19;
+	layer = 4.22;
+	do_not_adjust = 1
 	},
-/obj/item/weapon/gun/launcher/rocket/anti_tank/disposable{
-	pixel_y = -5
-	},
-/obj/item/weapon/gun/launcher/rocket/anti_tank/disposable{
-	pixel_y = 4
-	},
-/obj/item/weapon/gun/launcher/rocket/anti_tank/disposable,
-/obj/item/explosive/grenade/high_explosive/m15,
-/obj/item/explosive/grenade/high_explosive/m15,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/turf/open/floor/plating/wood,
+/area/badayaga/outside)
 "Vl" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -28411,11 +27024,6 @@
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground)
-"Vp" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "Vq" = (
 /obj/structure/bed/stool{
 	pixel_x = 8
@@ -28447,15 +27055,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating,
 /area/badayaga/inside)
-"Vu" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Equipment Locker";
-	id = "squadarmory";
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
 "Vv" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -28532,19 +27131,6 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
-"VC" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 8;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "VD" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -28556,10 +27142,10 @@
 	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	pixel_y = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "VE" = (
@@ -28593,21 +27179,6 @@
 	},
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
-/area/badayaga/inside)
-"VH" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/displaced{
-	anchored = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
 /area/badayaga/inside)
 "VK" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -29024,25 +27595,21 @@
 /area/badayaga/outside)
 "Wt" = (
 /obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+	dir = 4;
+	layer = 3.04
 	},
 /obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9;
 	do_not_adjust = 1
 	},
-/obj/item/ashtray/plastic{
-	icon_state = "ashtray_full_bl";
-	pixel_x = -9;
-	pixel_y = 11
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/barrel/red{
+	layer = 3.4;
+	pixel_x = -7
 	},
 /obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 8
-	},
 /turf/open/gm/dirt3,
 /area/badayaga/inside)
 "Ww" = (
@@ -29087,14 +27654,9 @@
 /turf/open/asphalt/cement_sunbleached_darkened,
 /area/badayaga/inside_underground/offices)
 "WB" = (
-/obj/structure/closet/secure_closet/marine_personal/platoon_leader{
-	pixel_x = -7
-	},
-/obj/structure/closet/secure_closet/marine_personal/corpsman{
-	pixel_x = 8
-	},
-/turf/open/floor/plating/wood,
-/area/badayaga/inside_underground/dorms)
+/obj/structure/window/framed/bunker,
+/turf/closed/wall/hangar,
+/area/badayaga/inside_underground/platoonarmory)
 "WC" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/barricade/sandbags/wired{
@@ -29243,19 +27805,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/wood_broken4,
 /area/badayaga/outside)
-"WT" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
-/turf/open/floor/plating/wood_broken5,
-/area/badayaga/inside)
 "WU" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/platform/kutjevo/smooth{
@@ -29705,14 +28254,18 @@
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
 "XK" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
+/turf/closed/wall/wood,
 /area/badayaga/inside)
+"XL" = (
+/obj/structure/machinery/light/double{
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
+	dir = 1;
+	pixel_y = 1
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "XM" = (
 /obj/structure/platform/kutjevo/smooth,
 /obj/structure/platform/kutjevo/smooth{
@@ -29875,40 +28428,12 @@
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
-"Ya" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
+"Yc" = (
+/obj/structure/closet/secure_closet/marine_personal/platoon_leader{
+	pixel_x = -7
 	},
-/obj/structure/platform/kutjevo/smooth{
-	dir = 4;
-	layer = 3.04
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 4;
-	layer = 3.08;
-	pixel_x = 9;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
-"Yb" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/tent_curtain,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt3,
-/area/badayaga/inside)
+/turf/open/floor/plating/wood,
+/area/badayaga/inside_underground/platoonarmory)
 "Yd" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -29926,14 +28451,6 @@
 	},
 /turf/open/floor/plating/wood,
 /area/badayaga/outside)
-"Ye" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	name = "\improper Equipment Locker";
-	id = "squadarmory";
-	dir = 4
-	},
-/turf/open/asphalt/cement_darkened,
-/area/badayaga/inside_underground/platoonarmory)
 "Yf" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -29953,19 +28470,11 @@
 /area/badayaga/inside)
 "Yg" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/girder/displaced{
-	anchored = 1
+/obj/structure/bed/chair/wood/normal{
+	dir = 1;
+	pixel_x = 9
 	},
-/obj/structure/platform_decoration/kutjevo/smooth,
 /obj/effect/vehicle_roof/pizza_van,
-/obj/structure/sign/safety/north{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/sign/safety/five{
-	pixel_x = 14;
-	pixel_y = 5
-	},
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "Yh" = (
@@ -29986,7 +28495,7 @@
 	pixel_x = 6;
 	pixel_y = 16
 	},
-/obj/item/prop/helmetgarb/helmet_nvg/cosmetic/larp,
+/obj/item/weapon/gun/pistol/vp78,
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Yj" = (
@@ -30007,11 +28516,11 @@
 /obj/item/tool/surgery/bonegel/empty{
 	pixel_x = 11
 	},
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 4;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "Ym" = (
@@ -30069,21 +28578,6 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating/wood,
 /area/badayaga/inside_underground/engineering)
-"Ys" = (
-/obj/structure/platform/kutjevo/smooth{
-	dir = 1;
-	climb_delay = 1;
-	layer = 2.99
-	},
-/obj/structure/barricade/sandbags/wired{
-	dir = 1;
-	layer = 4.14;
-	pixel_y = 17;
-	do_not_adjust = 1
-	},
-/obj/effect/decal/cleanable/liquid_fuel,
-/turf/open/gm/dirt2,
-/area/badayaga/outside)
 "Yt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil,
@@ -30126,6 +28620,23 @@
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
+"YC" = (
+/obj/structure/surface/table/reinforced/prison{
+	pixel_y = -1
+	},
+/obj/item/paper_bin/uscm{
+	pixel_y = -8
+	},
+/obj/item/tool/pen/clicky{
+	pixel_y = 1;
+	pixel_x = -10
+	},
+/obj/item/tool/hand_labeler{
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "YD" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 4;
@@ -30219,17 +28730,6 @@
 /obj/structure/girder/reinforced,
 /obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
-/area/badayaga/inside)
-"YM" = (
-/obj/structure/bed/chair/vehicle{
-	dir = 1
-	},
-/obj/item/toy/deck{
-	pixel_y = -32;
-	pixel_x = 6
-	},
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/floor/plating/wood,
 /area/badayaga/inside)
 "YN" = (
 /obj/structure/stairs/perspective/kutjevo,
@@ -30557,11 +29057,11 @@
 	do_not_adjust = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/vehicle_roof/pizza_van,
 /obj/structure/machinery/light/small{
 	dir = 8;
 	pixel_x = -1
 	},
+/obj/effect/vehicle_roof/pizza_van,
 /turf/open/gm/dirt2,
 /area/badayaga/inside)
 "Zo" = (
@@ -30599,6 +29099,26 @@
 	},
 /turf/open/floor/plating/wood_broken3,
 /area/badayaga/outside)
+"Zq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/wood_broken2,
+/area/badayaga/inside_underground/platoonarmory)
+"Zt" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/loadout/M4A3_custom_loadout{
+	pixel_x = 4;
+	pixel_y = 12
+	},
+/obj/item/storage/box/loadout/M4A3_custom_loadout{
+	pixel_y = 2;
+	pixel_x = -1
+	},
+/obj/item/storage/box/loadout/M4A3_custom_loadout{
+	pixel_y = 9;
+	pixel_x = -4
+	},
+/turf/open/asphalt/cement_darkened,
+/area/badayaga/inside_underground/platoonarmory)
 "Zu" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 1;
@@ -30641,16 +29161,22 @@
 /turf/open/gm/dirt3,
 /area/badayaga/outside)
 "Zx" = (
-/obj/structure/platform_decoration/kutjevo/smooth{
-	dir = 8
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	layer = 3.04
 	},
-/obj/structure/tent_curtain,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/vehicle_roof/pizza_van,
-/turf/open/gm/dirt2,
-/area/badayaga/inside)
+/obj/structure/barricade/sandbags/wired{
+	dir = 4;
+	layer = 3.08;
+	pixel_x = 9;
+	do_not_adjust = 1
+	},
+/obj/structure/largecrate/random/case/double{
+	pixel_y = 9;
+	layer = 3.2
+	},
+/turf/open/gm/dirt3,
+/area/badayaga/outside)
 "Zz" = (
 /obj/structure/platform/kutjevo/smooth{
 	dir = 8;
@@ -30676,16 +29202,6 @@
 	dir = 4
 	},
 /turf/open/gm/dirt3,
-/area/badayaga/outside)
-"ZD" = (
-/obj/structure/platform/kutjevo/smooth,
-/obj/structure/girder/reinforced,
-/obj/structure/barricade/sandbags/wired{
-	layer = 4.22;
-	pixel_y = -11;
-	do_not_adjust = 1
-	},
-/turf/open/gm/dirt2,
 /area/badayaga/outside)
 "ZE" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -31113,38 +29629,38 @@ JW
 "}
 (2,1,1) = {"
 JW
-fB
-fB
-yd
-jU
-jU
-jU
-jU
-kc
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Ll
-im
-ZD
-Ll
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -31315,38 +29831,38 @@ JW
 "}
 (3,1,1) = {"
 JW
-fB
-fB
-Uh
-BY
-BY
-BY
-aI
-It
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-Tj
-pX
-gq
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -31517,38 +30033,38 @@ JW
 "}
 (4,1,1) = {"
 JW
-fB
-fB
-Uh
-BY
-BY
-BY
-aI
-It
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Hn
-fB
-fB
-ZN
-zB
-fB
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -31719,38 +30235,38 @@ JW
 "}
 (5,1,1) = {"
 JW
-fB
-fB
-Ii
-Jy
-Jy
-Jy
-aZ
-qQ
-Cv
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-Ey
-fB
-iX
-zB
-fB
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -31921,38 +30437,38 @@ JW
 "}
 (6,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-rY
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-vR
-Cv
-fB
-fB
-fB
-Ie
-TT
-fB
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -32123,38 +30639,38 @@ JW
 "}
 (7,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-xe
-fB
-fB
-rY
-rY
-rY
-rY
-rY
-fB
-In
-fB
-fB
-fB
-Pn
-fB
-fB
-tF
-Ly
-mh
-gI
-fB
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -32325,38 +30841,38 @@ JW
 "}
 (8,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-FI
-Cv
-Cv
-fB
-rY
-rY
-rY
-rY
-rY
-fB
-Cv
-Cv
-Cv
-fB
-fB
-Pn
-fB
-fB
-fB
-wv
-Lg
-HB
-fB
-fB
-fB
-fB
-rK
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -32418,7 +30934,7 @@ fB
 fB
 qY
 tg
-uD
+QM
 uD
 hi
 fB
@@ -32527,38 +31043,38 @@ JW
 "}
 (9,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-rY
-rY
-rY
-rY
-rY
-fB
-fB
-fB
-fB
-fB
-Cv
-fB
-fB
-Cv
-fB
-eR
-wK
-ox
-fB
-fB
-fB
-fB
-fB
-Ey
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -32729,38 +31245,38 @@ JW
 "}
 (10,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-rY
-rY
-rY
-fB
-fB
-Cv
-Cv
-Cv
-fB
-In
-Cv
-Cv
-Cv
-Cv
-fB
-og
-Ge
-FG
-fB
-xT
-fB
-TW
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -32784,7 +31300,7 @@ eU
 eU
 eU
 wG
-wK
+Yg
 TD
 ky
 fB
@@ -32931,38 +31447,38 @@ JW
 "}
 (11,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-fB
-Cv
-rY
-rY
-rY
-rY
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-Cv
-Cv
-Cv
-fB
-tF
-tm
-Ld
-rS
-fB
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -32986,7 +31502,7 @@ mO
 eU
 eU
 UC
-ko
+HJ
 TD
 PV
 Cv
@@ -33133,38 +31649,38 @@ JW
 "}
 (12,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-fB
-Cv
-rY
-rY
-rY
-rY
-Cv
-Cv
-fB
-fB
-fB
-Cv
-fB
-SN
-fB
-fB
-fB
-fB
-fB
-qa
-nt
-fB
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -33187,7 +31703,7 @@ eU
 eU
 eU
 mO
-rw
+db
 oS
 TD
 ky
@@ -33268,7 +31784,7 @@ eU
 eU
 tj
 xU
-eU
+zj
 eU
 aw
 YA
@@ -33335,38 +31851,38 @@ JW
 "}
 (13,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-fB
-fB
-fB
-Cv
-Cv
-iR
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-gq
-fB
-fB
-fB
-fB
-Cv
-qa
-CN
-xy
-xy
-rF
-AI
-Ah
-no
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -33537,38 +32053,38 @@ JW
 "}
 (14,1,1) = {"
 JW
-fB
-fB
-bM
-Cv
-Cv
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-In
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-Pn
-Cv
-LD
-Va
-Va
-tY
-wo
-wo
-Dr
-zB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -33739,38 +32255,38 @@ JW
 "}
 (15,1,1) = {"
 JW
-SN
-fB
-Cv
-Os
-Cv
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-Pn
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-sG
-zB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -33941,38 +32457,38 @@ JW
 "}
 (16,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-qa
-Rs
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 yd
@@ -34143,38 +32659,38 @@ JW
 "}
 (17,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-TW
-fB
-In
-fB
-fB
-fB
-fB
-fB
-fB
-tF
-AT
-Jj
-fX
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 Uh
@@ -34345,38 +32861,38 @@ JW
 "}
 (18,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-TW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-ye
-qc
-yV
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 Uh
@@ -34547,39 +33063,39 @@ JW
 "}
 (19,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Hn
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-yd
-jU
-kc
-fB
-Pn
-fB
-fB
-fB
-hS
-tv
-Bm
-uD
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+XK
 fB
 Ii
 Jy
@@ -34749,39 +33265,39 @@ JW
 "}
 (20,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Uh
-BY
-cm
-fB
-Pn
-fB
-fB
-fB
-Wt
-Ub
-Iy
-uD
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+XK
 fB
 fB
 fB
@@ -34951,38 +33467,38 @@ JW
 "}
 (21,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Ii
-Jy
-lb
-fB
-Pn
-fB
-fB
-tF
-tm
-Ld
-VQ
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 uD
 uD
 fB
@@ -35153,40 +33669,40 @@ JW
 "}
 (22,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Gm
-Ef
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 Hs
-ec
+qQ
 Dq
 Mn
 TJ
@@ -35355,40 +33871,40 @@ JW
 "}
 (23,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-tF
-AT
-KS
-rR
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 UV
-hR
+Wt
 qE
 lo
 jj
@@ -35557,38 +34073,38 @@ JW
 "}
 (24,1,1) = {"
 JW
-fB
-fB
-rK
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-YA
-YA
-YA
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-xT
-fB
-fB
-fB
-Vk
-ed
-QX
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 uD
 uD
 fB
@@ -35759,38 +34275,38 @@ JW
 "}
 (25,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-YA
-nP
-YA
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-EB
-fB
-fB
-fB
-fB
-EU
-bn
-wy
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 uD
 fB
 fB
@@ -35961,38 +34477,38 @@ JW
 "}
 (26,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-nP
-nP
-eU
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-xE
-EG
-mw
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 uD
 fB
 fB
@@ -36163,38 +34679,38 @@ JW
 "}
 (27,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-SN
-nP
-nP
-YA
-eU
-eU
-eU
-fB
-Pn
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-tF
-db
-Zx
-VH
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -36365,38 +34881,38 @@ JW
 "}
 (28,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-EB
-fB
-fB
-YA
-YA
-eU
-eU
-eU
-fB
-Pn
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Ys
-dB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -36567,38 +35083,38 @@ JW
 "}
 (29,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-YA
-YA
-YA
-eU
-eU
-mO
-mO
-HD
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-qa
-sr
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -36769,38 +35285,38 @@ JW
 "}
 (30,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-eU
-mO
-mO
-HD
-mO
-eU
-eU
-mO
-HD
-fB
-fB
-Rt
-Ke
-kn
-tI
-sr
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 SN
 fB
 rY
@@ -36971,38 +35487,38 @@ JW
 "}
 (31,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-Ao
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-UW
-mO
-eU
-mO
-mO
-mO
-eU
-mO
-aB
-fB
-fB
-OQ
-bI
-vJ
-vJ
-Tf
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 rY
 rY
@@ -37173,38 +35689,38 @@ JW
 "}
 (32,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-mO
-mO
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-eU
-eU
-aB
-eU
-fB
-OF
-yP
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 rY
 rY
@@ -37340,7 +35856,7 @@ mO
 fB
 fB
 jE
-bY
+ld
 iW
 fB
 fB
@@ -37375,38 +35891,38 @@ JW
 "}
 (33,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-mO
-mO
-mO
-mO
-eU
-fB
-fB
-eU
-mO
-mO
-eU
-eU
-eU
-eU
-OF
-yP
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 rY
@@ -37542,7 +36058,7 @@ mO
 fB
 fB
 ib
-qS
+IT
 Ob
 fB
 fB
@@ -37577,38 +36093,38 @@ JW
 "}
 (34,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-mO
-mO
-mO
-fB
-fB
-fB
-eU
-mO
-mO
-eU
-eU
-eU
-eU
-sG
-Vp
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 rY
@@ -37779,38 +36295,38 @@ JW
 "}
 (35,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-eU
-fB
-fB
-fB
-fB
-YA
-YA
-YA
-fB
-fB
-fB
-fB
-qa
-NY
-fB
-rY
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 rY
@@ -37981,38 +36497,38 @@ JW
 "}
 (36,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-YA
-YA
-fB
-fB
-fB
-YA
-qa
-Rs
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 rY
 rY
@@ -38183,38 +36699,38 @@ JW
 "}
 (37,1,1) = {"
 JW
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-YA
-nP
-nP
-fS
-AT
-Jj
-gw
-uD
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 rY
 rY
@@ -38385,38 +36901,38 @@ JW
 "}
 (38,1,1) = {"
 JW
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-YA
-YA
-YA
-nP
-QY
-HJ
-zA
-uD
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -38587,38 +37103,38 @@ JW
 "}
 (39,1,1) = {"
 JW
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-nP
-YA
-YA
-YA
-YA
-UC
-xq
-JX
-uD
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -38789,41 +37305,41 @@ JW
 "}
 (40,1,1) = {"
 JW
-fB
-fB
-fB
-bM
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-nP
-YA
-YA
-YA
-fB
-fB
-Ce
-Lr
-Tq
-br
-tJ
-JS
-OM
-fy
-fy
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+QU
+ko
+Vk
 Gf
 cF
 BL
@@ -38991,41 +37507,41 @@ JW
 "}
 (41,1,1) = {"
 JW
-fB
-fB
-TW
-fB
-zi
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-nP
-nP
-Ow
-YA
-YA
-fB
-tF
-GE
-Ld
-DA
-uD
-LD
-bS
-vJ
-vJ
-Xa
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+BQ
+dD
+lv
 ej
 Tu
 lI
@@ -39193,38 +37709,38 @@ JW
 "}
 (42,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Pn
-nP
-fB
-fB
-fB
-fB
-sG
-zB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -39395,38 +37911,38 @@ JW
 "}
 (43,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-EB
-fB
-fB
-fB
-qa
-sr
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -39597,38 +38113,38 @@ JW
 "}
 (44,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-qa
-sr
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -39799,38 +38315,38 @@ JW
 "}
 (45,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-OQ
-sr
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 uD
 uD
 uD
@@ -40001,38 +38517,38 @@ JW
 "}
 (46,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-EB
-fB
-fB
-fB
-Pn
-fB
-fB
-fB
-fB
-fB
-fB
-bJ
-pe
-zS
-Gc
-AG
-cA
-zO
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 cE
 wi
 zl
@@ -40203,40 +38719,40 @@ JW
 "}
 (47,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-TW
-fB
-fB
-fB
-fB
-Pn
-fB
-fB
-fB
-fB
-tF
-AT
-Jj
-Yg
-QR
-wo
-VP
-ds
-xt
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 Eq
-NP
+TA
 lo
 jx
 cW
@@ -40405,38 +38921,38 @@ JW
 "}
 (48,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-FI
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-Pn
-fB
-fB
-fB
-fB
-fB
-LI
-dK
-Ri
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 uD
@@ -40499,7 +39015,7 @@ Yy
 qc
 cv
 Nu
-Vr
+wv
 kk
 Wj
 HJ
@@ -40577,7 +39093,7 @@ rK
 fB
 fB
 fB
-Uy
+Uj
 op
 py
 Cv
@@ -40607,38 +39123,38 @@ JW
 "}
 (49,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-fB
-fB
-Cv
-Cv
-Cv
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-As
-YM
-BQ
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -40809,38 +39325,38 @@ JW
 "}
 (50,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-MR
-fB
-Cv
-Cv
-bM
-fB
-fB
-be
-Ub
-kz
-fB
-fB
-fB
-fB
-TW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -41011,38 +39527,38 @@ JW
 "}
 (51,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-gq
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-tF
-tm
-Fn
-sa
-fB
-yd
-jU
-jU
-kc
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -41213,38 +39729,38 @@ JW
 "}
 (52,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-sG
-VC
-fB
-Ii
-fx
-BY
-BY
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 kc
 fB
 fB
@@ -41415,38 +39931,38 @@ JW
 "}
 (53,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-fB
-fB
-Cv
-Cv
-fB
-In
-fB
-fB
-fB
-fB
-fB
-qa
-zB
-fB
-fB
-fB
-Ii
-Jy
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 lb
 fB
 fB
@@ -41617,38 +40133,38 @@ JW
 "}
 (54,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-fB
-rK
-fB
-fB
-fB
-rB
-zB
-fB
-fB
-TW
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 Nk
@@ -41819,38 +40335,38 @@ JW
 "}
 (55,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-qa
-zj
-fB
-fB
-fB
-TW
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 tF
 tL
@@ -42021,38 +40537,38 @@ JW
 "}
 (56,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-tF
-jo
-zY
-gH
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 og
@@ -42223,38 +40739,38 @@ JW
 "}
 (57,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Hn
-fB
-fB
-fB
-fB
-fB
-fB
-Ey
-fB
-fB
-fB
-Pn
-fB
-fB
-Dn
-gK
-nq
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 og
@@ -42278,11 +40794,11 @@ fB
 fB
 fB
 fB
-xh
+OQ
 wK
 gC
 AN
-eK
+OM
 XF
 tq
 Cv
@@ -42425,38 +40941,38 @@ JW
 "}
 (58,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-rY
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Pn
-fB
-fB
-iF
-uv
-Ob
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 tF
 RZ
@@ -42480,11 +40996,11 @@ fB
 fB
 fB
 fB
-ay
+FN
 OD
 oB
 FW
-fP
+wo
 Uq
 sr
 fB
@@ -42627,38 +41143,38 @@ JW
 "}
 (59,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-rY
-rY
-rY
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Pn
-fB
-fB
-LI
-od
-zv
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 Ai
@@ -42829,38 +41345,38 @@ JW
 "}
 (60,1,1) = {"
 JW
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-rY
-rY
-fB
-fB
-fB
-rY
-rY
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-tF
-GE
-EO
-rg
-fB
-fB
-fB
-fB
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 uD
@@ -43031,39 +41547,39 @@ JW
 "}
 (61,1,1) = {"
 JW
-fB
-fB
-fB
-Cv
-fB
-fB
-fB
-rY
-rY
-rY
-fB
-fB
-rY
-rY
-fB
-fB
-fB
-fB
-yd
-kc
-fB
-fB
-fB
-fB
-fB
-OF
-Qh
-cA
-cA
-xy
-xy
-nM
-xy
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+rF
 jI
 Wc
 JM
@@ -43233,38 +41749,38 @@ JW
 "}
 (62,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-rY
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Ii
-lb
-fB
-fB
-fB
-fB
-fB
-QM
-vJ
-vJ
-wo
-hk
-bz
-Nx
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 iv
 Ct
 hR
@@ -43435,38 +41951,38 @@ JW
 "}
 (63,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-Cv
-Cv
-Cv
-SN
-fB
-rY
-rY
-fB
-TW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-ZN
-tq
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -43637,38 +42153,38 @@ JW
 "}
 (64,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-yd
-jU
-jU
-kc
-fB
-fB
-gq
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-ZN
-mT
-rK
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 xT
 fB
 fB
@@ -43839,38 +42355,38 @@ JW
 "}
 (65,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-Uh
-Hx
-BY
-cm
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-fB
-tF
-Ly
-oC
-gk
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -44041,38 +42557,38 @@ JW
 "}
 (66,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-iR
-fB
-fB
-fB
-Cv
-Cv
-Cv
-fB
-Uh
-BY
-BY
-cm
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-rw
-Lr
-Dy
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -44243,38 +42759,38 @@ JW
 "}
 (67,1,1) = {"
 JW
-fB
-fB
-Cv
-Cv
-Cv
-Cv
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-In
-Uh
-BY
-BY
-cm
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-UC
-HJ
-CH
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -44445,38 +42961,38 @@ JW
 "}
 (68,1,1) = {"
 JW
-fB
-fB
-EB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Ii
-fx
-fx
-lb
-In
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Gm
-HJ
-aL
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -44505,8 +43021,8 @@ fB
 fB
 xT
 fB
-zd
-mD
+SD
+Rm
 TW
 fB
 fB
@@ -44647,38 +43163,38 @@ JW
 "}
 (69,1,1) = {"
 JW
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-mO
-mO
-eU
-eU
-eU
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Pn
-fB
-tF
-tm
-Yb
-rS
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -44849,38 +43365,38 @@ JW
 "}
 (70,1,1) = {"
 JW
-fB
-fB
-Cv
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-mO
-mO
-mO
-mO
-eU
-eU
-eU
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Pn
-fB
-fB
-fB
-qa
-hL
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -44909,7 +43425,7 @@ fB
 rK
 fB
 fB
-zd
+SD
 Lt
 fB
 fB
@@ -45051,38 +43567,38 @@ JW
 "}
 (71,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-eU
-mO
-mO
-mO
-mO
-mO
-fB
-fB
-fB
-fB
-In
-fB
-fB
-fB
-Pn
-fB
-fB
-fB
-qa
-sr
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -45112,7 +43628,7 @@ fB
 fB
 fB
 bv
-pj
+Ex
 fB
 fB
 rK
@@ -45253,38 +43769,38 @@ JW
 "}
 (72,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-mO
-mO
-mO
-mO
-mO
-mO
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Cv
-Cv
-fB
-fB
-fB
-qa
-di
-NB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -45313,7 +43829,7 @@ fB
 fB
 fB
 fB
-tB
+UT
 EV
 fB
 fB
@@ -45391,7 +43907,7 @@ qv
 aJ
 tM
 BX
-TJ
+eR
 nE
 tM
 El
@@ -45455,38 +43971,38 @@ JW
 "}
 (73,1,1) = {"
 JW
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-mO
-eU
-eU
-eU
-fB
-fB
-fB
-YA
-YA
-YA
-fB
-fB
-Cv
-TW
-fB
-fB
-qa
-di
-NB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -45515,8 +44031,8 @@ fB
 fB
 fB
 fB
-ve
-mD
+ye
+Rm
 fB
 fB
 fB
@@ -45593,7 +44109,7 @@ oS
 nv
 Uv
 wb
-IT
+qS
 AR
 nn
 Dm
@@ -45657,38 +44173,38 @@ JW
 "}
 (74,1,1) = {"
 JW
-YA
-fB
-fB
-fB
-eU
-fB
-fB
-fB
-fB
-fB
-eU
-eU
-mO
-mO
-eU
-eU
-eU
-eU
-nF
-fB
-YA
-Cv
-Cv
-YA
-fB
-Cv
-Cv
-fB
-fB
-OF
-di
-NB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -45717,8 +44233,8 @@ fB
 fB
 fB
 fB
-qK
-Ja
+og
+iW
 fB
 fB
 fB
@@ -45859,38 +44375,38 @@ JW
 "}
 (75,1,1) = {"
 JW
-YA
-fB
-fB
-fB
-eU
-eU
-fB
-fB
-fB
-fB
-eU
-eU
-mO
-mO
-mO
-eU
-eU
-mO
-eU
-YA
-YA
-Cv
-Cv
-Cv
-YA
-fB
-Cv
-Cv
-fB
-OF
-XU
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -46061,38 +44577,38 @@ JW
 "}
 (76,1,1) = {"
 JW
-YA
-YA
-fB
-eU
-mO
-eU
-eU
-mO
-fB
-fB
-fB
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-fB
-fB
-fB
-YA
-vR
-Cv
-YA
-Cv
-Cv
-Cv
-qa
-HN
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 Ey
 fB
@@ -46263,38 +44779,38 @@ JW
 "}
 (77,1,1) = {"
 JW
-YA
-YA
-fB
-mO
-eU
-mO
-eU
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-fB
-fB
-YA
-nP
-dD
-YA
-YA
-Cv
-Si
-AT
-XK
-gu
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -46465,38 +44981,38 @@ JW
 "}
 (78,1,1) = {"
 JW
-YA
-YA
-YA
-YA
-fB
-mO
-mO
-fB
-fB
-fB
-fB
-eU
-eU
-eU
-fB
-fB
-fB
-nP
-nP
-eU
-nP
-YA
-YA
-Pn
-YA
-fB
-xT
-fB
-eQ
-Lr
-XA
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -46667,38 +45183,38 @@ JW
 "}
 (79,1,1) = {"
 JW
-nP
-sq
-YA
-nP
-fB
-fB
-eU
-fB
-fB
-TW
-fB
-fB
-fB
-fB
-fB
-In
-fB
-fB
-nP
-nP
-nP
-YA
-YA
-fB
-fB
-fB
-fB
-fB
-uj
-oS
-Gp
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -46869,38 +45385,38 @@ JW
 "}
 (80,1,1) = {"
 JW
-nP
-YA
-nP
-nP
-nP
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-YA
-YA
-nP
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-rw
-Ub
-uR
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -47071,38 +45587,38 @@ JW
 "}
 (81,1,1) = {"
 JW
-YA
-nP
-nP
-nP
-YA
-fB
-fB
-fB
-fB
-YA
-YA
-YA
-YA
-YA
-fB
-fB
-fB
-fB
-YA
-YA
-fB
-fB
-fB
-In
-fB
-Pn
-fB
-tF
-tm
-oe
-lv
-fB
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
 fB
 fB
@@ -47273,39 +45789,39 @@ JW
 "}
 (82,1,1) = {"
 JW
-eU
-YA
-YA
-YA
-YA
-YA
-YA
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-YA
-YA
-YA
-YA
-YA
-YA
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-vR
-Cv
-fB
-fB
-hn
-SW
-fy
-HM
 fB
 eU
 fB
@@ -47475,39 +45991,39 @@ JW
 "}
 (83,1,1) = {"
 JW
-eU
-eU
-eU
-YA
-YA
-nP
-nP
-YA
-YA
-YA
-nP
-YA
-YA
-YA
-YA
-YA
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-fB
-fB
-fB
-SN
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-Ya
-tY
-am
-sr
 fB
 fB
 fB
@@ -47677,39 +46193,39 @@ JW
 "}
 (84,1,1) = {"
 JW
-eU
-eU
-eU
-eU
-eU
-YA
-YA
-nP
-YA
-YA
-YA
-Rx
-nP
-YA
-YA
-YA
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-fB
-fB
-xT
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-OF
-uA
 fB
 fB
 fB
@@ -47879,39 +46395,39 @@ JW
 "}
 (85,1,1) = {"
 JW
-eU
-eU
-eU
-eU
-eU
-YA
-YA
-nP
-YA
-YA
-nP
-YA
-sq
-nP
-nP
-YA
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-In
-fB
-fB
-Hn
-fB
-xT
-fB
-In
-fB
-fB
-fB
-fB
-EB
-Ou
-NY
 fB
 fB
 rK
@@ -48081,39 +46597,39 @@ JW
 "}
 (86,1,1) = {"
 JW
-eU
-eU
-eU
-mO
-mO
-mO
-eU
-YA
-YA
-YA
-YA
-YA
-YA
-YA
-nP
-YA
-YA
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-rK
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-SN
-fB
-qa
-sr
 fB
 fB
 fB
@@ -48244,7 +46760,7 @@ ES
 Fq
 rV
 VR
-ap
+uE
 fB
 fB
 Pn
@@ -48283,41 +46799,41 @@ JW
 "}
 (87,1,1) = {"
 JW
-eU
-eU
-eU
-mO
-mO
-mO
-eU
-eU
-eU
-YA
-YA
-YA
-YA
-YA
-YA
-YA
-YA
-fB
-fB
-fB
-gq
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-fB
-DP
-lr
-Ke
-fy
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+Dn
+nt
+Vk
 yb
 Wc
 IW
@@ -48485,40 +47001,40 @@ JW
 "}
 (88,1,1) = {"
 JW
-eU
-eU
-eU
-eU
-mO
-mO
-mO
-mO
-eU
-YA
-YA
-YA
-YA
-YA
-YA
-YA
-YA
-YA
-eU
-eU
-eU
-eU
-rY
-rY
-eU
-fB
-fB
-In
-Pn
-fB
-fB
-OQ
-NL
-Ns
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+HN
+Zx
 oF
 qF
 hH
@@ -48687,39 +47203,39 @@ JW
 "}
 (89,1,1) = {"
 JW
-eU
-mO
-mO
-eU
-mO
-mO
-mO
-mO
-eU
-eU
-eU
-eU
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 YA
-YA
-YA
-eU
-eU
-eU
-eU
-eU
-eU
-rY
-rY
-rY
-rY
-fB
-fB
-fB
-Pn
-fB
-fB
-pM
-yP
 YA
 fB
 nP
@@ -48889,39 +47405,39 @@ JW
 "}
 (90,1,1) = {"
 JW
-mO
-mO
-mO
-mO
-mO
-mO
-mO
-eU
-eU
-eU
-eU
-eU
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 YA
-YA
-YA
-eU
-eU
-eU
-eU
-eU
-nF
-rY
-rY
-eU
-rY
-rY
-fB
-fB
-fB
-fB
-fB
-uB
-lB
 YA
 YA
 YA
@@ -49091,39 +47607,39 @@ JW
 "}
 (91,1,1) = {"
 JW
-eU
-eU
-mO
-mO
-mO
-mO
-mO
-eU
-eU
-eU
-eU
-eU
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 YA
-YA
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-rY
-rY
-fB
-fB
-fB
-fB
-fB
-pM
-QU
 YA
 YA
 YA
@@ -49293,39 +47809,39 @@ JW
 "}
 (92,1,1) = {"
 JW
-eU
-eU
-eU
-eU
-nP
-eU
-eU
-mO
-mO
-mO
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-nF
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-tF
-AT
-zL
-fN
 fB
 fB
 YA
@@ -49495,39 +48011,39 @@ JW
 "}
 (93,1,1) = {"
 JW
-mO
-mO
-nP
-nP
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-nF
-Cv
-zi
-eU
-eU
-eU
-eU
-eU
-eU
-rK
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-rw
-Ub
-bj
 fB
 fB
 Rx
@@ -49697,39 +48213,39 @@ JW
 "}
 (94,1,1) = {"
 JW
-eU
-eU
-nP
-nP
-Cv
-Cv
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-nP
-Cv
-Cv
-Cv
-nF
-eU
-eU
-eU
-eU
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-fB
-fB
-vo
-Sn
-sd
 fB
 fB
 YA
@@ -49899,39 +48415,39 @@ JW
 "}
 (95,1,1) = {"
 JW
-eU
-eU
-nP
-FI
-Cv
-zi
-Cv
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-mO
-nP
-Cv
-FI
-Cv
-eU
-eU
-eU
-eU
-eU
-eU
-eU
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 fB
-dH
-Lr
-WT
 fB
 fB
 YA
@@ -50101,39 +48617,39 @@ JW
 "}
 (96,1,1) = {"
 JW
-eU
-eU
-eU
-Cv
-Fj
-Cv
-Os
-eU
-eU
-eU
-eU
-mO
-eU
-eU
-eU
-mO
-mO
-Cv
-Cv
-Cv
-Cv
-FI
-nP
-eU
-eU
-eU
-mO
-mO
-eU
-tF
-tm
-Ld
-uZ
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+SN
 SN
 fB
 fB
@@ -50303,39 +48819,39 @@ JW
 "}
 (97,1,1) = {"
 JW
-eU
-eU
-eU
-Cv
-Cv
-nP
-eU
-eU
-Cv
-eU
-eU
-mO
-mO
-mO
-mO
-mO
-eU
-Cv
-FI
-eU
-eU
-eU
-Cv
-Cv
-eU
-eU
-HD
-mO
-mO
-eU
-eU
-qa
-ck
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+fB
 fB
 rK
 fB
@@ -50505,39 +49021,39 @@ JW
 "}
 (98,1,1) = {"
 JW
-eU
-eU
-Cv
-bM
-nP
-nP
-Cv
-Cv
-Cv
-eU
-eU
-eU
-mO
-mO
-mO
-mO
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-nP
-eU
-aB
-mO
-mO
-mO
-eU
-JV
-sr
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+fB
 fB
 fB
 fB
@@ -50707,39 +49223,39 @@ JW
 "}
 (99,1,1) = {"
 JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 eU
-eU
-eU
-nP
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-MR
-eU
-aB
-eU
-mO
-eU
-mO
-CC
-qp
 eU
 fB
 fB
@@ -50909,40 +49425,40 @@ JW
 "}
 (100,1,1) = {"
 JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
+JW
 eU
 eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-eU
-mO
-mO
-eU
-eU
-Ll
-FA
-lP
-Ll
 eU
 fB
 fB
@@ -52765,7 +51281,7 @@ oI
 Rk
 bu
 sF
-aT
+UW
 rl
 rf
 JW
@@ -53172,10 +51688,10 @@ oL
 bu
 fI
 rf
-JW
-JW
-JW
-JW
+Zg
+Zg
+Zg
+Zg
 JW
 JW
 JW
@@ -53374,10 +51890,10 @@ cd
 Vb
 SM
 rf
-JW
-JW
-JW
-JW
+dz
+oe
+Rs
+Zg
 JW
 JW
 JW
@@ -53575,13 +52091,13 @@ Tt
 Mq
 nh
 Rk
+gI
+EC
+xh
+uR
 Zg
-JW
-JW
-JW
-JW
-JW
-JW
+hy
+hy
 JW
 JW
 JW
@@ -53778,12 +52294,12 @@ kE
 ry
 MX
 Zg
-JW
-JW
-JW
-JW
-JW
-JW
+Zg
+Zg
+Zg
+Zg
+hy
+hy
 JW
 JW
 JW
@@ -53980,12 +52496,12 @@ Zg
 Zg
 wH
 Zg
-JW
-JW
-JW
-JW
-JW
-JW
+gk
+Qa
+cx
+cx
+hy
+hy
 JW
 JW
 JW
@@ -54166,8 +52682,8 @@ JW
 JW
 JW
 JW
-JW
-JW
+eM
+eM
 Zg
 Zg
 rf
@@ -54182,12 +52698,12 @@ JW
 Zg
 Zg
 Zg
-JW
-JW
-JW
-JW
-JW
-JW
+iB
+gO
+hL
+cx
+hy
+hy
 JW
 JW
 Dv
@@ -54368,11 +52884,11 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
+eM
+Bs
+Gq
+Fx
+zo
 gv
 Rh
 Lo
@@ -54382,14 +52898,14 @@ Lo
 Lo
 Lo
 JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+cx
+DP
+PF
+iY
+CH
+cx
+hy
+hy
 JW
 JW
 jP
@@ -54570,11 +53086,11 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
+eM
+Zq
+De
+yw
+Bs
 JJ
 PH
 Lo
@@ -54587,8 +53103,8 @@ cx
 cx
 Lo
 Lo
-cx
-cx
+kK
+Lo
 cx
 JW
 JW
@@ -54772,11 +53288,11 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
+eM
+XL
+Sd
+bV
+BD
 JJ
 Gu
 cx
@@ -54974,11 +53490,11 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
+ps
+JL
+De
+De
+yw
 JJ
 Gu
 cx
@@ -55166,21 +53682,21 @@ JW
 JW
 JW
 JW
+ps
+ps
+ps
+ps
+ps
+ps
+ps
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+ps
+Zc
+KR
+mQ
+CX
 JJ
 Rb
 cx
@@ -55368,18 +53884,18 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
+ps
+Yc
+YC
+dr
+uZ
+Jg
 ps
 ps
 ps
 ps
 ps
-ps
+mL
 ps
 ps
 ps
@@ -55570,18 +54086,18 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
 ps
+vC
+MN
+De
+tP
+rz
+WB
 aa
 Sq
 Qx
 Af
-bV
+lJ
 KO
 jF
 eM
@@ -55770,22 +54286,22 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
 ps
-ps
-ps
-ps
-ps
-ps
-ps
-ps
-dz
-EH
-xg
-Vu
-Ye
-Ye
 Kb
+WB
+WB
+ps
+CO
+yw
+Bs
+JL
+De
+SA
+SA
+Lg
 eM
 Ed
 fk
@@ -55972,19 +54488,19 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
-dl
+nF
 cX
-cn
-cg
 bG
 aV
 Nn
-Qa
-yw
 SA
-lJ
-JL
+yw
+Zt
+ml
+pY
 De
 SH
 ms
@@ -56174,22 +54690,22 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
-dr
+iF
 cZ
-cu
-aX
 bH
 aX
 SA
-Uj
+De
 Bs
 Bs
 SA
 pV
 Mw
-yw
-sD
+ps
+ZP
 eM
 xB
 Ne
@@ -56376,25 +54892,25 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
-dC
+oJ
 lJ
-cG
-SA
 bK
 ba
 aQ
 sW
-JL
+AF
 Mw
-SA
-ie
+AG
+ps
 Dk
-SH
-De
+cn
+EU
 eM
-JJ
-ft
+eM
+ps
 ke
 aA
 ak
@@ -56578,24 +55094,24 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
-dE
+aC
 bH
-cT
-MN
-bL
+dL
 bf
 cb
-gO
-yw
+Zc
+yk
 SA
-MN
-yN
+mw
+ps
 Mw
-lJ
+aI
 JL
 tP
-De
+dl
 eM
 Rb
 xF
@@ -56780,21 +55296,21 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
-dL
+Au
 dc
-cG
-SA
 Mw
 bs
 JL
-Qa
-yw
+SA
+pj
 Bs
-Bs
-jt
+bj
+ps
 Mw
-Bs
+ZP
 MY
 Bs
 yw
@@ -56982,21 +55498,21 @@ JW
 JW
 JW
 JW
+JW
+JW
 ps
-dO
+eK
 Mw
-cG
-ch
-ce
-zh
-uz
-Uj
+cT
+Bm
+Nw
+De
 De
 nA
 Oi
 De
 Zc
-Bs
+mT
 Bs
 MY
 Br
@@ -57184,8 +55700,8 @@ JW
 JW
 JW
 JW
-ps
-ps
+JW
+JW
 ps
 ps
 ps
@@ -57386,7 +55902,7 @@ JW
 JW
 JW
 JW
-ei
+JW
 JW
 JW
 JW
@@ -57628,12 +56144,12 @@ Us
 Us
 Vw
 MW
-JW
-JW
-JW
-JW
-JW
-JW
+MW
+Us
+Us
+Us
+Vw
+MW
 JW
 JW
 JW
@@ -57830,12 +56346,12 @@ PJ
 pm
 bA
 MW
-JW
-JW
-JW
-JW
-JW
-JW
+dP
+wd
+PJ
+JK
+bA
+MW
 JW
 JW
 JW
@@ -58032,12 +56548,12 @@ Oa
 Bx
 KT
 Us
-JW
-JW
-JW
-JW
-JW
-JW
+wJ
+LK
+Oa
+Bx
+KT
+Us
 JW
 JW
 JW
@@ -58233,13 +56749,13 @@ Cm
 pL
 Mx
 Bx
+oV
+Bx
+QF
+Gp
+Cm
+Cm
 Us
-JW
-JW
-JW
-JW
-JW
-JW
 JW
 JW
 JW
@@ -58436,12 +56952,12 @@ qb
 QF
 Qv
 Us
-JW
-JW
-JW
-JW
-JW
-JW
+lK
+lK
+LK
+st
+aF
+Us
 JW
 JW
 JW
@@ -58638,12 +57154,12 @@ FH
 Bx
 Bx
 Us
-JW
-JW
-JW
-JW
-JW
-JW
+NU
+LK
+Eo
+Np
+Eo
+Us
 JW
 JW
 JW
@@ -58840,12 +57356,12 @@ LK
 Eo
 Jm
 MW
-JW
-JW
-JW
-JW
-JW
-JW
+RJ
+so
+PU
+QF
+PU
+Us
 JW
 JW
 JW
@@ -59042,16 +57558,16 @@ so
 PU
 QF
 Us
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+MW
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
 JW
 JW
 JW
@@ -59242,18 +57758,18 @@ MW
 MW
 Us
 Us
-Sd
+LK
 Us
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+pc
+xO
+wd
+wd
+dC
+Us
+nj
+fN
+dO
+Us
 JW
 JW
 JW
@@ -59431,31 +57947,31 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
 MW
-oV
-Eo
-Eo
-Eo
-pY
-pY
-pY
+Us
+Us
+MW
+dP
+wd
+PJ
 JK
-ab
+dP
+wd
+PJ
+JK
+bA
 rx
 Us
 Gv
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+wd
+wd
+xO
+Bx
+xx
+LK
+ab
+ab
+Us
 JW
 JW
 JW
@@ -59633,31 +58149,31 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
+Us
+be
+LK
 MW
-aF
-rx
-QF
+wJ
+LK
+Oa
 Bx
+wJ
+LK
+Oa
 Bx
-Bx
-pc
-pF
-jm
+KT
 Oq
 Us
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+ei
+Bx
+ei
+ab
+ei
+Us
+iO
+Gc
+jm
+Us
 JW
 JW
 JW
@@ -59835,31 +58351,31 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
 Us
+Us
+cg
+xx
+LK
+Cm
+wd
+pm
+LK
+Np
+jg
+st
+Bx
+Bx
+Us
+ei
+Bx
+ch
 oV
-WB
-Oa
-NU
-aC
-Np
-jg
-jg
-Np
-jg
+ei
 Us
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+Us
+Us
+Us
+Us
 JW
 JW
 JW
@@ -60037,27 +58553,27 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-Us
 MW
+be
+Ak
 Us
-MW
-MW
+kR
+st
+rx
+ab
+ab
+Bx
+st
+Cm
+wd
+pm
+wd
+xO
+LK
+LK
+Bx
+LK
 Us
-Us
-MW
-Us
-Us
-Us
-Us
-JW
-JW
-JW
-JW
-JW
-JW
 JW
 JW
 JW
@@ -60239,27 +58755,27 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+Us
+Us
+MW
+Us
+Eo
+LK
+NU
+LK
+Eo
+LK
+NU
+LK
+Eo
+Np
+MW
+ei
+Mx
+ei
+LK
+zT
+Us
 JW
 JW
 JW
@@ -60444,24 +58960,24 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+Us
+bU
+Bx
+RJ
+so
+bU
+Bx
+RJ
+so
+PU
+QF
+Us
+nZ
+LK
+ch
+Np
+PL
+Us
 JW
 JW
 JW
@@ -60646,24 +59162,24 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
-JW
+Us
+MW
+Us
+MW
+MW
+Us
+MW
+MW
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
 JW
 JW
 JW
@@ -60853,12 +59369,12 @@ JW
 JW
 JW
 JW
-JW
-JW
-JW
-JW
-JW
-JW
+hy
+hy
+hy
+hy
+hy
+hy
 JW
 JW
 JW
