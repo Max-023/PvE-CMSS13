@@ -179,6 +179,17 @@
 	job = JOB_UACG_GNR
 	squad = SQUAD_MILITIA
 
+/datum/job/marine/smartgunner/ai/uacg/security
+	title = JOB_UACG_SCR_GNR
+	total_positions = 1
+	spawn_positions = 1
+	gear_preset = /datum/equipment_preset/uacg/gunner/security
+
+/obj/effect/landmark/start/marine/smartgunner/ai/uacg/security
+	name = JOB_UACG_SCR_GNR
+	job = JOB_UACG_SCR_GNR
+	squad = SQUAD_MILITIA_3
+
 #undef SGT_VARIANT
 #undef JSGT_VARIANT
 #undef CPL_VARIANT

@@ -172,6 +172,16 @@
 	squad = SQUAD_MILITIA
 	job = /datum/job/marine/standard/ai/uacg
 
+/datum/job/marine/standard/ai/uacg/security
+	title = JOB_UACG_SCR_RIFLE
+	total_positions = 2
+	spawn_positions = 2
+
+/obj/effect/landmark/start/marine/uacg/security
+	name = JOB_UACG_SCR_RIFLE
+	squad = SQUAD_MILITIA_3
+	job = /datum/job/marine/standard/ai/uacg/security
+
 /datum/job/marine/standard/ai/uacg/armory
 	title = JOB_UACG_ARMORY_LACKEY
 	total_positions = 1

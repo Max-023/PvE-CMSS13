@@ -86,6 +86,18 @@
 	name = parent_type::name + " (E1 Rank)"
 	paygrades = list(PAY_SHORT_AE1 = JOB_PLAYTIME_TIER_0)
 
+/datum/equipment_preset/uacg/rifle/security
+	name = "Rear Line US Colonial Guardsman"
+	rank = JOB_UACG_SCR_RIFLE
+
+/datum/equipment_preset/uacg/rifle/security/lance_corporal
+	name = parent_type::name + " (E3 Rank)"
+	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/uacg/rifle/security/private
+	name = parent_type::name + " (E1 Rank)"
+	paygrades = list(PAY_SHORT_AE1 = JOB_PLAYTIME_TIER_0)
+
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uacg/marksman
@@ -129,6 +141,18 @@
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 
 /datum/equipment_preset/uacg/gunner/private
+	name = parent_type::name + " (E1 Rank)"
+	paygrades = list(PAY_SHORT_AE1 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/uacg/gunner/security
+	name = "Rear Line US Colonial Guardsman (Machine Gunner)"
+	rank = JOB_UACG_SCR_GNR
+
+/datum/equipment_preset/uacg/gunner/security/lance_corporal
+	name = parent_type::name + " (E3 Rank)"
+	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/uacg/gunner/security/private
 	name = parent_type::name + " (E1 Rank)"
 	paygrades = list(PAY_SHORT_AE1 = JOB_PLAYTIME_TIER_0)
 

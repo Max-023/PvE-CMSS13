@@ -17,6 +17,10 @@
 			hud_icon_state = "lmg"
 		if(JOB_UACG_DM)
 			hud_icon_state = "snpr"
+		if(JOB_UACG_SCR_RIFLE)
+			hud_icon_state = "trpr"
+		if(JOB_UACG_SCR_GNR)
+			hud_icon_state = "lmg"
 		if(JOB_UACG_MORTAR)
 			hud_icon_state = "atg"
 		if(JOB_UACG_TECH)

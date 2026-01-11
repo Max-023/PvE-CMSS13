@@ -160,6 +160,8 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/engineer/ai/uacg = JOB_UACG_TECH,\
 		/datum/job/marine/specialist/ai/uacg = JOB_UACG_DM,\
 		/datum/job/marine/smartgunner/ai/uacg = JOB_UACG_GNR,\
+		/datum/job/marine/smartgunner/ai/uacg/security = JOB_UACG_SCR_GNR,\
+		/datum/job/marine/standard/ai/uacg/security = JOB_UACG_SCR_RIFLE,\
 		/datum/job/marine/standard/ai/uacg = JOB_UACG_RIFLE)))
 
 GLOBAL_LIST_INIT(platoon_to_role_list, list(/datum/squad/marine/alpha = ROLES_AI,\
