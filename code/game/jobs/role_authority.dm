@@ -754,6 +754,22 @@ I hope it's easier to tell what the heck this proc is even doing, unlike previou
 					uacg_charlie.put_marine_in_squad(H, force_usable=TRUE)
 					return
 
+			if(JOB_UACG_SCR_GNR)
+				var/datum/squad/marine/uacg_charlie = get_squad_by_name(SQUAD_MILITIA_3)
+				if(!istype(uacg_charlie)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_charlie.put_marine_in_squad(H, force_usable=TRUE)
+					return
+
+			if(JOB_UACG_SCR_RIFLE)
+				var/datum/squad/marine/uacg_charlie = get_squad_by_name(SQUAD_MILITIA_3)
+				if(!istype(uacg_charlie)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_charlie.put_marine_in_squad(H, force_usable=TRUE)
+					return
+
 			if(JOB_SQUAD_RTO)
 				for(var/datum/squad/S in mixed_squads)
 					if(S.usable && S.roundstart)

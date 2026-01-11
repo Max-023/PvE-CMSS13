@@ -41,6 +41,8 @@
 #define RADIO_CHANNEL_US_ARMY "US Army"
 #define RADIO_CHANNEL_UA_GUARD "Prairie Dogs"
 #define RADIO_CHANNEL_UA_GUARD_2 "Jayhawkers"
+#define RADIO_CHANNEL_UA_GUARD_3 "Warchiefs"
+
 //CLF Comms
 #define RADIO_CHANNEL_CLF_GEN "CLF"
 #define RADIO_CHANNEL_CLF_CMD "CLF Command"

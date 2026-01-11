@@ -778,14 +778,17 @@
 		"Unit Leader" = TRACKER_FTL,
 	)
 
+/obj/item/device/radio/headset/almayer/marine/solardevils/uacg/medic
+	initial_keys = list(/obj/item/device/encryptionkey/med)
+
 /obj/item/device/radio/headset/almayer/marine/solardevils/uacg/senlead
 	initial_keys = list(/obj/item/device/encryptionkey/guard/command)
 
 /obj/item/device/radio/headset/almayer/marine/solardevils/uacg/officer
-	frequency = COMM_FREQ
+	initial_keys = list(/obj/item/device/encryptionkey/guard/command)
 
 /obj/item/device/radio/headset/almayer/marine/solardevils/uacg/officer/doctor
-	initial_keys = list(/obj/item/device/encryptionkey/guard/command)
+	initial_keys = list(/obj/item/device/encryptionkey/guard/command,/obj/item/device/encryptionkey/med)
 
 
 //############################## ALPHA ###############################

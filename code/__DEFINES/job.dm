@@ -460,7 +460,7 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_UACG_SENLEAD "Colonial Guardsman Senior Leader"
 #define JOB_UACG_OFFICER "Colonial Guardsman Officer"
 #define JOB_UACG_SCR_RIFLE "Colonial Rear Line Guardsman"
-#define JOB_UACG_SCR_GNR "Colonial Real Line Guard Machinegunner"
+#define JOB_UACG_SCR_GNR "Colonial Rear Line Guard Machinegunner"
 #define JOB_UACG_MORTAR "Colonial Guard Mortarman"
 #define JOB_UACG_MESS "Colonial Guardsman Mess Officer"
 #define JOB_UACG_CHAPLAIN "Colonial Guardsman Chaplain"
