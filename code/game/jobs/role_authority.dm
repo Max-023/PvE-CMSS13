@@ -722,6 +722,37 @@ I hope it's easier to tell what the heck this proc is even doing, unlike previou
 					uacg_echo.put_marine_in_squad(H, force_usable=TRUE)
 					return
 
+			if(JOB_UACG_LEAD_MED)
+				var/datum/squad/marine/uacg_delta = get_squad_by_name(SQUAD_MILITIA_4)
+				if(!istype(uacg_delta)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_delta.put_marine_in_squad(H, force_usable=TRUE)
+					return
+
+			if(JOB_UACG_MEDIC_TRIAGE)
+				var/datum/squad/marine/uacg_delta = get_squad_by_name(SQUAD_MILITIA_4)
+				if(!istype(uacg_delta)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_delta.put_marine_in_squad(H, force_usable=TRUE)
+					return
+
+			if(JOB_UACG_LEAD_FIRE)
+				var/datum/squad/marine/uacg_charlie = get_squad_by_name(SQUAD_MILITIA_3)
+				if(!istype(uacg_charlie)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_charlie.put_marine_in_squad(H, force_usable=TRUE)
+					return
+
+			if(JOB_UACG_MORTAR)
+				var/datum/squad/marine/uacg_charlie = get_squad_by_name(SQUAD_MILITIA_3)
+				if(!istype(uacg_charlie)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_charlie.put_marine_in_squad(H, force_usable=TRUE)
+					return
 
 			if(JOB_SQUAD_RTO)
 				for(var/datum/squad/S in mixed_squads)
