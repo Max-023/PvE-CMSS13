@@ -71,6 +71,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guardsman"
+	rank = JOB_UACG_RIFLE
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/trooper
@@ -93,6 +94,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guards Marksman"
+	rank = JOB_UACG_DM
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/trooper
@@ -115,6 +117,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guard Machine Gunner"
+	rank = JOB_UACG_GNR
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/trooper
@@ -137,6 +140,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guardsman Technician"
+	rank = JOB_UACG_TECH
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/mainttech
@@ -154,6 +158,7 @@
 /datum/equipment_preset/uacg/tech/mortar
 	name = "US Colonial Guardsman Mortarman"
 	assignment = "Colonial Guard Mortarman"
+	rank = JOB_UACG_MORTAR
 	skills = /datum/skills/combat_engineer
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
@@ -174,6 +179,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guardsman Medic"
+	rank = JOB_UACG_MEDIC
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/medic
@@ -196,6 +202,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guardsman Unit Leader"
+	rank = JOB_UACG_LEAD
 	role_comm_title = "UACG-L"
 	paygrades = list(PAY_SHORT_AE5 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/nco
@@ -214,6 +221,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guardsman Senior Leader"
+	rank = JOB_UACG_SENLEAD
 	role_comm_title = "UACG-SL"
 	paygrades = list(PAY_SHORT_AE7 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/snco
@@ -252,6 +260,7 @@
 	faction = FACTION_UACG
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Guardsman Officer"
+	rank = JOB_UACG_OFFICER
 	role_comm_title = "UACG"
 	paygrades = list(PAY_SHORT_AO2 = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/lt

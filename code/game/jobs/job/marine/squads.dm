@@ -519,7 +519,7 @@
 	minimap_color = MINIMAP_SQUAD_MILITIA
 	use_stripe_overlay = FALSE
 	radio_freq = COMM_FREQ
-	usable = TRUE
+	usable = FALSE
 	squad_one_access = ACCESS_UACG
 	squad_two_access = ACCESS_UACG
 	faction = FACTION_UACG
@@ -532,18 +532,11 @@
 	max_smartgun = 0
 	max_leaders = 0
 
-/datum/squad/marine/uacg_foxtrot
+/datum/squad/marine/uacg/auxiliary
 	name = SQUAD_MILITIA_6
 	equipment_color = "#2a4875"
 	chat_color = "#2a4875"
-	minimap_color = MINIMAP_SQUAD_MILITIA
-	use_stripe_overlay = TRUE
-	radio_freq = GRD_FREQ
-	usable = TRUE
-	squad_one_access = ACCESS_UACG
-	squad_two_access = ACCESS_UACG
-	faction = FACTION_UACG
-	max_positions = 27
+	radio_freq = GRD_2_FREQ
 
 //###############################
 /datum/squad/clf
@@ -735,11 +728,11 @@
 //Straight-up insert a marine into a squad.
 //This sets their ID, increments the total count, and so on. Everything else is done in job_controller.dm.
 //So it does not check if the squad is too full already, or randomize it, etc.
-/datum/squad/proc/put_marine_in_squad(mob/living/carbon/human/M, obj/item/card/id/ID)
+/datum/squad/proc/put_marine_in_squad(mob/living/carbon/human/M, obj/item/card/id/ID, force_usable)
 
 	if(!istype(M))
 		return FALSE //Logic
-	if(!src.usable)
+	if(!src.usable && !force_usable)
 		return FALSE
 	if(!M.job)
 		return FALSE //Not yet

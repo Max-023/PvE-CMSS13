@@ -589,7 +589,7 @@ I hope it's easier to tell what the heck this proc is even doing, unlike previou
 		if(!rmc_squad || !istype(rmc_squad)) //Something went horribly wrong!
 			to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
 			return
-		rmc_squad.put_marine_in_squad(H) //Found one, finish up
+		rmc_squad.put_marine_in_squad(H, force_usable=TRUE) //Found one, finish up
 		return
 
 	//Deal with non-standards first.
@@ -681,6 +681,14 @@ I hope it's easier to tell what the heck this proc is even doing, unlike previou
 							lowest = S
 						else if(S.num_smartgun < lowest.num_smartgun)
 							lowest = S
+
+			if(JOB_UACG_OFFICER)
+				var/datum/squad/marine/uacg_echo = get_squad_by_name(SQUAD_MILITIA_5)
+				if(!istype(uacg_echo)) //Something went horribly wrong!
+					to_chat(H, "Something went wrong with randomize_squad()! Tell a coder!")
+				else
+					uacg_echo.put_marine_in_squad(H, force_usable=TRUE)
+					return
 
 			if(JOB_SQUAD_RTO)
 				for(var/datum/squad/S in mixed_squads)

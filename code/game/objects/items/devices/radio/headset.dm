@@ -668,7 +668,7 @@
 	frequency = ALPHA_FREQ
 	has_tracker = TRUE
 	misc_tracking = TRUE
-	hud_type = list(MOB_HUD_FACTION_MARINE, MOB_HUD_FACTION_ARMY, MOB_HUD_FACTION_NAVY)
+	hud_type = list(MOB_HUD_FACTION_MARINE, MOB_HUD_FACTION_ARMY, MOB_HUD_FACTION_NAVY, MOB_HUD_FACTION_UACG)
 
 /obj/item/device/radio/headset/almayer/marine/solardevils/seclead
 	initial_keys = list(/obj/item/device/encryptionkey/squadlead)

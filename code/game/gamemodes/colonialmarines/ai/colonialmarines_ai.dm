@@ -47,7 +47,6 @@
 	squad_limit += FORECON_AUXILIARY_PLATOON
 	squad_limit += UPP_AUXILIARY_PLATOON
 	squad_limit += PMC_AUXILIARY_PLATOON
-	squad_limit += UACG_ARMORY_SQUAD
 	squad_limit += UACG_MEDICAL_SQUAD
 	squad_limit += UACG_MORTAR_SQUAD
 	squad_limit += UACG_COMMAND_SQUAD
@@ -63,7 +62,6 @@
 	GLOB.RoleAuthority.squads += FORECON_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads += UPP_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads += PMC_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads += UACG_ARMORY_SQUAD
 	GLOB.RoleAuthority.squads += UACG_MEDICAL_SQUAD
 	GLOB.RoleAuthority.squads += UACG_MORTAR_SQUAD
 	GLOB.RoleAuthority.squads += UACG_COMMAND_SQUAD
@@ -72,7 +70,6 @@
 	GLOB.RoleAuthority.squads_by_type += FORECON_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads_by_type += UPP_AUXILIARY_PLATOON
 	GLOB.RoleAuthority.squads_by_type += PMC_AUXILIARY_PLATOON
-	GLOB.RoleAuthority.squads_by_type += UACG_ARMORY_SQUAD
 	GLOB.RoleAuthority.squads_by_type += UACG_MEDICAL_SQUAD
 	GLOB.RoleAuthority.squads_by_type += UACG_MORTAR_SQUAD
 	GLOB.RoleAuthority.squads_by_type += UACG_COMMAND_SQUAD
